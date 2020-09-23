@@ -1,23 +1,17 @@
 import React, { Fragment } from 'react'; 
+import {Link} from 'react-router-dom'
 
 function LinksNavbar () {
 
     return (
         <Fragment>
-        <div>
-           <ul>
-               <li>Conócenos</li>
-               <li>Que Hacemos</li>
-                <li> Hazte Parte </li>
-               <i class="material-icons">favorite</i>
-               <li>Te Contamos</li>
-               <li> Contáctanos</li>
-
-           </ul> 
+        <div className="navBar">
+            <Link>Conócenos</Link>
+            <Link>Que Hacemos</Link>
+            <Link> Hazte Parte<i class="material-icons">favorite</i></Link>
+            <Link>Te Contamos</Link>
+            <Link> Contáctanos</Link>
         </div>
-
-
-            
         </Fragment>
     ) };
 
