@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import logoCPT from "../../images/logoCPT.png";
 
+
 const LogoHome = () => {
   return (
     <Fragment>
