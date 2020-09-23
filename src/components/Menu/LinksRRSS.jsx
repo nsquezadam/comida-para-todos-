@@ -4,9 +4,7 @@ function LinksRRSS() {
 
     return (
         <Fragment>
-        <h1>
-    hola mundo 
-        </h1>
+    
  </Fragment>
     )
 

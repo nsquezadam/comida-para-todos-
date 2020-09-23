@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
     
         <Fragment>
-            <div className="container-parent">
+            <div className="container-nav">
                 <LogoHome />
                 <LinksNavbar />
                 <LinksRRSS />

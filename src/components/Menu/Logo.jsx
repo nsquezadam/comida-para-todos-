@@ -1,14 +1,13 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import { logoCPT } from "./imagenes/logoCPT.png";
-import "./Logo.css";
+import logoCPT from "../../images/logoCPT.png";
 
 const LogoHome = () => {
   return (
     <Fragment>
       <div className="container-logo">
         <Link to="/">
-          <img src={logoCPT} className="imaLOgo" alt={"logo"} />
+          <img src={logoCPT} className="imgLogo" alt={"logo"} />
         </Link>
       </div>
     </Fragment>
