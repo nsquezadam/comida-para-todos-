@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'; 
-//import Logo from './../Logo';
+import LogoHome from './Logo';
 import LinksNavbar from './LinksNavbar';
 import LinksRRSS from './LinksRRSS';
 //import BotonDonar from './BotonDonar';
@@ -10,7 +10,7 @@ const Navbar = () => {
     
         <Fragment>
             <div className="container-parent">
-                <h1>Hola</h1>
+                <LogoHome />
                 <LinksNavbar />
                 <LinksRRSS />
                
