@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 //import facebook from "../../icons/facebook.png";
 import { Icon } from "@iconify/react";
-import twotoneFacebook from "@iconify/icons-ic/twotone-facebook";
+import facebookIcon from "@iconify/icons-cib/facebook";
 import twitterWithCircle from "@iconify/icons-entypo-social/twitter-with-circle";
 import instagramWithCircle from "@iconify/icons-entypo-social/instagram-with-circle";
 
@@ -10,7 +10,7 @@ function LinksRRSS() {
     <Fragment>
       <div className="containerRRSS">
         <a href="https://www.facebook.com/">
-          <Icon icon={twotoneFacebook} color="#828282" />
+          <Icon icon={facebookIcon} color="#828282" />
         </a>
         </div>
         <div className="containerRRSS">
