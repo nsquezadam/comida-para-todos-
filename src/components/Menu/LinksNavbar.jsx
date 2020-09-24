@@ -6,11 +6,11 @@ function LinksNavbar () {
     return (
         <Fragment>
         <div className="navBar">
-            <Link>Conócenos</Link>
-            <Link>Que Hacemos</Link>
-            <Link> Hazte Parte<i class="material-icons">favorite</i></Link>
-            <Link>Te Contamos</Link>
-            <Link> Contáctanos</Link>
+            <Link className="link-navbar">Conócenos</Link>
+            <Link className="link-navbar">Que Hacemos</Link>
+            <Link className="link-navbar"> Hazte Parte<i class="material-icons">favorite</i></Link>
+            <Link className="link-navbar">Te Contamos</Link>
+            <Link className="link-navbar"> Contáctanos</Link>
         </div>
         </Fragment>
     ) };
