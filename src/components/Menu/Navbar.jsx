@@ -1,20 +1,24 @@
-import React, { Fragment } from 'react'; 
+import React, { Fragment } from 'react';
 import LogoHome from './Logo';
 import LinksNavbar from './LinksNavbar';
 import LinksRRSS from './LinksRRSS';
-//import BotonDonar from './BotonDonar';
+import BtnDonate from './BotonDonar';
 
 
 const Navbar = () => {
     return (
-    
+
         <Fragment>
-            <div className="container-nav">
-                <LogoHome />
-                <LinksNavbar />
-                <LinksRRSS />
-               
-            </div>   
+            <nav>
+
+                <div className="container-nav">
+                    <LogoHome />
+                    <LinksNavbar />
+                    <LinksRRSS />
+                    <BtnDonate />
+
+                </div>
+            </nav>
         </Fragment>
     );
 }
