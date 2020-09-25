@@ -12,7 +12,7 @@ function Slider() {
     
 
     const goLeft =() => {
-        X === 0? SetX(-100*(sliderArr.length -1)) : SetX (X + 100);
+        X === 100? SetX(-100*(sliderArr.length -1)) : SetX (X + 100);
     }
     const goRight = () => {
         (X === -100*(sliderArr.length -1)) ? SetX(0) : SetX (X - 100);
