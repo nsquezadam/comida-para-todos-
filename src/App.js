@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import '../src/Styles/App.scss'
-import NavBar from './components/Menu/Navbar';
+import NavbarMenu from './components/Menu/Navbar';
 import LinksRRSS from './components/Menu/LinksRRSS';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import '../src/Styles/Slider.scss'
-import Slider from './components/Slider/Slider';
+import Slider from './components/slider/Slider';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Router>
             <Switch>
               <Route path="/" exact>
-                <NavBar />
+                <NavbarMenu />
               </Route>
               <Route path="/test">
                 <LinksRRSS />

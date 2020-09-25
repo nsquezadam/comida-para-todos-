@@ -1,26 +1,29 @@
 import React, { Fragment } from 'react';
+import { Navbar, Nav } from 'react-bootstrap'; 
 import LogoHome from './Logo';
 import LinksNavbar from './LinksNavbar';
 import LinksRRSS from './LinksRRSS';
 import BtnDonate from './BotonDonar';
 
 
-const Navbar = () => {
+const NavbarMenu = () => {
     return (
-
-        <Fragment>
-            <nav>
-
-                <div className="container-nav">
-                    <LogoHome />
-                    <LinksNavbar />
-                    <LinksRRSS />
-                    <BtnDonate />
-
-                </div>
-            </nav>
-        </Fragment>
+      <Fragment>
+          <Navbar>
+        <Navbar.Toggle aria-controls="responsive" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav>
+          <div className="container-nav">
+            <LogoHome />
+            <LinksNavbar />
+            <LinksRRSS />
+            <BtnDonate />
+          </div>
+        </Nav>
+        </Navbar.Collapse>
+        </Navbar>
+      </Fragment>
     );
 }
 
-export default Navbar;
+export default NavbarMenu;

@@ -9,21 +9,22 @@
 
 // estilos Navbar 
 nav{
-    width: 100%;
-    height: 10vh;
-   
+    width: 100vw;
+    height: 9vh;
     position: fixed;
     z-index: 5;
     background-color:$textColor3;
-    top: 0
+    top: 0;
 
 }
 .container-nav {
     display: inline-flex;
     justify-content: space-between;
-    width: 100%;
-    height: 10vh;
+    width: 88.58vw;
+    height: 9vh;
     background-color:$textColor3;
+    margin-left: 4.100em;
+    margin-right: 4.100em;
     
     
   
@@ -31,30 +32,36 @@ nav{
 // estilos link navbar
 
 .navBar{
-    margin-top: 20px;
-    font-size:2rem;
+    margin-top: 2vh;
+    font-size: 0.8rem;
     display: flex;
-    //justify-content: space-between;
     width: 70vw;
-
+    color: $textColor1;
+    margin-left: 3vw;
 
 }
-.linkMenu{
+
+.linkMenu {
     text-decoration: none;
-    color: $textColor;
+    color: $textColor1;
     margin-top: 20px;
     margin-left: 5vw;
 }
  
+.material-icons {
+    font-size:0.8rem; 
+}
+
 // estilo logo
 .container-logo{
-    width:5vw;
-    margin-top: 5px;
-    margin-left: 20px;
+    width: 4.3vw;
+    margin-top: 1.7vh;
+    margin-left: 3vh;
 }
+
 .imgLogo {
     width:100%; 
-    margin-left: 10px;
+   
 }
 
 
@@ -62,44 +69,36 @@ nav{
 .boxContainerRRSS{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 27px;
     margin-right: 50px;
-    margin-right: 50px;
-margin-left: 15px;
+    margin-left: 4vw;
+
+    
 }
 .containerRRSS {
     //margin-top: 2vh;
-    
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin-left: 10px;
 
 }
+
 // boton donar
 .btnDonate{
    text-decoration: none;
    color: $textColor3;
-   font-size: 2rem;
-   margin-left: 30px;
+   font-size: 0.9em;
 
 }
+
 .containerBtnDonate{
-width: 300px;
-height: 60px;
+width: 145px;
+height: 32px;
 background-color: $firstColor;
 color: $textColor3;
 font-weight: bold;
-padding-top: 20px;
 border-radius: 5px;
-margin-right: 5vw;
 margin-top: 20px;
+text-align: center;
+padding-top: 8px;
 
-}
-#goLeft {
-  left: 0;
-  @extend %btn-styles;
-}
-
-#goRight {
-  right: 0;
-  @extend %btn-styles;
 }
