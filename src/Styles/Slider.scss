@@ -1,42 +1,44 @@
-@import 'Variables.scss';
+@import "Variables.scss";
 @import "~bootstrap/scss/bootstrap";
 
-.slider{
-width: 100vw;
-max-height: 958px;
+.slider {
+  width: 100vw;
+  max-height: 958px;
 
-margin-left: 0;
-margin-right: 0;
-margin-bottom: 8vh;
-padding: 0;
-display: flex;
-align-items: center;
-position: relative;
-overflow: hidden;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 8vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
-.slide{
-    min-width:100%;
-    max-height: 80%;
-    transition: 0.5s;
+.slide {
+  min-width: 100%;
+  max-height: 80%;
+  transition: 0.5s;
 }
 
-%btn-Styles{
-    position: absolute;
-    top:45%;
-    transform: translateY(-50%);
-    width: 5vw;
-    height: 8vh;
-    background: none;
-  
+%btn-Styles {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 5vw;
+  height: 8vh;
+  background: none;
+  color: $textColor3;
+  background-color: rgba($color: #ffac8f, $alpha: 0.4);
 }
 
-#goLeft{
-    left:0;
-    @extend %btn-Styles;
+#goLeft {
+  left: 0;
+  @extend %btn-Styles;
+
 }
 
-#goRight{
-    right:0;
-    @extend %btn-Styles;
+#goRight {
+  right: 0;
+  @extend %btn-Styles;
 }
