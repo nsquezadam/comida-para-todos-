@@ -13,9 +13,6 @@ function LinksRRSS() {
         <a href="https://www.facebook.com/">
 
         <Icon icon={facebookIcon} color="#333333" />
-
-          
-
         </a>
         </div>
         <div className="containerRRSS">
@@ -29,7 +26,7 @@ function LinksRRSS() {
           <Icon icon={twitterWithCircle} color="#333333" />
         </a>
         </div>
-        </div>
+        
       </div>
     </Fragment>
   );

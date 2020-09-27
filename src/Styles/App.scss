@@ -64,20 +64,6 @@ nav{
 }
 
 // estilos RRss
-<<<<<<< HEAD
-.boxContainerRRSS {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 27px;
-  margin-right: 50px;
-  margin-left: 4vw;
-}
-.containerRRSS {
-  //margin-top: 2vh;
-  font-size: 1.5rem;
-  margin-left: 10px;
-}
-=======
 .boxContainerRRSS{
     display: flex;
     justify-content: space-between;
@@ -99,7 +85,7 @@ nav{
    text-decoration: none;
    color: $textColor3;
    font-size: 0.9em;
->>>>>>> 80778d1130428a3d387c0f8fe87e68eea5d4d61a
+}
 
 // boton donar
 .btnDonate {
@@ -107,8 +93,6 @@ nav{
   color: $textColor3;
   font-size: 0.9em;
 }
-<<<<<<< HEAD
-=======
 
 .containerBtnDonate{
 width: 145px;
@@ -120,8 +104,8 @@ border-radius: 5px;
 margin-top: 20px;
 text-align: center;
 padding-top: 8px;
->>>>>>> 80778d1130428a3d387c0f8fe87e68eea5d4d61a
 
+}
 .containerBtnDonate {
   width: 145px;
   height: 32px;
@@ -133,8 +117,5 @@ padding-top: 8px;
   text-align: center;
   padding-top: 8px;
 }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 80778d1130428a3d387c0f8fe87e68eea5d4d61a
