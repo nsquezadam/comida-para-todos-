@@ -11,7 +11,7 @@ function LinksNavbar () {
             
             <Link className="linkMenu">Conócenos</Link>
             <Link className="linkMenu">Que Hacemos</Link>
-            <Link className="linkMenu"> Hazte Parte </Link>
+            <Link className="linkMenu"> Hazte Parte</Link>
             <Link className="linkMenu">Te Contamos</Link>
             <Link className="linkMenu"> Contáctanos</Link>
         </div>

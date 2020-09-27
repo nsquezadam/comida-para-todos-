@@ -3,6 +3,13 @@ import ImgComp from './Imgcomp'
 import i1 from "./Pics/1.jpg";
 import i2 from "./Pics/2.jpg";
 import i3 from "./Pics/3.jpg";
+// npm install --save-dev @iconify/react @iconify/icons-bytesize
+import { Icon} from '@iconify/react';
+import chevronLeft from '@iconify/icons-bytesize/chevron-left';
+import chevronRight from '@iconify/icons-bytesize/chevron-right';
+
+
+
 
 
 function Slider() {
@@ -28,8 +35,8 @@ function Slider() {
                 )
             })}
 
-            <button id="goLeft" onClick={goLeft}>Left</button>
-            <button id="goRight" onClick={goRight}>Right</button>
+            <button id="goLeft" onClick={goLeft}><Icon icon={chevronLeft} color="#FFFFFF" width="3vh" /></button>
+            <button id="goRight" onClick={goRight}><Icon icon={chevronRight} color="#FFFFFF" width="3vh" /></button>
     </div>
 
     )
