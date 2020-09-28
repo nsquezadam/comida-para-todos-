@@ -1,4 +1,4 @@
-@import 'Variables.scss';
+@import '../Variables.scss'; 
 
 .slider{
 width: 100vw;
@@ -27,7 +27,7 @@ overflow: hidden;
     width: 5vw;
     height: 8vh;
     background: none;
-  
+    background-color: rgba($color: #ffac8f, $alpha: 0.4);
 }
 
 #goLeft{
