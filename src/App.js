@@ -1,9 +1,7 @@
 import React, { Fragment } from 'react';
-import '../src/Styles/App.scss'
-import NavbarMenu from './components/Menu/Navbar';
+import '../src/assets/styles/App.scss';
 import LinksRRSS from './components/Menu/LinksRRSS';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import '../src/Styles/Slider.scss'
 import Slider from './components/slider/Slider';
 
 function App() {
@@ -14,7 +12,7 @@ function App() {
           <Router>
             <Switch>
               <Route path="/" exact>
-                <NavbarMenu />
+                
               </Route>
               <Route path="/test">
                 <LinksRRSS />

@@ -1,6 +1,5 @@
-import React from 'react';
-import { SliderText } from '../SliderText/SliderText';
-
+import React from 'react';  
+// import '../../assets/styles/components/Imgcomp.scss'; 
 
 function ImgComp({ src }) {
     let imgStyles ={

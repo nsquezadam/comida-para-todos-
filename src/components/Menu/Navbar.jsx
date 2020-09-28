@@ -4,7 +4,7 @@ import LogoHome from './Logo';
 import LinksNavbar from './LinksNavbar';
 import LinksRRSS from './LinksRRSS';
 import BtnDonate from './BotonDonar';
-
+import '../../assets/styles/components/Navbar.scss'; 
 
 const NavbarMenu = () => {
     return (

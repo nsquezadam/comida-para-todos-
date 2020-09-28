@@ -36,8 +36,10 @@
       "last 1 safari version"
     ]
   },
+  
   "devDependencies": {
     "@iconify/icons-bytesize": "^1.0.3",
+    "@iconify/icons-cib": "^1.0.3",
     "@iconify/icons-entypo-social": "^1.0.5",
     "@iconify/icons-ic": "^1.0.16",
     "@iconify/react": "^1.1.3",
