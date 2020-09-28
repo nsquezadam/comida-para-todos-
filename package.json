@@ -36,6 +36,7 @@
       "last 1 safari version"
     ]
   },
+  
   "devDependencies": {
     "@iconify/icons-bytesize": "^1.0.3",
     "@iconify/icons-cib": "^1.0.3",
