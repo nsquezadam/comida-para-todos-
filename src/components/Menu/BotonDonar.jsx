@@ -1,4 +1,6 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
+import '../../assets/styles/components/BotonDonar.scss'; 
+
 
 function BtnDonate () {
     return (

@@ -1,5 +1,7 @@
 import React, {Fragment} from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'; 
+import '../../assets/styles/components/LinksNavbar.scss'; 
+
 
 
 function LinksNavbar () {
