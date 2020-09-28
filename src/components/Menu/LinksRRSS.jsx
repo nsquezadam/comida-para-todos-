@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 //import facebook from "../../icons/facebook.png";
+// npm install --save-dev @iconify/react @iconify/icons-cib
 import { Icon } from "@iconify/react";
 import facebookIcon from '@iconify/icons-cib/facebook';
 import twitterWithCircle from "@iconify/icons-entypo-social/twitter-with-circle";
