@@ -41,3 +41,12 @@ overflow: hidden;
     right:0;
     @extend %btn-Styles;
 }
+.carousel-caption{
+    justify-content: center;
+    width: 100%; 
+    align-items: center;
+}
+h1{
+    color: black;
+    font-size: 100px;
+}
