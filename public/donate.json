@@ -1,6 +1,6 @@
 [
   {
-    "img": "../../assets/static/Pics/almuerzos.jpg",
+    "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/almuerzos.jpg",
     "title": "Almuerzos solidarios",
     "description": "Colabora con $ 3.000 para un almuerzo solidario, nutritivo y lleno de amor.",
     "button": "Haz tu aporte",
@@ -9,7 +9,7 @@
     "linkMore": "> Saber más"
   },
   {
-    "img": "http://localhost:3002/static/media/alimentos.cfb552fe.jpg",
+    "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/voluntarios.jpg",
     "title": "Sé voluntario/a",
     "description": "Eres valioso y te necesitamos para este proyecto.",
     "button": "Únetenos",
@@ -17,7 +17,7 @@
     "newsDescription": "En la comuna de Pedro Aguirre Cerda, llevamos a cabo la entrega de almuerzos solidarios a los abuelos que son parte de la comunidad."
   },
   {
-    "img": "",
+    "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/huertos.jpg",
     "title": "Huertos urbanos",
     "description": "Aporta un metro cuadrado para fomentar el cultivo.",
     "button": "Aportar m2",
@@ -25,7 +25,7 @@
     "newsDescription": "Miguel Larraín, chef del restaurante Boa, expresa lo que significa para él preparar sanos y ricos almuerzos para las comunidades."
   },
   {
-    "img": "",
+    "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/alimentos.jpg",
     "title": "Bancos de alimentos",
     "description": "Los alimentos que te sobren en casa, aquí son bienvenidos.",
     "button": "Colabora",
@@ -33,7 +33,7 @@
     "newsDescription": "Siendo nuestra meta acabar con el hambre mitigando la inseguridad alimentaria, próximamente llegamos a las comunidades de Ecuador."
   },
   {
-    "img": "",
+    "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/capacitaciones.jpg",
     "title": "Clases y capacitaciones",
     "description": "Aporta tus conocimientos y experiencias para que otros aprendan. ",
     "button": "Forma parte"

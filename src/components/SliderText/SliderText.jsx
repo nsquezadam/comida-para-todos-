@@ -22,7 +22,7 @@ return (
 
       <div key={index} class="carousel-caption">
         <h1>{item.title}</h1>
-        <p>{item.id}</p>
+        
       </div>
        )
   
