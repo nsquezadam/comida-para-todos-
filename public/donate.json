@@ -1,0 +1,32 @@
+[
+  {
+    "img": "../../assets/static/Pics-almuerzos-solidarios.jpg",
+    "title": "Almuerzos solidarios",
+    "description": "Colabora con $ 3.000 para un almuerzo solidario, nutritivo y lleno de amor.",
+    "button": "Haz tu aporte"
+  },
+  {
+    "img": "",
+    "title": "Sé voluntario/a",
+    "description": "Eres valioso y te necesitamos para este proyecto.",
+    "button": "Únetenos"
+  },
+  {
+    "img": "",
+    "title": "Huertos urbanos",
+    "description": "Aporta un metro cuadrado para fomentar el cultivo.",
+    "button": "Aportar m2"
+  },
+  {
+    "img": "",
+    "title": "Bancos de alimentos",
+    "description": "Los alimentos que te sobren en casa, aquí son bienvenidos.",
+    "button": "Colabora"
+  },
+  {
+    "img": "",
+    "title": "Clases y capacitaciones",
+    "description": "Aporta tus conocimientos y experiencias para que otros aprendan. ",
+    "button": "Forma parte"
+  }
+]

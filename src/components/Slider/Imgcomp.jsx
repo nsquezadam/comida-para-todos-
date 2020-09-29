@@ -1,5 +1,5 @@
 import React from 'react';  
-// import '../../assets/styles/components/Imgcomp.scss'; 
+import '../../assets/styles/components/Imgcomp.scss'; 
 
 function ImgComp({ src }) {
     let imgStyles ={
@@ -10,7 +10,6 @@ function ImgComp({ src }) {
     return (
       <div>
         <img src={src} alt="slider-Img" style={imgStyles}></img>;
-        <SliderText />
         
       </div>
     );

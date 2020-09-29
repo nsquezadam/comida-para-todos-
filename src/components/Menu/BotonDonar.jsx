@@ -13,4 +13,4 @@ function BtnDonate () {
         </Fragment>
     )
 }
-export default BtnDonate
+export default BtnDonate; 

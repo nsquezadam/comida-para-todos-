@@ -3,6 +3,7 @@ import '../src/assets/styles/App.scss';
 import LinksRRSS from './components/Menu/LinksRRSS';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Slider from './components/slider/Slider';
+import Navbar from './components/Menu/Navbar';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           <Router>
             <Switch>
               <Route path="/" exact>
-                
+                <Navbar />
               </Route>
               <Route path="/test">
                 <LinksRRSS />
