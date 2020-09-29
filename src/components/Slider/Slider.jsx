@@ -9,6 +9,9 @@ import chevronLeft from "@iconify/icons-bytesize/chevron-left";
 import chevronRight from "@iconify/icons-bytesize/chevron-right";
 import "../../assets/styles/components/Slider.scss";
 import BecomePart from "../Community/BecomePart";
+import ActionLines from "../Community/ActionLines";
+import News from "../Community/News";
+
 
 function Slider() {
   const [X, SetX] = useState(0);
@@ -48,7 +51,10 @@ function Slider() {
         <Icon icon={chevronRight} color="#FFFFFF" width="3vh" />
       </button>
     </div>
-    <BecomePart /> 
+    <BecomePart />
+    <ActionLines /> 
+    <News />
+  
     </Fragment>
   )
   
