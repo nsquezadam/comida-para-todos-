@@ -13,6 +13,7 @@ import ActionLines from "../Community/ActionLines";
 import News from "../Community/News";
 
 
+
 function Slider() {
   const [X, SetX] = useState(0);
   //let sliderArr = [1, 2, 3];
@@ -54,6 +55,7 @@ function Slider() {
     <BecomePart />
     <ActionLines /> 
     <News />
+   
   
     </Fragment>
   )
