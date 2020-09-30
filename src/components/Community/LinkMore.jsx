@@ -1,14 +1,15 @@
 import React from 'react';
+import '../../assets/styles/components/LinkMore.scss'; 
 
 
 
-const LinkMore = (props) => {
+const LinkMore = () => {
     return (
         <div>
            
-              <div className="containerRRSS">
+              <div className="container-more">
                     <a href="/">
-                    <p> > Saber más</p>
+                    <p className="more"> > Saber más</p>
                     </a>
                         
                 </div>

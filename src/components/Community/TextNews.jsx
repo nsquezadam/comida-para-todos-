@@ -17,4 +17,4 @@ const TextNews = () => {
     );
 }
 
-export default TextNews; 
+export default TextNews;

@@ -3,37 +3,29 @@
     "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/almuerzos.jpg",
     "title": "Almuerzos solidarios",
     "description": "Colabora con $ 3.000 para un almuerzo solidario, nutritivo y lleno de amor.",
-    "button": "Haz tu aporte",
-    "news":"Campaña de navidad 2020",
-    "newsDescription": "Queremos lograr que nuestras comunidades celebren las navidades con un almuerzo rico, especial y lleno amor.",
-    "imgNews":"https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/images/news1.png"
+    "button": "Haz tu aporte"
+   
   },
   {
     "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/voluntarios.jpg",
     "title": "Sé voluntario/a",
     "description": "Eres valioso y te necesitamos para este proyecto.",
-    "button": "Únetenos",
-    "news": "Experiencia del Hogar Villa Padre Hurtado",
-    "newsDescription": "En la comuna de Pedro Aguirre Cerda, llevamos a cabo la entrega de almuerzos solidarios a los abuelos que son parte de la comunidad.",
-    "imgNews": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/images/news2.png"
+    "button": "Únetenos"
+    
   },
   {
     "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/huertos.jpg",
     "title": "Huertos urbanos",
     "description": "Aporta un metro cuadrado para fomentar el cultivo.",
-    "button": "Aportar m2",
-    "news": "Almuerzos sanos y ricos en pandemia",
-    "newsDescription": "Miguel Larraín, chef del restaurante Boa, expresa lo que significa para él preparar sanos y ricos almuerzos para las comunidades.", 
-    "imgNews": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/images/news3.png"
+    "button": "Aportar m2"
+    
   },
   {
     "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/alimentos.jpg",
     "title": "Bancos de alimentos",
     "description": "Los alimentos que te sobren en casa, aquí son bienvenidos.",
-    "button": "Colabora",
-    "news": "Comida Para Todos llega a Ecuador",
-    "newsDescription": "Siendo nuestra meta acabar con el hambre mitigando la inseguridad alimentaria, próximamente llegamos a las comunidades de Ecuador.",
-    "imgNews": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/images/news4.png"
+    "button": "Colabora"
+    
   },
   {
     "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/capacitaciones.jpg",
