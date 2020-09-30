@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react';
 import '../src/assets/styles/App.scss';
 import LinksRRSS from './components/Menu/LinksRRSS';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; 
+import Navbar from './components/Menu/Navbar'; 
 import Slider from './components/Slider/Slider';
 import Message from './components/Message/Message';
 import Transparency from '../src/components/Transparency/Transparency';
