@@ -9,6 +9,7 @@ import Transparency from '../src/components/Transparency/Transparency';
 import Detail from '../src/components/Detail/Detail';
 import Goals from './components/Goals/Goals';
 
+
 function App() {
   return (
     <Fragment>
@@ -29,6 +30,7 @@ function App() {
           <Slider />
         </div>
         <div>
+
           <Message />
         </div>
         <div>
@@ -41,6 +43,7 @@ function App() {
           <Goals/>
         </div>
         
+
       </div>
     </Fragment>
   );

@@ -12,8 +12,10 @@
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.8.4",
     "react-hooks-form": "^2.0.1",
+    "react-responsive-carousel": "^3.2.10",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-slick": "^0.27.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,7 +38,6 @@
       "last 1 safari version"
     ]
   },
-  
   "devDependencies": {
     "@iconify/icons-bytesize": "^1.0.3",
     "@iconify/icons-cib": "^1.0.3",
