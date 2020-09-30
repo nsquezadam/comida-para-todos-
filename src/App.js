@@ -3,7 +3,11 @@ import '../src/assets/styles/App.scss';
 import NavBar from './components/Menu/Navbar';
 import LinksRRSS from './components/Menu/LinksRRSS';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import Slider from './components/slider/Slider';
+import Slider from './components/Slider/Slider';
+import Message from './components/Message/Message';
+import Transparency from '../src/components/Transparency/Transparency';
+import Detail from '../src/components/Detail/Detail';
+import Goals from './components/Goals/Goals';
 
 function App() {
   return (
@@ -24,6 +28,19 @@ function App() {
         <div>
           <Slider />
         </div>
+        <div>
+          <Message />
+        </div>
+        <div>
+          <Transparency />
+        </div>
+        <div>
+          <Detail />
+        </div>
+        <div>
+          <Goals/>
+        </div>
+        
       </div>
     </Fragment>
   );
