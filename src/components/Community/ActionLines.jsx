@@ -1,7 +1,9 @@
 import React from 'react'; 
 import '../../assets/styles/components/ActionLines.scss'; 
-import alimentos from "../../assets/static/Pics/alimentos.jpg";
-
+import campaña from "../../assets/static/images/campaña.png";
+import bancodealimentos from "../../assets/static/images/bancodealimentos.png";
+import escuela from "../../assets/static/images/escuela.png";
+import plataformasolidaria from "../../assets/static/images/plataformasolidaria.png";
 
 
 const ActionLines = () => {
@@ -20,20 +22,28 @@ const ActionLines = () => {
           </div>
         </div>
 
-        <div className="container-img">
-          <img src={alimentos} className="alimentos" alt={"alimentos"} />
+        <div className="container-img-actionLines">
+          <img src={campaña} className="alimentos" alt={"campaña"} />
           <p>Campaña solidaria de emergencia</p>
         </div>
         <div>
-          <img src={alimentos} className="alimentos" alt={"alimentos"} />
+          <img
+            src={bancodealimentos}
+            className="alimentos"
+            alt={"bancodealimentos"}
+          />
           <p>Banco de alimentos</p>
         </div>
         <div>
-          <img src={alimentos} className="alimentos" alt={"alimentos"} />
+          <img src={escuela} className="alimentos" alt={"escuela"} />
           <p>Escuela</p>
         </div>
         <div>
-          <img src={alimentos} className="alimentos" alt={"alimentos"} />
+          <img
+            src={plataformasolidaria}
+            className="alimentos"
+            alt={"plataformasolidaria"}
+          />
           <p>Plataforma solidaria</p>
         </div>
       </div>

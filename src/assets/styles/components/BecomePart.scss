@@ -8,10 +8,16 @@
 }
 
 .content-text{
-    justify-content: center;
+    width: 57%;
+    text-align: center;
+    margin-left: 23%;
+    margin-right: 19%;
+    font-size: 1.5rem;
+    line-height: 36pt;
+    padding-bottom: 6%;;
 }
 
-p{
+.content-section-img-text{
     text-align: center;
     width: 146%;
     margin-left: -62px;
@@ -21,7 +27,19 @@ p{
     margin-left: -7%;
     padding-bottom: 19%;
 }
-.title-2{
+.title-becamePart{
+    text-align: center; 
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem; 
+    font-weight: 400;
+    line-height: 72px;
+    color: #333333;
+    width: 100%; 
+    margin-top: -3%;
+ 
+}
+
+/*h2{
     padding-bottom: 3%;
     text-align: center; 
     font-family:'Montserrat', sans-serif;
@@ -31,9 +49,9 @@ p{
     color: #333333; 
     margin: 0;
 
-}
+}*/
 
-h3{
+/*h3{
     padding-bottom: 3%;
     text-align: center; 
     font-family:'Montserrat', sans-serif;
@@ -44,8 +62,17 @@ h3{
     width: 100%; 
    
 }
-
- h5{
+.title-becamePart{
+    padding-bottom: 3%;
+    text-align: center; 
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem; 
+    line-height: 72px;
+    color: $textColor3;
+    width: 100%; 
+ 
+}*/
+ .title-section-img-text{
     padding-top: 10%;
     padding-bottom: 20%;
     text-align: center;
@@ -57,11 +84,11 @@ h3{
      flex-wrap: nowrap; 
 
 }
-.section-3{
+.section-img-text{
     display: inline-block;
     flex-wrap: nowrap;
     width: 14%;
-    padding-bottom: 8%;
+    padding-bottom: 15%;
     height: 20%;
     justify-content: space-around;
     margin-left: -35px;
@@ -79,7 +106,7 @@ h3{
 
 }
 
-.button-Bp{
+.button-becamePart{
      width: 67%;
     height: 37px;
     height: -9%;
