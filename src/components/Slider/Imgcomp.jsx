@@ -3,13 +3,14 @@ import '../../assets/styles/components/Slider.scss';
 //import BtnDonate from '../Menu/BotonDonar' ;
 
 
+
 function ImgComp({ src, textSlide, textSlide2, btnSelect}) {
     let imgStyles ={
         width:100+"%",
         height:"auto"
     }
-   
 
+   
     return (
         <Fragment>
             <div className="container-slideText">
@@ -24,6 +25,7 @@ function ImgComp({ src, textSlide, textSlide2, btnSelect}) {
     </div>
     </Fragment>
     )
+
 }
 
 export default ImgComp;

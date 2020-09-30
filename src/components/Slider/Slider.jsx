@@ -1,16 +1,21 @@
-import React,{useState}  from 'react';
-import ImgComp from './Imgcomp'; 
+import React, { useState, Fragment } from "react";
+import ImgComp from "./Imgcomp";
 import i1 from "../../assets/static/Pics/1.jpg";
 import i2 from "../../assets/static/Pics/2.jpg";
 import i3 from "../../assets/static/Pics/3.jpg";
 // npm install --save-dev @iconify/react @iconify/icons-bytesize
-import { Icon} from '@iconify/react';
-import chevronLeft from '@iconify/icons-bytesize/chevron-left';
-import chevronRight from '@iconify/icons-bytesize/chevron-right';
-import '../../assets/styles/components/Slider.scss'; 
+import { Icon } from "@iconify/react";
+import chevronLeft from "@iconify/icons-bytesize/chevron-left";
+import chevronRight from "@iconify/icons-bytesize/chevron-right";
+import "../../assets/styles/components/Slider.scss";
+import BecomePart from "../Community/BecomePart";
+import ActionLines from "../Community/ActionLines";
+import News from "../Community/News";
+
 
 
 function Slider() {
+
     const [X, SetX] = useState(0)
     // const [startSlide, SetStartSlide] = useState (1000)
 
@@ -37,12 +42,13 @@ function Slider() {
         />];
     
 
-    const goLeft =() => {
-        X === 0? SetX(-100*(sliderArr.length -1)) : SetX (X + 100);
-    }
-    const goRight = () => {
-        (X === -100*(sliderArr.length -1)) ? SetX(0) : SetX (X - 100);
-    }
+
+  const goLeft = () => {
+    X === 0 ? SetX(-100 * (sliderArr.length - 1)) : SetX(X + 100);
+  };
+  const goRight = () => {
+    X === -100 * (sliderArr.length - 1) ? SetX(0) : SetX(X - 100);
+  };
 
     return (
         <div className='slider' >
@@ -56,7 +62,16 @@ function Slider() {
 
             <button id="goLeft" onClick={goLeft}><Icon icon={chevronLeft} color="#FFFFFF" width="1em" /></button>
             <button id="goRight" onClick={goRight}><Icon icon={chevronRight} color="#FFFFFF" width="1em" /></button>
+
     </div>
-    )
+    <BecomePart />
+    <ActionLines /> 
+    <News />
+   
+  
+    </Fragment>
+  )
+  
 }
-export default Slider
+
+export default Slider;
