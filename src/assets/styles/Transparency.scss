@@ -1,0 +1,19 @@
+@import '../../assets/styles/Variables.scss'; 
+
+.ContainerText{
+    position: absolute;
+    width: 22.25rem;
+    height: 2.5rem;
+    left: 40.9rem;
+    top: 73rem;
+    /* Body H4 */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+/* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FF8150;    
+}
