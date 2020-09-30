@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import '../src/assets/styles/App.scss';
 import LinksRRSS from './components/Menu/LinksRRSS';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import Slider from './components/slider/Slider';
+import Slider from './components/Slider/Slider';
 import Navbar from './components/Menu/Navbar';
 
 function App() {
