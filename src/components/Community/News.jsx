@@ -1,5 +1,6 @@
 import React, {useState, useEffect, Fragment} from 'react'
 import LinkMore from './LinkMore';
+import TextNews from './TextNews';
 
 const News = () => {
     let [donate, setDonate] = useState([]);
@@ -10,8 +11,7 @@ const News = () => {
     }, []);
     return ( 
     <Fragment>
-            <div><h1>Novedades</h1></div>
-            <div><h4>Entérate, inspírate e involúcrate. Explora las próximas campañas e iniciativas que llevamos a cabo en Comida para todos.</h4></div>
+            <TextNews />
            
             <div className="">
                 {donate.map((item, index) => {
