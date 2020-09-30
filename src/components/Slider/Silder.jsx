@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
-import "./style.css";
+import "../../assets/styles/components/Slider.scss";
 import ImgComp from './Imgcomp'; 
 import i1 from "../../assets/static/Pics/1.jpg";
 import i2 from "../../assets/static/Pics/2.jpg";
