@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { useState } from "react";
 import ImgComp from "./Imgcomp";
 import i1 from "../../assets/static/Pics/1.jpg";
 import i2 from "../../assets/static/Pics/2.jpg";
@@ -8,9 +8,7 @@ import { Icon } from "@iconify/react";
 import chevronLeft from "@iconify/icons-bytesize/chevron-left";
 import chevronRight from "@iconify/icons-bytesize/chevron-right";
 import "../../assets/styles/components/Slider.scss";
-import BecomePart from "../Community/BecomePart";
-import ActionLines from "../Community/ActionLines";
-import News from "../Community/News";
+
 
 
 
@@ -64,12 +62,9 @@ function Slider() {
             <button id="goRight" onClick={goRight}><Icon icon={chevronRight} color="#FFFFFF" width="1em" /></button>
 
     </div>
-    <BecomePart />
-    <ActionLines /> 
-    <News />
-   
+
   
-    </Fragment>
+  
   )
   
 }
