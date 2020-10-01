@@ -1,13 +1,18 @@
 import React, { Fragment } from 'react';
 import '../src/assets/styles/App.scss';
-import LinksRRSS from './components/Menu/LinksRRSS';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; 
-import Navbar from './components/Menu/Navbar'; 
-import Slider from './components/Slider/Slider';
-import Message from './components/Message/Message';
-import Transparency from '../src/components/Transparency/Transparency';
-import Detail from '../src/components/Detail/Detail';
-import Goals from './components/Goals/Goals';
+//import LinksRRSS from './components/Menu/LinksRRSS';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+//import Navbar from './components/Menu/Navbar'
+// import Slider from './components/slider/Slider';
+// import Message from './components/Message/Message';
+// import Detail from '../src/components/Detail/Detail';
+// import Goals from './components/Goals/Goals';
+// import BecomePart from './components/Community/BecomePart'
+//import News from './components/Community/News';
+// import ContacForm from './components/contacForm/ContacForm';
+// import Testimonials from './components/testimonials/Testimonials';
+// NAVBAR RESPONSIVE 
+import Toolbar from './components/Menu/toolbar/Toolbar';
 
 
 
@@ -19,31 +24,42 @@ function App() {
           <Router>
             <Switch>
               <Route path="/" exact>
-                <Navbar />
+                {/* <Navbar /> */}
+                <Toolbar  />
               </Route>
               <Route path="/test">
-                <LinksRRSS />
+                {/* <LinksRRSS /> */}
               </Route>
             </Switch>
           </Router>
         </div>
         <div>
-          <Slider />
+          {/* <Slider /> */}
         </div>
         <div>
+          {/* <Message /> */}
+        </div>
 
-          <Message />
+        <div>
+          {/* <Detail /> */}
         </div>
         <div>
-          <Transparency />
+           {/* <Goals/>  */}
         </div>
+       <div>
+       {/* <BecomePart /> */}
+       </div>
+       <div>
+         {/* <News /> */}
+       </div>
         <div>
-          <Detail />
-        </div>
+      {/* <Testimonials /> */}
+       </div>
         <div>
-          <Goals/>
+          {/* <ContacForm/> */}
         </div>
-        
+
+
 
       </div>
     </Fragment>
