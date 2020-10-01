@@ -1,11 +1,12 @@
 @import '../../assets/styles/Variables.scss'; 
 
 .ContainerText{
-    position: absolute;
-    width: 22.25rem;
-    height: 2.5rem;
-    left: 40.9rem;
-    top: 73rem;
+ 
+    width: 100vw;
+    
+    margin-bottom: 7vh;
+
+    text-align: center;
     /* Body H4 */
     font-family: Montserrat;
     font-style: normal;

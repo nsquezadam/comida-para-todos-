@@ -6,11 +6,18 @@ import Imagen4 from "../Detail/IconDetail/Imagen4.png";
 import Imagen5 from "../Detail/IconDetail/Imagen5.png";
 import Imagen6 from "../Detail/IconDetail/Imagen6.png";
 import '../../assets/styles/Detail.scss'
+import TextTitle from '../Transparency/Transparency';
 
 function Detail() {
   return (
     <Fragment>
+     
+      <div className="containerDetails">
+      <TextTitle />
+      <div className="containerBoxDetails">
       <div className="boxContainerDetail">
+        
+
         <div className="container1">
           <img src={Imagen1} className="imgDetail" alt={"Imagen"} />
           <ul>
@@ -69,7 +76,8 @@ function Detail() {
           </ul>
         </div>
       </div>
-
+      </div>
+      </div>
     </Fragment>
   );
 }
