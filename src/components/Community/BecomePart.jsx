@@ -20,7 +20,7 @@ const BecomePart = (props) => {
            
                 {donate.map((item, index) => {
                     return (
-                      
+                     
                         <div className="section-img-text" key={index}>
                           {/* <div className="section"> */}
 
@@ -31,23 +31,29 @@ const BecomePart = (props) => {
                           ></img>
 
                           <div>
-                            <h5 className="title-section-img-text">{item.title}</h5>
+                            <h5 className="title-section-img-text">
+                              {item.title}
+                            </h5>
                           </div>
                           <div>
                             <p className="content-section-img-text">
                               {item.description}
                             </p>
                           </div>
-
-                          <button className="button-becamePart">{item.button}</button> 
+                          <div>
+                            <button className="button-becamePart">
+                              {item.button}
+                            </button>
+                          </div>
                           {/* </div> */}
                         </div>
                       
                     );
-                })}
-               
+                             })}
+              
             
         </Fragment>
+      
  
            ) }
     

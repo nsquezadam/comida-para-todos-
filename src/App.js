@@ -2,12 +2,15 @@ import React, { Fragment } from 'react';
 import '../src/assets/styles/App.scss';
 import LinksRRSS from './components/Menu/LinksRRSS';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import Slider from './components/Slider/Slider';
+import Silder from './components/Slider/Silder';
 import Navbar from './components/Menu/Navbar';
-import Message from './components/Message/Message';
-import Transparency from '../src/components/Transparency/Transparency';
-import Detail from '../src/components/Detail/Detail';
-import Goals from './components/Goals/Goals';
+// import News from './components/Community/News';
+import BecomePart from './components/Community/BecomePart'; 
+// import Message from './components/Message/Message';
+// import Transparency from '../src/components/Transparency/Transparency';
+// import Detail from '../src/components/Detail/Detail';
+// import Goals from './components/Goals/Goals';
+
 
 
 
@@ -28,20 +31,25 @@ function App() {
           </Router>
         </div>
         <div>
-          <Slider />
+          <Silder />
         </div>
         <div>
 
-          <Message />
+          <BecomePart />
+        </div>
+
+        <div>
+
+          {/* <Message /> */}
         </div>
         <div>
-          <Transparency />
+          {/* <Transparency /> */}
         </div>
         <div>
-          <Detail />
+          {/* <Detail /> */}
         </div>
         <div>
-          <Goals/>
+          {/* <Goals/> */}
         </div>
         
 

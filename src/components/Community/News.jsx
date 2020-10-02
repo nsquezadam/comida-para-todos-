@@ -7,6 +7,7 @@ import news1 from "../../assets/static/images/news1.png";
 import news2 from "../../assets/static/images/news2.png";
 import news3 from "../../assets/static/images/news3.png";
 import news4 from "../../assets/static/images/news4.png";
+import LinkMore from './LinkMore';
 
 const News = () => {
   return (
@@ -15,39 +16,53 @@ const News = () => {
       <div className="container-img-news">
         <div>
           <img src={news1} className="img-news" alt={"news1"} />
-          <p className="title-text-news">Campaña de navidad 2020</p>
-          <p className="content-text-news2">
-            Queremos lograr que nuestras comunidades celebren las navidades con
-            un almuerzo rico, especial y lleno amor.
-          </p>
+          <div className="background-news">
+            <p className="title-text-news">Campaña de navidad 2020</p>
+            <p className="content-text-news1">
+              Queremos lograr que nuestras comunidades celebren las navidades
+              con un almuerzo rico, especial y lleno amor.
+            </p>
+            <LinkMore />
+          </div>
         </div>
         <div>
           <img src={news2} className="img-news" alt={"news2"} />
-          <p className="title-text-news">
-            Experiencia del Hogar Villa Padre Hurtado
-          </p>
-          <p className="content-text-news2">
-            En la comuna de Pedro Aguirre Cerda, llevamos a cabo la entrega de
-            almuerzos solidarios a los abuelos que son parte de la comunidad.
-          </p>
+          <div className="background-news">
+            <p className="title-text-news">
+              Experiencia del Hogar Villa Padre Hurtado
+            </p>
+            <p className="content-text-news2">
+              En la comuna de Pedro Aguirre Cerda, llevamos a cabo la entrega de
+              almuerzos solidarios a los abuelos que son parte de la comunidad.
+            </p>
+            <LinkMore />
+          </div>
         </div>
         <div>
           <img src={news3} className="img-news" alt={"news3"} />
-          <p className="title-text-news">Almuerzos sanos y ricos en pandemia</p>
-          <p className="content-text-news2">
-            Miguel Larraín, chef del restaurante Boa, expresa lo que significa
-            para él preparar sanos y ricos almuerzos para las comunidades.
-          </p>
+          <div className="background-news">
+            <p className="title-text-news">
+              Almuerzos sanos y ricos en pandemia
+            </p>
+            <p className="content-text-news2">
+              Miguel Larraín, chef del restaurante Boa, expresa lo que significa
+              para él preparar sanos y ricos almuerzos para las comunidades.
+            </p>
+            <LinkMore />
+          </div>
         </div>
         <div>
           <img src={news4} className="img-news" alt={"news4"} />
-          <div className="title-text-news">
-            <p>Comida Para Todos llega a Ecuador</p>
+          <div className="background-news">
+            <div className="title-text-news">
+              <p>Comida Para Todos llega a Ecuador</p>
+            </div>
+            <p className="content-text-news2">
+              Siendo nuestra meta acabar con el hambre mitigando la inseguridad
+              alimentaria, próximamente llegamos a las comunidades de Ecuador.
+            </p>
+            <LinkMore />
           </div>
-          <p className="content-text-news2">
-            Siendo nuestra meta acabar con el hambre mitigando la inseguridad
-            alimentaria, próximamente llegamos a las comunidades de Ecuador.
-          </p>
         </div>
       </div>
     </Fragment>
