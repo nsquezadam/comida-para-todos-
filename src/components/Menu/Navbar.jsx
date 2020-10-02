@@ -4,9 +4,9 @@ import LogoHome from './Logo';
 import LinksNavbar from './LinksNavbar';
 import LinksRRSS from './LinksRRSS';
 import BtnDonate from './BotonDonar';
-import '../../assets/styles/components/Navbar.scss';
+import '../../assets/styles/components/NavBar.scss';
 
-const Navbar = () => {
+const NavBar = () => {
   return (
 
     <Fragment>
@@ -24,4 +24,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar;
+export default NavBar;

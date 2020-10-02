@@ -9,7 +9,7 @@ const BecomePart = (props) => {
     useEffect(() => {
         fetch('donate.json')
             .then(response => response.json())
-            .then(data => setDonate(donate = data));
+            .then(data => setDonate(data));
     }, []);
     return (
         <Fragment>
