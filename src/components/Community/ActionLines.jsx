@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import "../../assets/styles/components/ActionLines.scss";
-import campaña from "../../assets/static/images/campaña.png";
-import bancodealimentos from "../../assets/static/images/bancodealimentos.png";
-import escuela from "../../assets/static/images/escuela.png";
-import plataformasolidaria from "../../assets/static/images/plataformasolidaria.png";
+import campaña from "../../assets/static/Pics/campaña.jpg";
+import bancodealimentos from "../../assets/static/Pics/bancodealimentos.jpg";
+import escuela from "../../assets/static/Pics/escuela.jpg";
+import plataformasolidaria from "../../assets/static/Pics/plataformasolidaria.jpg";
 import TextActionLines from "./TextActionLines";
 
 const ActionLines = () => {

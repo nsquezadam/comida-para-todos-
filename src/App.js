@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Silder from './components/Slider/Silder';
 import Navbar from './components/Menu/Navbar';
 // import News from './components/Community/News';
-import BecomePart from './components/Community/BecomePart'; 
+// import BecomePart from './components/Community/BecomePart';
+import ActionLines from "./components/Community/ActionLines";  
 // import Message from './components/Message/Message';
 // import Transparency from '../src/components/Transparency/Transparency';
 // import Detail from '../src/components/Detail/Detail';
@@ -34,25 +35,14 @@ function App() {
           <Silder />
         </div>
         <div>
+          <ActionLines />
+        </div>
+        <div></div>
 
-          <BecomePart />
-        </div>
-
-        <div>
-
-          {/* <Message /> */}
-        </div>
-        <div>
-          {/* <Transparency /> */}
-        </div>
-        <div>
-          {/* <Detail /> */}
-        </div>
-        <div>
-          {/* <Goals/> */}
-        </div>
-        
-
+        <div>{/* <Message /> */}</div>
+        <div>{/* <Transparency /> */}</div>
+        <div>{/* <Detail /> */}</div>
+        <div>{/* <Goals/> */}</div>
       </div>
     </Fragment>
   );

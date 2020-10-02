@@ -6,6 +6,7 @@ import i2 from "../../assets/static/Pics/2.jpg";
 import i3 from "../../assets/static/Pics/3.jpg";
 
 const Slider = () => {
+  
   const [currentIndex, setCurrentIndex] = useState(0);
   const [activeAutoplay, setActiveAutoplay] = useState(true);
   const [isAnimating, setIsAnimating] = useState(false);

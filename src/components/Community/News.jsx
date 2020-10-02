@@ -1,12 +1,12 @@
-import React, {Fragment, useState, useEffect} from 'react'; 
+import React, {Fragment} from 'react'; 
 import "../../assets/styles/components/News.scss";
-import CardNews from './CardNews';
+// import CardNews from './CardNews';
 import TextNews from './TextNews'; 
 // import LinkMore from './LinkMore';import TextNews from './TextNews';
-import news1 from "../../assets/static/images/news1.png";
-import news2 from "../../assets/static/images/news2.png";
-import news3 from "../../assets/static/images/news3.png";
-import news4 from "../../assets/static/images/news4.png";
+import news1 from "../../assets/static/Pics/news1.jpg";
+import news2 from "../../assets/static/Pics/news2.JPG";
+import news3 from "../../assets/static/Pics/news3.jpg";
+import news4 from "../../assets/static/Pics/news4.jpg";
 import LinkMore from './LinkMore';
 
 const News = () => {
