@@ -10,9 +10,16 @@
 }
 
 
+@media only screen and (min-width: 300px)
+{
+ .main-footer {
+  background-color: $textColor1;
+  color: $textColor3;
+  padding-top: 3rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 
-
-
-
-
-
+  height: 66vh;
+}   
+}

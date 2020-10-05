@@ -4,12 +4,12 @@ import ActionLines from "./Community/ActionLines";
 import News from './Community/News';
 import NavBar from './Menu/NavBar'; 
 import '../assets/styles/components/Home.scss'; 
+import Footer from './footer/Footer';
 
 const Home = () => {
     return (
       <Fragment>
         <div className="container-home">
-        
           <div>
             <NavBar />
           </div>
@@ -24,6 +24,9 @@ const Home = () => {
           </div>
           <div>
             <News />
+          </div>
+          <div>
+          <Footer />
           </div>
         </div>
       </Fragment>
