@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import BecomePart from './Community/BecomePart';
 import ActionLines from "./Community/ActionLines"; 
 import News from './Community/News';
-import NavBar from './Menu/NavBar'; 
+import Navbar from './Menu/Navbar'; 
 import '../assets/styles/components/Home.scss'; 
 import Footer from './footer/Footer';
 
@@ -11,10 +11,7 @@ const Home = () => {
       <Fragment>
         <div className="container-home">
           <div>
-            <NavBar />
-          </div>
-          <div>
-            <NavBar />
+            <Navbar />
           </div>
           <div>
             <BecomePart />
