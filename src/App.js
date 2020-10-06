@@ -3,7 +3,7 @@ import '../src/assets/styles/App.scss';
 //import LinksRRSS from './components/Menu/LinksRRSS';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 //import Navbar from './components/Menu/Navbar'
-// import Slider from './components/slider/Slider';
+import Slider from './components/slider/Slider';
 // import Message from './components/Message/Message';
 // import Detail from '../src/components/Detail/Detail';
 // import Goals from './components/Goals/Goals';
@@ -11,21 +11,23 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 //import News from './components/Community/News';
 // import ContacForm from './components/contacForm/ContacForm';
 // import Testimonials from './components/testimonials/Testimonials';
-// NAVBAR RESPONSIVE 
-import Toolbar from './components/Menu/toolbar/Toolbar';
-
+ import NavBarR from './components/Menu/toolbar/NavbarR'
 
 
 function App() {
+  
+
   return (
     <Fragment>
-      <div>
+      <div  style={{height:'100%'}}>
         <div>
           <Router>
             <Switch>
               <Route path="/" exact>
                 {/* <Navbar /> */}
-                <Toolbar  />
+                <NavBarR />
+               
+
               </Route>
               <Route path="/test">
                 {/* <LinksRRSS /> */}
@@ -34,7 +36,7 @@ function App() {
           </Router>
         </div>
         <div>
-          {/* <Slider /> */}
+           <Slider />
         </div>
         <div>
           {/* <Message /> */}
