@@ -4,7 +4,7 @@ import '../../assets/styles/Message.scss'
 function TextMessage() {
     return (
         <div className="containerText">
-          <p>"Queremos entregar alimentación de calidad y nutritica; conectando, colaborando y generando asociatividad entre los actores involucrados."</p>
+          <p>"Queremos entregar <strong>alimentación de calidad y nutritica;</strong> conectando, colaborando y generando asociatividad entre los actores involucrados."</p>
         </div>
     ) };
 

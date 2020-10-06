@@ -16,7 +16,7 @@ function Detail() {
       <TextTitle />
       <div className="containerBoxDetails">
       <div className="boxContainerDetail">
-        
+
 
         <div className="container1">
           <img src={Imagen1} className="imgDetail" alt={"Imagen"} />

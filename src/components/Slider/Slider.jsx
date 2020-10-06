@@ -24,7 +24,7 @@ function Slider() {
         src={i1} 
         textSlide="700mil personas padecen inseguridad alimentaria severa en Chile" 
         textSlide2="Ayúdanos a combatir el hambre en nuestras comunidades."
-        btnSelect="Has tu Aporte"
+        btnSelect="Haz tu Aporte"
         />,
         <ImgComp 
         src={i2}
