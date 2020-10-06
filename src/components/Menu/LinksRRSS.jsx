@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 import facebookIcon from "@iconify/icons-cib/facebook";
 import twitterWithCircle from "@iconify/icons-entypo-social/twitter-with-circle";
 import instagramWithCircle from "@iconify/icons-entypo-social/instagram-with-circle";
-import "../../assets/styles/components/LinksRRSS.scss";
+import "../../assets/styles/components/menu/LinksRRSS.scss";
 
 function LinksRRSS() {
   return (

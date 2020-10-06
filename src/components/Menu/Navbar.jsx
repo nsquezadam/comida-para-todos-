@@ -5,6 +5,7 @@ import LinksNavbar from './LinksNavbar';
 import LinksRRSS from './LinksRRSS';
 import BtnDonate from './BotonDonar';
 import '../../assets/styles/components/Navbar.scss';
+import '../../assets/styles/components/menu/LinkRRSSscss;'
 
 const Navbar = () => {
   return (
@@ -15,7 +16,8 @@ const Navbar = () => {
         <div className="container-nav">
           <LogoHome />
           <LinksNavbar />
-          <LinksRRSS />
+          <div class="boxContainerRRSS"> <LinksRRSS /></div>
+          
           <BtnDonate />
 
         </div>
