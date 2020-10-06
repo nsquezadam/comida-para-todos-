@@ -11,6 +11,7 @@ display: flex;
 align-items: center;
 // position: absolute;
 overflow: hidden;
+margin-top: 80px;
 
 
 
@@ -24,7 +25,7 @@ overflow: hidden;
 
 .slide{
     min-width:100vw;
-    min-height: 100%;
+
     transition: 0.5s;
     
    
@@ -103,7 +104,7 @@ overflow: hidden;
     margin-top: 3vh;
     margin-left: 3vw;
     text-decoration: none;
-    color: $firstColor;
+    color: $textColor5;
     font-size: 1.125rem;
     text-align: center;
     width: 145px;

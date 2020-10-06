@@ -1,28 +1,31 @@
 import React from 'react'
-import './Toolbar.scss'
+import '../../../assets/styles/components/menu/navbarResponsive/Toolbar.scss'
+import LinksNavbar from '../LinksNavbar';
+import  LogoHome from '../Logo'
+import DrowerToggleButton from'../sideDrawer/DrowerToggleButton'
+import LinkRRSS from '../LinksRRSS';
+import BtnDonate from '../BotonDonar'
+import Countries from '../Countries'
+import Searcher from '../Searcher'
 
-const Toolbar = () => (
-    
-  
-            <header className="toolbar">
-                <nav className="toolbar_navigation">
-                    <div></div>
-                    <div className="toolbar_logo">the logo</div>
-                    
-                    <div className="toolbar_navitation-items">
-                    <ul>
-                        <li>Conocenos</li>
-                        <li>Que Hacemos </li>
-                        <li> Hazte Parte</li>
-                        <li>Novedades</li>
-                        <li>Contáctanos</li>
-                    </ul>
-                    <div>SEARCH</div>
-                    </div>
-                </nav>
-            </header>
-            
-       
+
+
+const Toolbar = props => (
+<header className="toolbar">
+  <nav className="toolbar_navigation">
+      <div className = "toggle-navbar"> <DrowerToggleButton click={props.drawerClickHandle}/> </div>
+      <div className="toolbar_logo">< LogoHome /></div>
+      <div className="spacer"/>
+      <div className="toolbar_navigation-items controlItems"><LinksNavbar /></div>
+      <div className="spacer"/>
+      <div className="controlItems"><Searcher/></div>
+      <div className="controlItems"><LinkRRSS/></div>
+      <div className="controlItems"><BtnDonate/></div>
+      <div className="controlItems"><Countries /></div>
+      
+ 
+  </nav>
+</header>
     )
 
 
