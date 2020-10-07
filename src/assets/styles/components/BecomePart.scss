@@ -2,8 +2,12 @@
 
 .containerBecome{
     width: 100vw;
-    height: 971px;
+    height: auto;
     margin-top: 1250px;
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .container-titleSection{
@@ -18,15 +22,7 @@
   line-height: 36pt;
 }
 
-.content-section-img-text{
-    text-align: center;
-    margin-left: -62px;
-    font-size: 0.7rem;
-    padding-right: 55px;
-    width: 100%;
-    margin-left: -7%;
-    padding-bottom: 19%;
-}
+
 .title-becamePart {
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -42,11 +38,13 @@
   width: 100%;
 }
 
+.container-section-ima-text{
+  text-align: center;
+  width: auto;
+}
 .title-section-img-text {
   padding-top: 10%;
   padding-bottom: 20%;
-  text-align: center;
-  margin-left: -24%;
   font-size: 1rem;
 }
 
@@ -54,25 +52,20 @@
   display: flex;
   flex-wrap: nowrap;
 }
-.section-img-text{
-    display: inline-block;
-    flex-wrap: nowrap;
-    width: 14%;
-    padding-bottom: 8%;
-    height: 20%;
-    justify-content: space-around;
-   
-    margin-left: 81px;
-    color: $textColor1;
-}
+
+//imagenes y texto y boton
 .section-img-text {
-  //display: inline-block;
-  flex-wrap: nowrap;
+  display: inline-block;
   width: 14vw;
-  padding-bottom: 8%;
-  margin-left: 11.8vh;
   color: $textColor1;
-  float: left;
+  width: 14vw;    
+ color: #333333;
+ 
+
+text-align: center;
+margin-left: 3vw;
+margin-right: 3vw;
+
 }
 
 .img-section {
@@ -82,6 +75,7 @@
   image-rendering: -webkit-optimize-contrast;
 }
 
+
 .button-becamePart {
   width: 67%;
   height: 37px;
@@ -89,41 +83,32 @@
   border: 1px solid $textColor;
   border-radius: 5px;
   font-weight: 185px;
-  margin-left: 7%;
+ 
   color: $textColor5;
   font-weight: 500;
   font-size: 0.8rem;
-  float: left;
+
 }
 
-.button-becamePart{
-    width: 67%;
-    height: 50px;
-   
-    background-color: $textColor3;
-    border: 1px solid $textColor; 
-    border-radius: 5px;
-    font-weight: 185px;
-    margin-left: 7%;
-    color:$textColor5; 
-    font-weight: 500;
-}
- 
 
-  .title-section-img-text {
-    margin-left: -29%;
+  // contenedor de imagenes
+  .container-section-imgText{
+    width: 100vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .container-content-section-img-text{
+    text-align: center;   
+      width: 14vw;
+      height: 90px;
+
   }
   .content-section-img-text {
-    text-align: center;
-    width: 146%;
-    margin-left: -62px;
     font-size: 0.7rem;
-    padding-right: 24%;
-    width: 17vw;
-    height: 10vh;
-    margin-left: -9%;
     padding-bottom: 19%;
-    margin-top: -3%;
+
   }
 
 @media screen and (max-width: 768px) {

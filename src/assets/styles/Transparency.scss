@@ -1,19 +1,15 @@
 @import '../../assets/styles/Variables.scss'; 
 
 .ContainerText{
- 
     width: 100vw;
-    
     margin-bottom: 7vh;
-
-    text-align: center;
     /* Body H4 */
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.6vw;
     line-height: 36px;
-/* identical to box height, or 150% */
+    /* identical to box height, or 150% */
     text-align: center;
     letter-spacing: -0.015em;
     color: #FF8150;    

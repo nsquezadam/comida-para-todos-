@@ -2,19 +2,25 @@ import React, { Fragment } from 'react';
 import '../src/assets/styles/App.scss';
 //import LinksRRSS from './components/Menu/LinksRRSS';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+
 import NavBarR from './components/Menu/toolbar/NavbarR'
+
+
 //import Home from './components/Home'; 
 
-// import Transparency from '../src/components/Transparency/Transparency';
+//import Navbar from './components/Menu/Navbar'
+
 import Slider from './components/slider/Slider';
 import Message from './components/Message/Message';
  import Detail from '../src/components/Detail/Detail';
  import Goals from './components/Goals/Goals';
  import BecomePart from './components/Community/BecomePart'
+ import ActionLines from './components/Community/ActionLines'
  import News from './components/Community/News';
 import ContacForm from './components/contacForm/ContacForm';
 import Testimonials from './components/testimonials/Testimonials';
 import SliderPart from './components/sliderPartners/SliderPart';
+
 //import Footer from './components/footer/Footer';
 
 
@@ -59,13 +65,16 @@ function App() {
           <BecomePart /> 
       </div>
       <div>
+       <ActionLines/>
+      </div>
+      <div style={ {height:'1074px',background: '#F2F2F2'}}>
            <News />  
       </div>
       <div>
           <Testimonials />
       </div>
       <div>
-        <SliderPart  />
+        <SliderPart />
       </div>
       <div>
            <ContacForm/>
