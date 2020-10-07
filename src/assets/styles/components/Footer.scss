@@ -1,0 +1,96 @@
+@import "../Variables.scss";
+
+.main-footer {
+  background-color: $textColor1;
+  color: $textColor3;
+  padding-top: 3rem;
+  // position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  height: 66vh;
+}
+.container-footer {
+  padding-left: 2%;
+}
+.title-footer {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.title-footer-questions {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.list {
+  font-weight: 100;
+  list-style: none;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.col-info {
+  width: 22vw;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-left: 26%;
+  background-color: $textColor1;
+  color: $textColor3;
+  padding-top: 7%;
+}
+.col-info-questions {
+  width: 21vw;
+}
+.RRSS-footer {
+  margin-top: -11%;
+}
+
+.links {
+  color: $textColor3;
+}
+
+@media screen and (max-width: 768px) {
+  .col {
+    display: none;
+  }
+  .container-footer {
+    width: 70%;
+    justify-content: center;
+  }
+  .title-footer-questions {
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 50vw;
+    text-align: center;
+  }
+  .list {
+    font-weight: 100;
+    width: 50vw;
+    text-align: center;
+    list-style: none;
+    font-size: 13px;
+    line-height: 2;
+  }
+  .container-logo-footer {
+    width: 28vw;
+    margin-top: -3vh;
+  }
+  .imgLogoFooter {
+    margin-top: 22vh;
+    margin-left: 20vh;
+  }
+  .col-info-questions {
+    width: 100%;
+  }
+  .col-info {
+    width: 59vw;
+    font-size: 0.6rem;
+    text-align: center;
+    margin-left: 30%;
+    background-color: #333333;
+    color: #ffffff;
+    padding-top: 6%;
+    margin-top: 29vh;
+    margin-left: -5vh;
+  }
+}

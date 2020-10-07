@@ -1,6 +1,6 @@
 [
   {
-    "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/almuerzos.jpg",
+    "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/develop/src/assets/static/Pics/almuerzos.jpg",
     "title": "Almuerzos solidarios",
     "description": "Colabora con $ 3.000 para un almuerzo solidario, nutritivo y lleno de amor.",
     "button": "Haz tu aporte"
@@ -28,7 +28,7 @@
     
   },
   {
-    "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/capacitaciones.jpg",
+    "img": "https://raw.githubusercontent.com/danielablancom/comida-para-todos-/developTest/src/assets/static/Pics/capacitaciones3.jpg",
     "title": "Clases y capacitaciones",
     "description": "Aporta tus conocimientos y experiencias para que otros aprendan. ",
     "button": "Forma parte" 
