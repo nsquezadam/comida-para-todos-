@@ -6,17 +6,16 @@ import NavBarR from './components/Menu/toolbar/NavbarR'
 //import Home from './components/Home'; 
 
 // import Transparency from '../src/components/Transparency/Transparency';
-
-
 import Slider from './components/slider/Slider';
-//import Message from './components/Message/Message';
-// import Detail from '../src/components/Detail/Detail';
-// import Goals from './components/Goals/Goals';
-// import BecomePart from './components/Community/BecomePart'
-// import News from './components/Community/News';
+import Message from './components/Message/Message';
+ import Detail from '../src/components/Detail/Detail';
+ import Goals from './components/Goals/Goals';
+ import BecomePart from './components/Community/BecomePart'
+ import News from './components/Community/News';
 import ContacForm from './components/contacForm/ContacForm';
 import Testimonials from './components/testimonials/Testimonials';
 import SliderPart from './components/sliderPartners/SliderPart';
+//import Footer from './components/footer/Footer';
 
 
 
@@ -48,19 +47,19 @@ function App() {
   
         </div>
         <div>
-          {/* <Message /> */}
+           <Message /> 
         </div>
         <div>
-          {/* <Detail /> */}
+           <Detail /> 
         </div>
         <div>
-          {/* <Goals/> */}
+           <Goals/> 
         </div>
       <div>
-          {/* <BecomePart />  */}
+          <BecomePart /> 
       </div>
       <div>
-          {/* <News />  */}
+           <News />  
       </div>
       <div>
           <Testimonials />
@@ -70,6 +69,9 @@ function App() {
       </div>
       <div>
            <ContacForm/>
+      </div>
+      <div>
+        {/* <Footer/> */}
       </div>
       </div>
     </Fragment>
