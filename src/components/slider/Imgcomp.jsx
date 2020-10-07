@@ -2,19 +2,12 @@ import React, { Fragment } from 'react';
 import '../../assets/styles/components/Slider.scss';
 //import BtnDonate from '../Menu/BotonDonar' ;
 
-<<<<<<< HEAD:src/components/Slider/Imgcomp.jsx
-function ImgComp({ src, textSlide, textSlide2, btnSelect }) {
-    let imgStyles = {
-        width: 100 + "%",
-        height: "auto"
-=======
 
 
 function ImgComp({ src, textSlide, textSlide2, btnSelect}) {
     let imgStyles ={
         width:100+"%",
         height:"100%",
->>>>>>> 90d7b3d0e924c7837e09bcbf09754fd8f6a48ad6:src/components/slider/Imgcomp.jsx
     }
 
     return (

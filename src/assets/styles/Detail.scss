@@ -2,27 +2,30 @@
 
 .containerDetails{
     width: 100vw;
-    height: 430px;
-    margin-top: 30vh;
+    height: 32.975vw;
+    margin-top: 15vw;
     position: absolute;
 }
-
 .containerBoxDetails{
     margin-left: 3vw;
 }
-
 .boxContainerDetail {
     display:inline-block;
     margin-left: 3vw;
     margin-right: 3vw;
-    //margin-block-end: 10.45rem;
+    /*margin-block-end: 10.45rem;*/
     position: relative;
 }
 .container1 {
     margin-left: 2vw;
-    width: 6rem;
-    height: 6rem;
-    text-align:center;
+    width: 7.36vw;
+    height: 7.36vw;
+    text-align: center;
+    /* Body H4 */
+    font-family: Montserrat;
+    line-height: 2.76vw;
+/* identical to box height, or 150% */
+    letter-spacing: -0.015em;
     border-radius: 50%;
     background: linear-gradient(180deg, #FCC3AD 17.76%, rgba(239, 203, 190, 0) 93.8%);
 }
@@ -30,5 +33,12 @@
 .imgDetail {
     width: 50%;
     height: 50%;
-    margin-top: 3.35rem;
+    margin-top: 8.01vh;
+  
+}
+
+@media (min-width:769px){
+    .container1 {
+        display:none;
+    }
 }

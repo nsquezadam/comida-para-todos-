@@ -21,7 +21,7 @@ function Detail() {
         <div className="container1">
           <img src={Imagen1} className="imgDetail" alt={"Imagen"} />
           <ul>
-            <h1>97.644</h1>
+            <h4>97.644</h4>
             <p>Almuerzos entregados</p>
           </ul>
         </div>
@@ -31,7 +31,7 @@ function Detail() {
         <div className="container1">
           <img src={Imagen2} className="imgDetail" alt={"Imagen"} />
           <ul>
-            <h1>3200</h1>
+            <h4>3.200</h4>
             <p> Personas Alimentadas</p>
           </ul>
         </div>
@@ -41,7 +41,7 @@ function Detail() {
         <div className="container1">
           <img src={Imagen3} className="imgDetail" alt={"Imagen"} />
           <ul>
-            <h1>19</h1>
+            <h4>19</h4>
             <p>Restaurantes Activos</p>
           </ul>
         </div>
@@ -51,7 +51,7 @@ function Detail() {
         <div className="container1">
           <img src={Imagen4} className="imgDetail" alt={"Imagen"} />
           <ul>
-            <h1>19</h1>
+            <h4>19</h4>
             <p>Pequeños Productores</p>
           </ul>
         </div>
@@ -61,7 +61,7 @@ function Detail() {
         <div className="container1">
           <img src={Imagen5} className="imgDetail" alt={"Imagen"} />
           <ul>
-            <h1>96</h1>
+            <h4>96</h4>
             <p>Puestos de Empleo</p>
           </ul>
         </div>
@@ -71,7 +71,7 @@ function Detail() {
         <div className="container1">
           <img src={Imagen6} className="imgDetail" alt={"Imagen"} />
           <ul>
-            <h1>12</h1>
+            <h4>12</h4>
             <p>Comunas Beneficiadas</p>
           </ul>
         </div>

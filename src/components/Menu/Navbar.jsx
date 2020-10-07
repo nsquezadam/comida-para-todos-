@@ -5,7 +5,7 @@ import LinksNavbar from './LinksNavbar';
 import LinksRRSS from './LinksRRSS';
 import BtnDonate from './BotonDonar';
 import '../../assets/styles/components/Navbar.scss';
-import '../../assets/styles/components/menu/LinkRRSSscss;'
+import '../../assets/styles/components/menu/LinkRRSS.scss'
 
 const Navbar = () => {
   return (

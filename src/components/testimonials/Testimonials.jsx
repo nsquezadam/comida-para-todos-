@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
 import TestimonialsText from './TestimonialsText'
-import Img1 from '../../assets/static/images/imgTestimonials/testimonail_1.jpg'
+import Img1 from '../../assets/static/images/imgTestimonials/.testimonail_1.jpg.icloud'
 import '../../assets/styles/components/Testimonials.scss'
 
 
 const Testimonials = () => {
-    
+
        
 
        
