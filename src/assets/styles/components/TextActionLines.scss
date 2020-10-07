@@ -1,5 +1,6 @@
 @import "../Variables.scss";
 
+<<<<<<< HEAD
 .title-description-actionLines {
   justify-content: center;
   box-sizing: border-box;
@@ -8,6 +9,15 @@
   background-color: $textColor8;
   padding-top: 8%;
 }
+=======
+.title-description-actionLines{
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 74vh;
+    background-color: $textColor8;
+    padding-top: 8%;
+>>>>>>> develop
 
 .title-actionLines {
   text-align: center;

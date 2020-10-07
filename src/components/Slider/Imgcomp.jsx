@@ -7,7 +7,7 @@ import '../../assets/styles/components/Slider.scss';
 function ImgComp({ src, textSlide, textSlide2, btnSelect}) {
     let imgStyles ={
         width:100+"%",
-        height:"auto"
+        height:"100%",
     }
 
    

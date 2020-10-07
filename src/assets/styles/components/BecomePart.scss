@@ -1,10 +1,29 @@
+<<<<<<< HEAD
 @import "../Variables.scss";
+=======
+@import '../Variables.scss'; 
+
+.containerBecome{
+    width: 100vw;
+    height: 971px;
+    margin-top: 1350px;
+}
+
+.container-titleSection{
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+>>>>>>> develop
 
 .container-titleSection {
   justify-content: center;
   box-sizing: border-box;
   width: 100%;
 }
+.container-section-imgText{
+    margin-left: 2vw;
+}
+
 
 .content-text {
   text-align: center;
@@ -14,6 +33,7 @@
   padding-bottom: 6%;
 }
 
+<<<<<<< HEAD
 .content-section-img-text {
   text-align: center;
   width: 146%;
@@ -25,6 +45,16 @@
   margin-left: -9%;
   padding-bottom: 19%;
   margin-top: -3%;
+=======
+.content-section-img-text{
+    text-align: center;
+    margin-left: -62px;
+    font-size: 0.7rem;
+    padding-right: 55px;
+    width: 100%;
+    margin-left: -7%;
+    padding-bottom: 19%;
+>>>>>>> develop
 }
 .title-becamePart {
   text-align: center;
@@ -53,6 +83,19 @@
   display: flex;
   flex-wrap: nowrap;
 }
+<<<<<<< HEAD
+=======
+.section-img-text{
+    display: inline-block;
+    flex-wrap: nowrap;
+    width: 14%;
+    padding-bottom: 8%;
+    height: 20%;
+    justify-content: space-around;
+   
+    margin-left: 81px;
+    color: $textColor1;
+>>>>>>> develop
 
 .section-img-text {
   //display: inline-block;
@@ -85,10 +128,24 @@
   float: left;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
   .title-becamePart {
     font-size: 1.5rem;
   }
+=======
+.button-becamePart{
+    width: 67%;
+    height: 50px;
+   
+    background-color: $textColor3;
+    border: 1px solid $textColor; 
+    border-radius: 5px;
+    font-weight: 185px;
+    margin-left: 7%;
+    color:$textColor5; 
+    font-weight: 500;
+>>>>>>> develop
 
   .content-text {
     font-size: 0.8rem;

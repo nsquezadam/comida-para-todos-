@@ -5,27 +5,25 @@ width: 100vw;
 max-height: 958px;
 margin-left: 0;
 margin-right: 0;
-
 padding: 0;
 display: flex;
 align-items: center;
 // position: absolute;
 overflow: hidden;
+margin-top: 90px;
 
 
 
 }
 .container-slideText{
-    display: flex;
-
-
-    
+    display: flex;  
 }
 
 .slide{
-    min-width:100vw;
-    min-height: 100%;
-    transition: 0.5s;
+    width: 100%;
+    min-width: 100vw;
+    //transition: 0.3s;
+    transition:transform 0.3s ease-out;
     
    
    
@@ -33,30 +31,24 @@ overflow: hidden;
 }
 // texto slide
 .container-text{
-    width: 540px;
+    width: 37.5vw;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 5vh;
+    margin-left: 3vw;
     color: $textColor3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-   
-
 }
-
 .textSlide{
    
-    font-size: 2rem;
+    font-size: 2.5vw;
     font-weight: 400;
     margin-left: 3vw;
-
-   
-
 }
 .textSlide2{
 
-    font-size: 2.3em;
+    font-size: 3vw;
     font-weight: 700;
     margin-left: 3vw;
 
@@ -66,8 +58,8 @@ overflow: hidden;
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
+    width: 4vw;
+    height: 7vh;
     background: transparent;
     border-style: none;
 
@@ -77,11 +69,13 @@ overflow: hidden;
 #goLeft{
     left:0;
     @extend %btn-Styles;
+    font-size: 4vw;
 }
 
 #goRight{
     right:0;
     @extend %btn-Styles;
+    font-size: 4vw;
 }
 
 //boton  select 
@@ -100,11 +94,11 @@ overflow: hidden;
 //     border-style: none;
 // }
 .btnSelect2{
-    margin-top: 3vh;
+    margin-top: 2vh;
     margin-left: 3vw;
     text-decoration: none;
-    color: $firstColor;
-    font-size: 1.125rem;
+    color: $textColor5;
+    font-size: 1.25vw;
     text-align: center;
     width: 145px;
     height: 50px; 
@@ -113,5 +107,57 @@ overflow: hidden;
     border-radius: 5pt;
     overflow: hidden;
     border-style: none;
-
 }
+//dots
+
+
+    @media (max-width:769px){
+        .btnSelect2{
+            width: 132px;
+            height: 41px;
+            font-size: 14px; 
+            background-color: $textColor5;
+            color: $textColor7;
+            line-height: 17px;
+            margin-top: 1vh;
+        }
+        .textSlide{
+   
+            font-size: 2.7vw;
+            font-weight: 500;
+            margin-left: 4vw;
+        }
+        .textSlide2{
+        
+            font-size: 3.2vw;
+            font-weight: 700;
+            margin-left: 4vw;
+        
+        }
+        .container-text{
+            
+            margin-top: 3vh;
+         
+           
+        }
+        #goLeft{
+            left:0;
+            top:33%;
+            transform: translateY(-50%);
+            width: 4vw;
+            height: 7vh;
+            font-size: 4vw;
+        }
+        
+        #goRight{
+            right:0;
+            top:33%;
+            transform: translateY(-50%);
+            width: 4vw;
+            height: 7vh;
+            font-size: 4vw;
+        }
+        
+
+
+    }

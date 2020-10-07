@@ -1,7 +1,11 @@
 import React, {Fragment} from 'react'; 
 import "../../assets/styles/components/News.scss";
+<<<<<<< HEAD
 // import CardNews from './CardNews';
 import TextNews from './TextNews'; 
+=======
+import TextNews from '../Community/TextNews'; 
+>>>>>>> develop
 // import LinkMore from './LinkMore';import TextNews from './TextNews';
 import news1 from "../../assets/static/Pics/news1.jpg";
 import news2 from "../../assets/static/Pics/news2.JPG";

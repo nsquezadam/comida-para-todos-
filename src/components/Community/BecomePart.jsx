@@ -13,10 +13,15 @@ const BecomePart = (props) => {
     }, []);
     return (
         <Fragment>
+<<<<<<< HEAD
         
+=======
+          <div className="containerBecome">
+>>>>>>> develop
             <div className= "container-titleSection">
             <div className="title-becamePart"><p>Hazte parte</p></div>
             <div className="content-text"><p>Fomentamos la participación colectiva para generar alimento bueno, empleo, educación y comunidad.</p></div>
+            <div className="container-section-imgText">
             </div>
            
                 {donate.map((item, index) => {
@@ -50,9 +55,16 @@ const BecomePart = (props) => {
                         </div>
                       
                     );
+<<<<<<< HEAD
                              })}
               
             
+=======
+                })}
+                </div>
+               
+               </div>
+>>>>>>> develop
         </Fragment>
       
  
