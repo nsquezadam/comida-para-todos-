@@ -14,6 +14,9 @@ import Slider from './components/slider/Slider';
  import NavBarR from './components/Menu/toolbar/NavbarR'
 
 
+
+
+
 function App() {
   
 
@@ -36,7 +39,8 @@ function App() {
           </Router>
         </div>
         <div>
-           <Slider />
+            <Slider autoPlay={5}/> 
+  
         </div>
         <div>
           {/* <Message /> */}
