@@ -18,7 +18,7 @@ let sliderArr = [<ImgComp
     src={i1}
     textSlide="700mil personas padecen inseguridad alimentaria severa en Chile"
     textSlide2="Ayúdanos a combatir el hambre en nuestras comunidades."
-    btnSelect="Has tu Aporte"
+    btnSelect="Haz tu Aporte"
     />,
     <ImgComp
     src={i2}
@@ -36,13 +36,11 @@ let sliderArr = [<ImgComp
 
 function Slider( props) {
     const [X, SetX] = useState(0)
-
-
-
+    const [activeAutoplay, setActiveAutoplay] = useState(true);
 
 
   const goLeft = () => {
-    X === 0 ? SetX(-100 * (sliderArr.length - 1)) : SetX(X + 100);
+    X === 0 ? SetX(-100 * (sliderArr.length-1)) : SetX(X + 100);
   };
   const goRight = () => {
     X === -100 * (sliderArr.length - 1) ? SetX(0) : SetX(X - 100);
@@ -50,10 +48,14 @@ function Slider( props) {
 
    const autoPlayRef = useRef()
    useEffect(() => {
-    autoPlayRef.current = goLeft;
+     if (activeAutoplay === true){
+
+   
+    autoPlayRef.current = goLeft;  }
   })
 
   useEffect(() => {
+    
    const play = () => {
      autoPlayRef.current()
    }
@@ -61,11 +63,23 @@ function Slider( props) {
    const interval = setInterval(play, props.autoPlay * 1000)
    return () => clearInterval(interval)
  }
- , [props.autoPlay])
+ , [props.autoPlay, activeAutoplay])
+
+  /* Play Timer */
+  const playTimer = () => {
+   console.log("play Timer");
+   setActiveAutoplay(true);
+ };
+
+/* Pause Timer */
+const pauseTimer = () => {
+  console.log("pause Timer");
+setActiveAutoplay(false);
+};
 
 
     return (
-        <div className='slider' >
+        <div className='slider' onMouseEnter={pauseTimer} onMouseLeave={playTimer} >
 
             {sliderArr.map((item, index) => {
                 return (
