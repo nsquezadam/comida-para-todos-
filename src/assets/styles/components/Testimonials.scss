@@ -1,8 +1,8 @@
 @import '../Variables.scss'; 
 .container-Testimonial{
-    margin-top: 5344px;
+  
     width: 100vw;
-    height: 1102px;
+    height: 900px;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -36,14 +36,14 @@
 .testimonial{
     text-align: center;
     color:$textColor1;
-    font-size: 2em;   
-    margin-top: 30%;
+    font-size: 1.8em;   
+    margin-top: 18%;
 }
 .testimonialName{
     color:$textColor3;
     font-size: 1em;
-    margin-top: 5%;
-    margin-left: 60%;
+    margin-top: 2%;
+    margin-left: 50%;
 
 }
 .testimonialWhere{
@@ -51,7 +51,7 @@
     color:$textColor1;
     font-size: 1em;
     margin-top: 1%;
-    margin-left: 60%;
+    margin-left: 50%;
     
 }
 // estilos  imagen  

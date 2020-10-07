@@ -1,20 +1,33 @@
 @import '../../assets/styles/Variables.scss'; 
 
 .containerDetails{
-    width: 100vw;
+width: 100vw;
 height: 430px;
-margin-top: 30vh;
+margin-top: 20vh;
 position: absolute;
 }
 .containerBoxDetails{
-    margin-left: 3vw;
+    width: 75.76vw;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 12vw;
+     
+
 }
 .boxContainerDetail {
-    display:inline-block;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    width: 18.5vw;
+    height: 42.8vh;
+    text-align: center;
     //margin-block-end: 10.45rem;
     position: relative;
+  
+}
+.boxContainerDetail ul {
+   margin-top: 3vw;
+  
 }
 .container1 {
     margin-left: 2vw;
@@ -29,5 +42,6 @@ position: absolute;
     width: 50%;
     height: 50%;
     margin-top: 3.35rem;
-  
+    margin-bottom: 2vw;
 }
+  

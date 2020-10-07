@@ -1,0 +1,15 @@
+@import '../../Variables.scss'; 
+
+.btnSearch{
+    border-style: none;
+
+}
+.container-inputsearch{
+    width: 100vw;
+    height: 100vh;
+}
+.inputSearch{
+    width: 36.66vw;
+    height: 7.26vh;
+    background-color: $textColor3;
+}
