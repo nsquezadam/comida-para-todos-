@@ -10,15 +10,21 @@ const Home = () => {
     return (
       <Fragment>
         <div className="container-home">
-          <div className="container-sections-home">{/* <Navbar /> */}</div>
-          <div className="container-sections-home"> <BecomePart /></div>
+          <div className="container-sections-home">
+            {/* <Navbar /> */}
+            </div>
+          <div className="container-sections-home">
+             <BecomePart />
+             </div>
           <div className="container-sections-home">
             <ActionLines />
           </div>
           <div className="container-sections-home4">
             <News />
           </div>
-          <div className="container-sections-home5"><Footer /></div>
+          <div className="container-sections-home5">
+            <Footer />
+            </div>
         </div>
       </Fragment>
     );

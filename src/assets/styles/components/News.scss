@@ -81,12 +81,16 @@
     color: #333333;
     display: flex;
     // margin-top: -562px;
+    position: absolute;
+    margin-top: -580%;
   }
   .background-news {
     height: 36vh;
     width: 68vw;
   }
- 
+  .more {
+    margin-top: -6%;
+  }
 }
 
 /*.container-principal-news{

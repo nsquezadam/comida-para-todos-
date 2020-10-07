@@ -1,7 +1,7 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 import LogoFooter from "./LogoFooter";
 import RRSSFooter from "./RRSSFooter";
-import '../../assets/styles/components/Footer.scss'; 
+import "../../assets/styles/components/Footer.scss";
 import { Link } from "react-router-dom";
 // import LogoFooter from './LogoFooter';
 
@@ -18,36 +18,66 @@ const Footer = () => {
                 <li>
                   <Link className="links">Sobre nosotros</Link>
                 </li>
-                <li>Nuestro equipo</li>
-                <li>Rendición de cuenta</li>
-                <li>Nuestra meta</li>
+                <li>
+                  <Link className="links">Nuestro equipo</Link>
+                </li>
+                <li>
+                  <Link className="links">Rendición de cuenta</Link>
+                </li>
+                <li>
+                  <Link className="links">Nuestra meta</Link>
+                </li>
               </ul>
             </div>
             <div className="col">
               <p className="title-footer">Qué hacemos</p>
               <ul className="list">
-                <li>Campaña solidaria de emergencia</li>
-                <li>Banco de alimentos</li>
-                <li>Escuelas</li>
-                <li>Plataforma solidaria</li>
+                <li>
+                  <Link className="links">Campaña solidaria de emergencia</Link>
+                </li>
+                <li>
+                  <Link className="links">Banco de alimentos</Link>
+                </li>
+                <li>
+                  <Link className="links">Escuelas</Link>
+                </li>
+                <li>
+                  <Link className="links">Plataforma solidaria</Link>
+                </li>
               </ul>
             </div>
             <div className="col">
               <p className="title-footer">Hazte parte</p>
               <ul className="list">
-                <li>Almuerzos solidarios</li>
-                <li>Sé voluntario</li>
-                <li>Huertos urbanos</li>
-                <li>Banco de alimentos</li>
-                <li>Clases y capacitaciones</li>
+                <li>
+                  <Link className="links">Almuerzos solidarios</Link>
+                </li>
+                <li>
+                  <Link className="links">Sé voluntario</Link>
+                </li>
+                <li>
+                  <Link className="links">Huertos urbanos</Link>
+                </li>
+                <li>
+                  <Link className="links">Banco de alimentos</Link>
+                </li>
+                <li>
+                  <Link className="links">Clases y capacitaciones</Link>
+                </li>
               </ul>
             </div>
             <div className="col">
               <p className="title-footer">Novedades</p>
               <ul className="list">
-                <li>Testimonios</li>
-                <li>Galeria multimedia</li>
-                <li>Noticias</li>
+                <li>
+                  <Link className="links">Testimonios</Link>
+                </li>
+                <li>
+                  <Link className="links">Galeria multimedia</Link>
+                </li>
+                <li>
+                  <Link className="links">Noticias</Link>
+                </li>
               </ul>
             </div>
             <div className="col">
@@ -56,8 +86,12 @@ const Footer = () => {
             <div className="col-info-questions">
               <p className="title-footer-questions">Preguntas frecuentes</p>
               <ul className="list">
-                <li>¿Cómo puedo colaborar?</li>
-                <li>Trabaja con nosotros</li>
+                <li>
+                  <Link className="links">¿Cómo puedo colaborar?</Link>
+                </li>
+                <li>
+                  <Link className="links">Trabaja con nosotros</Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -71,7 +105,6 @@ const Footer = () => {
       </div>
 
       <div className="RRSS-footer">
-        
         <RRSSFooter />
       </div>
     </Fragment>
@@ -79,4 +112,3 @@ const Footer = () => {
 };
 
 export default Footer;
-  
