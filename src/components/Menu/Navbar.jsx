@@ -7,7 +7,7 @@ import BtnDonate from './BotonDonar';
 import '../../assets/styles/components/Navbar.scss';
 import '../../assets/styles/components/menu/LinkRRSSscss;'
 
-const Navbar = () => {
+const NavBar = () => {
   return (
 
     <Fragment>
@@ -26,4 +26,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar;
+export default NavBar;

@@ -9,11 +9,15 @@ const BecomePart = (props) => {
     useEffect(() => {
         fetch('donate.json')
             .then(response => response.json())
-            .then(data => setDonate(donate = data));
+            .then(data => setDonate(data));
     }, []);
     return (
         <Fragment>
+<<<<<<< HEAD
+        
+=======
           <div className="containerBecome">
+>>>>>>> develop
             <div className= "container-titleSection">
             <div className="title-becamePart"><p>Hazte parte</p></div>
             <div className="content-text"><p>Fomentamos la participación colectiva para generar alimento bueno, empleo, educación y comunidad.</p></div>
@@ -22,7 +26,7 @@ const BecomePart = (props) => {
            
                 {donate.map((item, index) => {
                     return (
-                      
+                     
                         <div className="section-img-text" key={index}>
                           {/* <div className="section"> */}
 
@@ -33,24 +37,36 @@ const BecomePart = (props) => {
                           ></img>
 
                           <div>
-                            <h5 className="title-section-img-text">{item.title}</h5>
+                            <h5 className="title-section-img-text">
+                              {item.title}
+                            </h5>
                           </div>
                           <div>
                             <p className="content-section-img-text">
                               {item.description}
                             </p>
                           </div>
-
-                          <button className="button-becamePart">{item.button}</button> 
+                          <div>
+                            <button className="button-becamePart">
+                              {item.button}
+                            </button>
+                          </div>
                           {/* </div> */}
                         </div>
                       
                     );
+<<<<<<< HEAD
+                             })}
+              
+            
+=======
                 })}
                 </div>
                
                </div>
+>>>>>>> develop
         </Fragment>
+      
  
            ) }
     

@@ -1,0 +1,15 @@
+@import "../Variables.scss";
+
+.container-home {
+  display: inline-grid;
+  margin: 15% auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container-sections-home4 {
+    padding-top: 170vh;
+  }
+  .container-sections-home5 {
+    padding-top: 170vh;
+  }
+}
