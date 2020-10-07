@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
     "@iconify/icons-bytesize": "^1.0.3",
     "@iconify/icons-cib": "^1.0.3",
     "@iconify/icons-entypo-social": "^1.0.5",

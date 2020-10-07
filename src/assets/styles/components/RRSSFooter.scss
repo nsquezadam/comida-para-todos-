@@ -1,0 +1,20 @@
+@import "../Variables.scss";
+
+.BoxContainerRRSS-footer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: -12%;
+  // padding-top: 2%;
+}
+
+.containerRRSS-Footer {
+  font-size: 2rem;
+  padding: 4pt;
+}
+
+@media screen and (max-width: 768px) {
+  .BoxContainerRRSS-footer {
+    margin-top: -36%;
+  }
+}

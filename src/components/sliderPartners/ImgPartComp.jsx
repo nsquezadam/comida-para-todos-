@@ -3,7 +3,7 @@ import React from 'react';
 
 function ImgPartComp({ src }) {
     let imgStyles ={
-        width: 15+"%",
+        width: 100+"%",
         height:"auto"
     }
     return <img src={src} alt="slider-Img" style={imgStyles}></img>;
