@@ -71,7 +71,7 @@ const Footer = () => {
       </div>
 
       <div className="RRSS-footer">
-        {" "}
+        
         <RRSSFooter />
       </div>
     </Fragment>

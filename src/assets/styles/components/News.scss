@@ -20,7 +20,7 @@
 
 .title-text-news {
   font-size: 1.1rem;
-  color:$textColor1;
+  color: $textColor1;
   margin-left: 2%;
   font-weight: 700;
   width: 17vw;
@@ -63,7 +63,35 @@
   background-color: $textColor3;
   height: 43vh;
 }
+
+@media screen and (max-width: 768px) {
+  .img-news {
+    width: 68vw;
+    height: 35vh;
+    image-rendering: -webkit-optimize-contrast;
+    object-fit: cover;
+    margin-top: 17%;
+  }
+  .container-img-news {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 70vh;
+    margin-right: 71px;
+    margin-left: 71px;
+    color: #333333;
+    display: flex;
+    // margin-top: -562px;
+  }
+  .background-news {
+    height: 36vh;
+    width: 68vw;
+  }
+ 
+}
+
 /*.container-principal-news{
+    
+    
     display: flex;
     flex-direction: rowe; 
     width: 99vw;

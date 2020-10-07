@@ -11,15 +11,11 @@ const ActionLines = () => {
     <Fragment>
       <TextActionLines />
       <div className="container-img-actionLines">
-        <div>
-          <img 
-          src={campaña} 
-          className="img-actionLines" 
-          alt={"campaña"} 
-          />
+        <div className="img-responsive">
+          <img src={campaña} className="img-actionLines" alt={"campaña"} />
           <p className="name-actionLine">Campaña solidaria de emergencia</p>
         </div>
-        <div>
+        <div className="img-responsive">
           <img
             src={bancodealimentos}
             className="img-actionLines"
@@ -27,14 +23,11 @@ const ActionLines = () => {
           />
           <p className="name-actionLine">Banco de alimentos</p>
         </div>
-        <div>
-          <img src={escuela} 
-          className="img-actionLines" 
-          alt={"escuela"} 
-          />
+        <div className="img-responsive">
+          <img src={escuela} className="img-actionLines" alt={"escuela"} />
           <p className="name-actionLine">Escuela</p>
         </div>
-        <div>
+        <div className="img-responsive">
           <img
             src={plataformasolidaria}
             className="img-actionLines"

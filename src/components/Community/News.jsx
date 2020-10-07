@@ -14,7 +14,7 @@ const News = () => {
     <Fragment>
       <TextNews />
       <div className="container-img-news">
-        <div>
+        <div className="content-news-text-images">
           <img src={news1} className="img-news" alt={"news1"} />
           <div className="background-news">
             <p className="title-text-news">Campaña de navidad 2020</p>
