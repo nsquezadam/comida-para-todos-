@@ -1,3 +1,5 @@
+@import './Variables.scss';
+//box de  textos  
 .containerGoals{
     margin-top: 38.177vw;
     position: absolute;
@@ -5,38 +7,84 @@
     height: 50.843vw;
     display: inline-flex;
     flex-direction: row;
-    background: url(../static/Pics/goals.png);
+    background: url(../static/Pics/goals.jpg);
     overflow: hidden;
     background-size: cover;
 }
-
+// textos
 .containerBoxGoals{
+<<<<<<< HEAD
     width: 36.809vw;
     font-style: normal;
     font-weight: normal;
     letter-spacing: -0.015em;
     font-size: 1.38vw;
     line-height: 1.84vw;
+=======
+    width: 580px;
+    
+>>>>>>> 0049850addb8ab2afb88f57bda004e1652a09e39
     display: flex;
     flex-direction: column;
     margin-top: 15vh;
+<<<<<<< HEAD
     margin-left: 180%;
     box-sizing: border-box;
+=======
+    margin-left: 140%;
+>>>>>>> 0049850addb8ab2afb88f57bda004e1652a09e39
 }
+.containerBoxGoals h5{
 
+<<<<<<< HEAD
 .Goals{   
     font-size: 100.20vw;
     line-height: 15.834vw;    
     letter-spacing: -0.015em;
     color: #FFF8F8;
+=======
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.6vw;
+    color: $textColor3;
+
+ 
+}
+.containerBoxGoals p{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color:$textColor3;
+
+ 
+>>>>>>> 0049850addb8ab2afb88f57bda004e1652a09e39
 }
 
-.styleGoals{
+
+// .Goals{   
+//     font-size: 36px;
+//     line-height: 50px;    
+//     letter-spacing: -0.015em;
+//     color: #FFF8F8;
+// }
+
+.containerBoxGoals .styleGoals{
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
+<<<<<<< HEAD
     font-size: 1.38vw;
     line-height: 1.84vw;
     letter-spacing: -0.015em;
     color: #333333;
 }
+=======
+    font-size: 1.3vw;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color:$textColor1;
+    margin-left: 4vw;
+    margin-top: 2vh;
+ }
+>>>>>>> 0049850addb8ab2afb88f57bda004e1652a09e39

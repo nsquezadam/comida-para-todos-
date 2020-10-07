@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef}from 'react';
+import React, {useState, useEffect}from 'react';
 import ImgPartComp from './ImgPartComp'
 
 import '../../assets/styles/components/SliderPart.scss'
@@ -16,8 +16,9 @@ import Im8 from '../../assets/static/images/imgPartners/PEBRE.png'
 
 
 
-const  SliderPart = (props) =>{
-    const [X, SetX] = useState(0);
+const  SliderPart = (props, items = []) => {
+
+    
     let arrayPartners = [<ImgPartComp src={Im1} />,
         <ImgPartComp src={Im2} />,
         <ImgPartComp src={Im3} />,
@@ -27,8 +28,26 @@ const  SliderPart = (props) =>{
         <ImgPartComp src={Im7} />,
         <ImgPartComp src={Im8} />]
   
-        const goLeft = () => {
-          X === 0 ? SetX(-40 * (arrayPartners.length - 1)) : SetX(X + 30);
+      const[Current, setCurrent] =useState(
+        items && arrayPartners.length > 0? 0:undefined);
+      const next = () => setCurrent((Current + 1) % arrayPartners.length);
+      const prev = () => setCurrent(Current ? Current - 1 : arrayPartners.length - 1);
+      const [auto, setAuto] = useState(false);
+ 
+      useEffect(() => {
+        const interval = setInterval(_ => {
+          if (auto) {
+            next();
+          } else {
+            prev();
+          }
+        }, 6000);
+        return _ => clearInterval(interval);
+      });
+
+
+      /*const goLeft = () => {
+          X === 0 ? SetX(-100* (arrayPartners.length -1)) : SetX(X + 150);
         };
         const autoPlayRef = useRef()
         useEffect(() => {
@@ -43,13 +62,13 @@ const  SliderPart = (props) =>{
         const interval = setInterval(play, props.autoPlay * 1000)
         return () => clearInterval(interval)
       }
-      , [props.autoPlay])
+      , [props.autoPlay])*/
   return(
       <div className="containerSlideP" >
         <div className="sliderPartners">
             {arrayPartners.map((item, index) => {
                 return (
-                    <div key={index} className="slidePartner" style={ {transform:`translateX(${X}%)`} }>
+                    <div key={index} className="slidePartner" style={ {transform:`translateX(${Current}%)`} }>
                         {item}
                     </div>
                 )
@@ -62,3 +81,5 @@ const  SliderPart = (props) =>{
 
 
   export default SliderPart;
+
+  

@@ -5,13 +5,13 @@
 }
 .container-img-actionLines {
   flex-wrap: nowrap;
-  height: 70vh;
+  height: auto;
   margin-right: 71px;
   margin-left: 71px;
   color: $textColor1;
   display: flex;
   justify-content: space-between;
-  margin-top: -90px;
+  margin-top: -100px;
 }
 
 .img-actionLines {

@@ -1,13 +1,14 @@
 @import "../Variables.scss";
 
 .title-description-news {
-  justify-content: center;
-  box-sizing: border-box;
   width: 100%;
-  height: 82vh;
   background-color: $textColor7;
-  padding-top: 8%;
-  height: 155vh;
+  padding-top: 2vh;
+  height: 50vh;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .title-news {
@@ -18,7 +19,7 @@
   line-height: 72px;
   color: $textColor1;
   width: 100%;
-  margin-top: -3%;
+ 
 }
 
 .content-text-news {
@@ -30,7 +31,7 @@
   margin-right: 19%;
   font-size: 1.5rem;
   line-height: 32pt;
-  padding-bottom: 6%;
+ 
   color: $textColor6;
   font-family: "Montserrat", sans-serif;
 }

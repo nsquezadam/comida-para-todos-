@@ -8,8 +8,8 @@ const GoalsTxt = () => {
                 entregar 500.000 almuerzos, generando 
                 un impacto colectivo</strong></p>
             <p>Con tu aporte podemos lograrlo</p>
-            <div className= "styleGoals">
-                <p>>Nuestra meta</p>
+            <div >
+                <p className= "styleGoals"> >Nuestra meta </p>
             </div>
         </div>
     )
