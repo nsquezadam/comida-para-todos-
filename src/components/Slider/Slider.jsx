@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import ImgComp from "./Imgcomp";
 import i1 from "../../assets/static/Pics/1.jpg";
 import i2 from "../../assets/static/Pics/2.jpg";
@@ -47,19 +47,21 @@ function Slider( props) {
   const goRight = () => {
     X === -100 * (sliderArr.length - 1) ? SetX(0) : SetX(X - 100);
   };
-//   const autoPlayRef = useRef()
-//   useEffect(() => {
-//    autoPlayRef.current = goLeft
-//  })
 
-//  useEffect(() => {
-//   const play = () => {
-//     autoPlayRef.current()
-//   }
+   const autoPlayRef = useRef()
+   useEffect(() => {
+    autoPlayRef.current = goLeft;
+  })
 
-//   const interval = setInterval(play, props.autoPlay * 1000)
-//   return () => clearInterval(interval)
-// }, [])
+  useEffect(() => {
+   const play = () => {
+     autoPlayRef.current()
+   }
+
+   const interval = setInterval(play, props.autoPlay * 1000)
+   return () => clearInterval(interval)
+ }
+ , [props.autoPlay])
 
 
     return (
@@ -72,9 +74,12 @@ function Slider( props) {
                     </div>
                 )
             })}
+      
 
-            <button id="goLeft" onClick={goLeft}><Icon icon={chevronLeft} color="#FFFFFF"  /></button>
-            <button id="goRight" onClick={goRight}><Icon icon={chevronRight} color="#FFFFFF"  /></button>
+          <button id="goLeft" onClick={goLeft}><Icon icon={chevronLeft} color="#FFFFFF"  /></button>
+          <button id="goRight" onClick={goRight}><Icon icon={chevronRight} color="#FFFFFF"  /></button>
+      
+          
           
     </div>
 
