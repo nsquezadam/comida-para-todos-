@@ -16,6 +16,7 @@ import Slider from './components/slider/Slider';
 
 
 
+
 function App() {
   
 
@@ -38,7 +39,8 @@ function App() {
           </Router>
         </div>
         <div>
-           <Slider />
+            <Slider autoPlay={5}/> 
+  
         </div>
         <div>
           {/* <Message /> */}
