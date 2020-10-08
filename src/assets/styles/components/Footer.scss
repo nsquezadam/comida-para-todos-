@@ -1,4 +1,9 @@
 @import "../Variables.scss";
+.fatherFooter{
+  width: 100vw;
+  height: 66vh;
+
+}
 
 .main-footer {
   background-color: $textColor1;
@@ -6,12 +11,18 @@
   padding-top: 3rem;
   // position: relative;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   display: flex;
-  height: 66vh;
+  height: 280px;
+ 
+  flex-direction: row;
 }
 .container-footer {
-  padding-left: 2%;
+  display: flex;
+  flex-direction: row;
+   width: 80%;
+   margin-left: 7vw;
+   height: 200px;
 }
 .title-footer {
   font-weight: 600;
@@ -28,21 +39,26 @@
   font-size: 13px;
   line-height: 2;
 }
+.develop{
+  width: 100%;
+  text-align: center ;
+  position: absolute;
+  background-color: $textColor1;   
+  height: 70px;
+  padding-top: 3vh;
+}
+.develop p {
 
-.col-info {
-  width: 22vw;
   font-size: 0.8rem;
-  text-align: center;
-  margin-left: 26%;
-  background-color: $textColor1;
   color: $textColor3;
-  padding-top: 7%;
+
+
 }
 .col-info-questions {
   width: 21vw;
 }
 .RRSS-footer {
-  margin-top: -11%;
+ width: 100vw;
 }
 
 .links {

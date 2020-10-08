@@ -5,6 +5,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import NavBarR from './components/Menu/toolbar/NavbarR'
 //import Home from './components/Home'; 
 //import Navbar from './components/Menu/Navbar'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 529122975109552193bd11caf1e1397b4f022e08
 import Slider from './components/Slider/Slider';
 import Message from './components/Message/Message';
 import Detail from '../src/components/Detail/Detail';
@@ -15,7 +19,11 @@ import ContacForm from './components/contacForm/ContacForm';
 import Testimonials from './components/testimonials/Testimonials';
 import ActionLines from './components/Community/ActionLines'
 import SliderPart from './components/sliderPartners/SliderPart';
+<<<<<<< HEAD
 //import Footer from './components/footer/Footer';
+=======
+import Footer from './components/footer/Footer';
+>>>>>>> 529122975109552193bd11caf1e1397b4f022e08
 
 function App() {
   return (
@@ -63,6 +71,7 @@ function App() {
         </div>
         <div>
           <Testimonials />
+<<<<<<< HEAD
         </div>
         <div>
           <SliderPart />
@@ -73,6 +82,18 @@ function App() {
         <div>
           {/* <Footer/> */}
         </div>
+=======
+      </div>
+      <div>
+        <SliderPart />
+      </div>
+      <div>
+           <ContacForm/>
+      </div>
+      <div>
+        <Footer style= {{height: '492px', background: '#333333'}}/> 
+      </div>
+>>>>>>> 529122975109552193bd11caf1e1397b4f022e08
       </div>
     </Fragment>
   );
