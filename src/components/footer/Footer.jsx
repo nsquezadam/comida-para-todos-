@@ -2,12 +2,13 @@ import React, { Fragment } from "react";
 import LogoFooter from "./LogoFooter";
 import RRSSFooter from "./RRSSFooter";
 import "../../assets/styles/components/Footer.scss";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 // import LogoFooter from './LogoFooter';
 
 const Footer = () => {
   return (
     <Fragment>
+      <div className="fatherFooter">
       <div className="main-footer">
         <LogoFooter />
         <div className="container-footer">
@@ -16,16 +17,16 @@ const Footer = () => {
               <p className="title-footer">Conócenos</p>
               <ul className="list">
                 <li>
-                  <Link className="links">Sobre nosotros</Link>
+                  <a href="/" className="links">Sobre nosotros</a>
                 </li>
                 <li>
-                  <Link className="links">Nuestro equipo</Link>
+                  <a href="/" className="links">Nuestro equipo</a>
                 </li>
                 <li>
-                  <Link className="links">Rendición de cuenta</Link>
+                  <a href="/" className="links">Rendición de cuenta</a>
                 </li>
                 <li>
-                  <Link className="links">Nuestra meta</Link>
+                  <a href="/" className="links">Nuestra meta</a>
                 </li>
               </ul>
             </div>
@@ -33,16 +34,16 @@ const Footer = () => {
               <p className="title-footer">Qué hacemos</p>
               <ul className="list">
                 <li>
-                  <Link className="links">Campaña solidaria de emergencia</Link>
+                  <a href="/" className="links">Campaña solidaria de emergencia</a>
                 </li>
                 <li>
-                  <Link className="links">Banco de alimentos</Link>
+                  <a href="/" className="links">Banco de alimentos</a>
                 </li>
                 <li>
-                  <Link className="links">Escuelas</Link>
+                  <a href="/" className="links">Escuelas</a>
                 </li>
                 <li>
-                  <Link className="links">Plataforma solidaria</Link>
+                  <a href="/" className="links">Plataforma solidaria</a>
                 </li>
               </ul>
             </div>
@@ -50,19 +51,19 @@ const Footer = () => {
               <p className="title-footer">Hazte parte</p>
               <ul className="list">
                 <li>
-                  <Link className="links">Almuerzos solidarios</Link>
+                  <a href="/" className="links">Almuerzos solidarios</a>
                 </li>
                 <li>
-                  <Link className="links">Sé voluntario</Link>
+                  <a href="/" className="links">Sé voluntario</a>
                 </li>
                 <li>
-                  <Link className="links">Huertos urbanos</Link>
+                  <a href="/" className="links">Huertos urbanos</a>
                 </li>
                 <li>
-                  <Link className="links">Banco de alimentos</Link>
+                  <a href="/" className="links">Banco de alimentos</a>
                 </li>
                 <li>
-                  <Link className="links">Clases y capacitaciones</Link>
+                  <a href="/" className="links">Clases y capacitaciones</a>
                 </li>
               </ul>
             </div>
@@ -70,13 +71,13 @@ const Footer = () => {
               <p className="title-footer">Novedades</p>
               <ul className="list">
                 <li>
-                  <Link className="links">Testimonios</Link>
+                  <a href="/" className="links">Testimonios</a>
                 </li>
                 <li>
-                  <Link className="links">Galeria multimedia</Link>
+                  <a href="/" className="links">Galeria multimedia</a>
                 </li>
                 <li>
-                  <Link className="links">Noticias</Link>
+                  <a href="/" className="links">Noticias</a>
                 </li>
               </ul>
             </div>
@@ -87,26 +88,29 @@ const Footer = () => {
               <p className="title-footer-questions">Preguntas frecuentes</p>
               <ul className="list">
                 <li>
-                  <Link className="links">¿Cómo puedo colaborar?</Link>
+                  <a href="/" className="links">¿Cómo puedo colaborar?</a>
                 </li>
                 <li>
-                  <Link className="links">Trabaja con nosotros</Link>
+                  <a href="/" className="links">Trabaja con nosotros</a>
                 </li>
               </ul>
             </div>
           </div>
+         
+        </div>
+        
+      </div>
+      <div className="RRSS-footer">
+        <RRSSFooter />
+      </div>
           <div className="develop">
             <p className="col-info">
               @ Comida para todos, 2020. Desarrollado por Baspe, Blanco, Marquez
               y Quezada.
             </p>
           </div>
-        </div>
-      </div>
-
-      <div className="RRSS-footer">
-        <RRSSFooter />
-      </div>
+          </div>
+     
     </Fragment>
   );
 };

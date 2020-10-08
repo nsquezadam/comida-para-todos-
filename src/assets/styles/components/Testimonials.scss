@@ -24,7 +24,7 @@
  width: 500px ;
  height: 500px;
  border-radius:225pt ;
- background-color: rgba(225,225,225, 0.8);
+ background-color: rgba(79,79,79, 0.31);
  display: flex;
  position: absolute;
  align-items: flex-start;
@@ -34,24 +34,24 @@
 }
 // estilos tag "p" de testimonials
 .testimonial{
-    text-align: center;
+    text-align: start;
     color:$textColor1;
     font-size: 1.8em;   
     margin-top: 18%;
+    margin-left: 10%;
 }
 .testimonialName{
     color:$textColor3;
     font-size: 1em;
     margin-top: 2%;
-    margin-left: 50%;
+    margin-left: 10%;
 
 }
 .testimonialWhere{
-    text-align: flex-end;
+    text-align: flex-start;
     color:$textColor1;
     font-size: 1em;
-    margin-top: 1%;
-    margin-left: 50%;
+    margin-left: 10%;
     
 }
 // estilos  imagen  
