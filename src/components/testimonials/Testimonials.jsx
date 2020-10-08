@@ -1,22 +1,10 @@
 import React, { Fragment } from 'react'
 import TestimonialsText from './TestimonialsText'
-<<<<<<< HEAD
-import Img1 from '../../assets/static/images/imgTestimonials/.testimonail_1.jpg.icloud'
-=======
 import Img1 from '../../assets/static/images/imgTestimonials/testimonial_1.jpg'
->>>>>>> 440d87afd389ceef396deb6e8c8ef2d98ea473c9
 import '../../assets/styles/components/Testimonials.scss'
 
 
 const Testimonials = () => {
-<<<<<<< HEAD
-
-       
-
-       
-    
-=======
->>>>>>> 440d87afd389ceef396deb6e8c8ef2d98ea473c9
     return (
         <Fragment>
             <div className="container-Testimonial">

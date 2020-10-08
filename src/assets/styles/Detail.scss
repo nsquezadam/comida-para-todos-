@@ -1,17 +1,10 @@
 @import '../../assets/styles/Variables.scss'; 
 
 .containerDetails{
-<<<<<<< HEAD
-    width: 100vw;
-    height: 32.975vw;
-    margin-top: 15vw;
-    position: absolute;
-=======
 width: 100vw;
 height: 430px;
 margin-top: 20vh;
 position: absolute;
->>>>>>> 0049850addb8ab2afb88f57bda004e1652a09e39
 }
 .containerBoxDetails{
     width: 75.76vw;
@@ -22,12 +15,6 @@ position: absolute;
 
 }
 .boxContainerDetail {
-<<<<<<< HEAD
-    display:inline-block;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    /*margin-block-end: 10.45rem;*/
-=======
     display: flex;
     flex-direction: column;
     padding: 1vw;
@@ -35,7 +22,6 @@ position: absolute;
     height: 42.8vh;
     text-align: center;
     //margin-block-end: 10.45rem;
->>>>>>> 0049850addb8ab2afb88f57bda004e1652a09e39
     position: relative;
   
 }
@@ -60,14 +46,7 @@ position: absolute;
 .imgDetail {
     width: 50%;
     height: 50%;
-<<<<<<< HEAD
-    margin-top: 8.01vh;
-  
-}
-
-=======
     margin-top: 3.35rem;
     margin-bottom: 2vw;
 }
   
->>>>>>> 0049850addb8ab2afb88f57bda004e1652a09e39
