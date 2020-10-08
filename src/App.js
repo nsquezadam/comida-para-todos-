@@ -10,7 +10,7 @@ import NavBarR from './components/Menu/toolbar/NavbarR'
 
 //import Navbar from './components/Menu/Navbar'
 
-import Slider from './components/slider/Slider';
+import Slider from './components/Slider/Slider';
 import Message from './components/Message/Message';
  import Detail from '../src/components/Detail/Detail';
  import Goals from './components/Goals/Goals';
