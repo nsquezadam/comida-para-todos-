@@ -20,8 +20,7 @@ import Message from './components/Message/Message';
 import ContacForm from './components/contacForm/ContacForm';
 import Testimonials from './components/testimonials/Testimonials';
 import SliderPart from './components/sliderPartners/SliderPart';
-
-//import Footer from './components/footer/Footer';
+import Footer from './components/footer/Footer';
 
 
 
@@ -80,7 +79,7 @@ function App() {
            <ContacForm/>
       </div>
       <div>
-        {/* <Footer/> */}
+        <Footer style= {{height: '492px', background: '#333333'}}/> 
       </div>
       </div>
     </Fragment>
