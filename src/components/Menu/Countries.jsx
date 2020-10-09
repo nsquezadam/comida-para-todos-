@@ -11,4 +11,4 @@ const Countries = () => {
     )
 }
 
-export default Countries
+export default Countries; 
