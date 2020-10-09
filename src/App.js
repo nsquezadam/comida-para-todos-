@@ -41,7 +41,7 @@ function App() {
               <Route path="/" exact>
                 <Home />
               </Route>
-              <Route path="/ conocenos">
+              <Route path="/conocenos">
                 <OurTeam />
                 </Route>
             </Switch>
