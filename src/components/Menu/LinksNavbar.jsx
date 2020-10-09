@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import {Link} from 'react-router-dom'; 
+//import {Link} from 'react-router-dom'; 
 import '../../assets/styles/components/menu/LinksNavbar.scss'; 
 
 
@@ -9,11 +9,11 @@ function LinksNavbar () {
     return (
       <Fragment>
         <ul>
-          <Link to='/conocenos'>
+          {/* <Link to='/conocenos'> */}
             <li>
-              <a href="/">Conócenos</a>
+              <a href="/conocenos">Conócenos</a>
             </li>
-          </Link>
+          {/* </Link> */}
           <li>
             <a href="/">Qué Hacemos</a>
           </li>

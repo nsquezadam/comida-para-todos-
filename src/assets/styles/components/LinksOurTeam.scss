@@ -1,0 +1,18 @@
+@import "../Variables.scss";
+
+.linksOurTeam {
+  display: flex;
+  flex-direction: row;
+}
+
+.link-span {
+  text-decoration: none;
+  color: $textColor3;
+  list-style: none;
+  cursor: pointer;
+}
+
+.link-span:hover {
+  text-decoration-line: none;
+  color: $textColor5;
+}

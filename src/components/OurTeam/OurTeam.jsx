@@ -1,25 +1,18 @@
 import React, {Fragment} from 'react'; 
 import '../../assets/styles/components/OurTeam.scss'; 
-import ourteam from '../../assets/static/Pics/ourteam.jpg'; 
 import NavbarR from '../Menu/toolbar/NavbarR';
+import ImgOurTeam from './ImgCompOurTeam';
+import TextOurTeam from "./TextOurTeam";
+
 
 const OurTeam = () => {
     return (
       <Fragment>
         <NavbarR />
+        <ImgOurTeam />
+        <TextOurTeam />
 
-        <div className="principal-container-ourTeam">
-          <div className="linksToHome">LINKS</div>
-          <div className="container-img-ourTeam">
-            <img
-              className="principal-img-ourTeam"
-              src={ourteam}
-              alt={"ourteam"}
-            ></img>
-            <div className="principal-text-ourTeam">Nuestro equipo</div>
-            <div className="icon-gift">gift</div>
-          </div>
-        </div>
+       
       </Fragment>
     ); 
 }
