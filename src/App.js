@@ -11,16 +11,17 @@ import NavBarR from './components/Menu/toolbar/NavbarR'
 //import Navbar from './components/Menu/Navbar'
 
 import Slider from './components/Slider/Slider';
-import Message from './components/Message/Message';
- import Detail from '../src/components/Detail/Detail';
- import Goals from './components/Goals/Goals';
- import BecomePart from './components/Community/BecomePart'
- import ActionLines from './components/Community/ActionLines'
- import News from './components/Community/News';
-import ContacForm from './components/contacForm/ContacForm';
-import Testimonials from './components/testimonials/Testimonials';
-import SliderPart from './components/sliderPartners/SliderPart';
-import Footer from './components/footer/Footer';
+ import Message from './components/Message/Message';
+  import Detail from '../src/components/Detail/Detail';
+  import Goals from './components/Goals/Goals';
+  import BecomePart from './components/Community/BecomePart'
+  import ActionLines from './components/Community/ActionLines'
+  import News from './components/Community/News';
+ import ContacForm from './components/contacForm/ContacForm';
+ import Testimonials from './components/testimonials/Testimonials';
+ import SliderPart from './components/sliderPartners/SliderPart';
+ import Footer from './components/footer/Footer';
+
 
 
 
@@ -47,8 +48,9 @@ function App() {
             </Switch>
           </Router>
         </div>
+       
         <div>
-            <Slider autoPlay={5}/> 
+            <Slider autoPlay={5} />
   
         </div>
         <div>
@@ -80,7 +82,7 @@ function App() {
       </div>
       <div>
         <Footer style= {{height: '492px', background: '#333333'}}/> 
-      </div>
+      </div> */}
       </div>
     </Fragment>
   );

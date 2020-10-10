@@ -9,8 +9,8 @@ import BtnDonate from './BotonDonarResp';
 
 const SideDrawer = (props) => { 
       let drawerClasses ='side-drawer';
-      if(props.show) {
-            drawerClasses ='side-drawer open';
+      if(props.show){
+            drawerClasses='side-drawer open';
       }
       return(
       <nav className={drawerClasses}>

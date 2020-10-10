@@ -10,7 +10,7 @@ import Searcher from '../Searcher'
 
 
 
-const Toolbar = props => (
+const Toolbar = (props) => (
 <header className="toolbar">
   <nav className="toolbar_navigation">
       <div className = "toggle-navbar"> <DrowerToggleButton click={props.drawerClickHandle}/> </div>
@@ -18,9 +18,9 @@ const Toolbar = props => (
       <div className="spacer"/>
       <div className="toolbar_navigation-items controlItems"><LinksNavbar /></div>
       <div className="spacer"/>
-      <div className="controlItems"><Searcher/></div>
+      <div className="searcher-control"><Searcher /></div>
       <div className="controlItems"><LinkRRSS/></div>
-      <div className="controlItems"><BtnDonate/></div>
+      <div className="controlItems"><BtnDonate click={props.donateClickHandle}/></div>
       <div className="controlItems"><Countries /></div>
       
  
