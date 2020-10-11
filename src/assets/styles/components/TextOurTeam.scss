@@ -1,20 +1,24 @@
-@import '../Variables.scss'; 
+@import "../Variables.scss";
 
-.container-textOurTeam{
-width: 100vw; 
-
-
+.container-textOurTeam {
+  width: 100vw;
 }
-.TextOurTeam{
-color:$textColor1; 
-text-align: center;
-font-size: 28px;
-line-height: 50px;
-font-weight: 400;
-padding: 5%;
-text-align: center;
+.TextOurTeam {
+  color: $textColor1;
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 37.5pt;
+  font-weight: 400;
+  padding: 5%;
+  text-align: center;
 }
 
-.container-title-teamMembers{
-    
+.container-title-teamMembers {
+  padding-left: 6%;
+}
+
+.title-teamMembers {
+  font-size: 1.5rem;
+  color: $textColor5;
+  font-weight: 600;
 }
