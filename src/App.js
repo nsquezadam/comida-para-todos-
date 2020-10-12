@@ -17,7 +17,9 @@ import ActionLines from './components/Community/ActionLines'
 import SliderPart from './components/sliderPartners/SliderPart';
 import Footer from './components/footer/Footer';
 import FoodBank from './components/Food Bank/FoodBank';
-import StepsFoodBank from './components/Food Bank/FoodBank';
+import FoodBankForm from './components/Food Bank/FoodBankForm/FoodBankForm';
+import Steps from './components/Food Bank/ StepsFBank';
+
 function App() {
   return (
     <Fragment>
@@ -76,8 +78,17 @@ function App() {
       </div>
       <div>
           <FoodBank/>
-          <StepsFoodBank/>
       </div>
+      {/*<div>
+          <StepsFoodBank/>
+      </div>*/}
+      <div>
+        <Steps/>
+      </div>
+      <div>
+        <FoodBankForm  style= {{height: '492px', background: 'white'}}/>
+      </div>
+    
 
       </div>
     </Fragment>

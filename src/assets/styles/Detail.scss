@@ -1,19 +1,19 @@
 @import '../../assets/styles/Variables.scss'; 
 
 .containerDetails{
-width: 100vw;
-height: 430px;
-margin-top: 20vh;
-position: absolute;
+    width: 100vw;
+    height: 430px;
+    margin-top: 20vh;
+    position: absolute;
 }
+
 .containerBoxDetails{
     width: 75.76vw;
     display: inline-flex;
     justify-content: space-between;
     margin-left: 12vw;
-     
-
 }
+
 .boxContainerDetail {
     display: flex;
     flex-direction: column;
