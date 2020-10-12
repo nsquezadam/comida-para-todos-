@@ -1,0 +1,26 @@
+[
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgVoluntary/IconVoluntary/idea.png",
+        "description": "Decidir que quieres ser parte de nuestro equipo y trabajar como voluntario/a con las comunidades."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgVoluntary/IconVoluntary/formulariocontacto.png",
+        "description": "Rellena con tus datos el formulario a continuación y envíalo a través del botón “Unetenos”."    
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgVoluntary/IconVoluntary/tiempoentrega.png",
+        "description": "Nos comunicaremos contigo, por medio de correo electrónico o llamada telefónica, para conocerte."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgVoluntary/IconVoluntary/quierodonar.png",
+        "description": "Haz saber en cuál de las área quieres desempeñarte como voluntario/a: talleres o  lógistica."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgVoluntary/IconVoluntary/seleccionodonde.png",
+        "description": "Elige el tiempo, días  y comunidades con las cuales deseas desempeñarte como vuluntario/a."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgVoluntary/IconVoluntary/familia.png",
+        "description": "Finalmente, ejerce tus labores como voluntario/a con las comunidades vulnerables y vive una experiencia enriquecedora."
+    }
+]

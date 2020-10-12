@@ -16,7 +16,8 @@ import Testimonials from './components/testimonials/Testimonials';
 import ActionLines from './components/Community/ActionLines'
 import SliderPart from './components/sliderPartners/SliderPart';
 import Footer from './components/footer/Footer';
-
+import FoodBank from './components/Food Bank/FoodBank';
+import StepsFoodBank from './components/Food Bank/FoodBank';
 function App() {
   return (
     <Fragment>
@@ -73,6 +74,11 @@ function App() {
       <div>
         <Footer style= {{height: '492px', background: '#333333'}}/> 
       </div>
+      <div>
+          <FoodBank/>
+          <StepsFoodBank/>
+      </div>
+
       </div>
     </Fragment>
   );
