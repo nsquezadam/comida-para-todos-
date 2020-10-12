@@ -1,0 +1,68 @@
+@import "../Variables.scss";
+
+.containerOurGoalInf {
+  width: 100vw;
+  height: 60vh;
+  margin-top: 13vh;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerBoxOurGoalInf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  //margin-left: 5vw;
+  width: 10vw;
+}
+
+.boxContainerOurGoalInf {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+  width: 7.5vw;
+  height: 60vh;
+  text-align: center;
+  //margin-block-end: 10.45rem;
+  position: relative;
+  align-items: center;
+}
+.boxContainerOurGoalInf ul {
+  margin-top: 3vw;
+}
+.containerIcon-ourGoalInf {
+  //padding-bottom: 51%;
+  margin-bottom: 16%;
+  //margin-left: 4vw;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  border-radius: 50%;
+  //margin-top: 60%;
+  //font-size: xx-large;
+  background: linear-gradient(
+    180deg,
+    #fcc3ad 17.76%,
+    rgba(239, 203, 190, 0) 93.8%
+  );
+}
+
+.title-text-OurGoalInf {
+  font-size: 1.5rem;
+  color: $textColor3;
+}
+
+.content-text-ourGoalInf {
+  font-size: 0.8rem;
+  line-height: 2;
+  color: $textColor3;
+}
+
+.iconOurGoal {
+  margin-top: 66%;
+  font-size: x-large;
+  color: $textColor3;
+}

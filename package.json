@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@iconify/icons-ant-design": "^1.0.8",
     "@iconify/icons-bytesize": "^1.0.3",
     "@iconify/icons-cib": "^1.0.3",
     "@iconify/icons-clarity": "^1.0.0",

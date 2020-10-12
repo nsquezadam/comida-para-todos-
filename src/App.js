@@ -20,21 +20,24 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import Testimonials from './components/testimonials/Testimonials';
 // import SliderPart from './components/sliderPartners/SliderPart';
 // import Footer from './components/footer/Footer';
-import OurTeam from "./components/OurTeam/OurTeam";
+//import OurTeam from "./components/OurTeam/OurTeam";
 import Home from "./components/Home";
-import AboutUs from "./components/AboutUs/AboutUs";
+//import AboutUs from "./components/AboutUs/AboutUs";
+import OurGoal from "./components/OurGoal/OurGoal";
 
 function App() {
   return (
     <Fragment>
       <Router>
         <Switch>
-          <Route path="/" exact>Y
+          <Route path="/" exact>
+            Y
             <Home />
           </Route>
           <Route path="/conocenos">
             {/* <OurTeam /> */}
-            <AboutUs />
+            {/* <AboutUs /> */}
+            <OurGoal />
           </Route>
         </Switch>
       </Router>
