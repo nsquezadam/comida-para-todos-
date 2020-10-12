@@ -5,13 +5,15 @@ import Footer from "../footer/Footer";
 import TextAboutUs from "./TextAboutUs";
 import ImgAboutUs from "./ImgCompAboutUs";
 import ImgAboutUsInfo from "./ImgAboutUsInfo";
+import Promote from './Promote'; 
 
 const AboutUs = () => {
   return (
     <Fragment>
       <NavbarR />
       <ImgAboutUs />
-      <TextAboutUs />
+      <Promote />
+      <TextAboutUs />  
       <ImgAboutUsInfo />
       <Footer />
     </Fragment>

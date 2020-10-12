@@ -29,7 +29,7 @@ const ImgAboutUsInfo = () => {
           <img
             className="principal-imgInfo"
             src={infometa}
-            alt={"informeta"}
+            alt={"infometa"}
           ></img>
         </div>
       </div>

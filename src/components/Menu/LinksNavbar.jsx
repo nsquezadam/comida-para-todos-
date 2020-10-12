@@ -1,18 +1,32 @@
-import React, {Fragment} from 'react';
-//import {Link} from 'react-router-dom'; 
+import React, {Fragment, useState} from 'react';
+// import {Link} from 'react-router-dom'; 
 import '../../assets/styles/components/menu/LinksNavbar.scss'; 
+import Dropdown from './Dropdown/Dropdown'; 
 
 
 
 function LinksNavbar () {
+   const [click, setClick] = useState(false)
+  const [dropdown, setDropdown] = useState (false)
+  const handleClick = () => setClick(!click)
+
+  const onMouseEnter = () => {
+    if(window.innerWidth < 960) {
+      setDropdown(false); 
+    } else {
+        setDropdown(true); 
+      }
+    }; 
+
 
     return (
       <Fragment>
         <ul>
           {/* <Link to='/conocenos'> */}
-            <li>
-              <a href="/conocenos">Conócenos</a>
-            </li>
+          <li onMouseEnter={onMouseEnter}>
+            <a href="/conocenos">Conócenos</a>
+            {dropdown && <Dropdown />}
+          </li>
           {/* </Link> */}
           <li>
             <a href="/">Qué Hacemos</a>
@@ -36,6 +50,7 @@ function LinksNavbar () {
             <Link className="linkMenu"> Contáctanos</Link>
         </div> */}
       </Fragment>
-    ); };
+    ); 
+      }
 
 export default LinksNavbar;
