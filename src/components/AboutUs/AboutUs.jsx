@@ -12,8 +12,8 @@ const AboutUs = () => {
     <Fragment>
       <NavbarR />
       <ImgAboutUs />
-      <Promote />
       <TextAboutUs />  
+      <Promote />
       <ImgAboutUsInfo />
       <Footer />
     </Fragment>

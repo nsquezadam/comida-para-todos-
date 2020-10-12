@@ -1,0 +1,61 @@
+@import "../Variables.scss";
+
+.containerAboutUs {
+  width: 100vw;
+  height: 60vh;
+  margin-top: 13vh;
+  //position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerBoxAboutUs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5vw;
+}
+
+.boxContainerAboutUs {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+  width: 18.5vw;
+  height: 66.8vh;
+  text-align: center;
+  //margin-block-end: 10.45rem;
+  position: relative;
+}
+.boxContainerAboutUS ul {
+  margin-top: 3vw;
+}
+.containerIcon {
+  //padding-bottom: 51%;
+  margin-bottom: 16%;
+  margin-left: 4vw;
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
+  border-radius: 50%;
+  //margin-top: 60%;
+  //font-size: xx-large;
+  background: linear-gradient(
+    180deg,
+    #fcc3ad 17.76%,
+    rgba(239, 203, 190, 0) 93.8%
+  );
+}
+
+.title-text-aboutUs {
+  font-size: 1.5rem;
+}
+
+.content-text-aboutUs {
+  font-size: 0.8rem;
+}
+
+.iconAboutUs {
+  margin-top: 60%;
+  font-size: xx-large;
+}
