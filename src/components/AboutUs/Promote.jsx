@@ -27,52 +27,51 @@ const Promote = () => {
               </p>
             </ul>
           </div>
-
-          <div className="containerBoxAboutUs">
-            <div className="boxContainerAboutUs">
-              <div className="containerIcon">
-                {/* <Icon className="iconAboutUs" icon={employeeLine} /> */}
-              </div>
-
-              <ul>
-                <p className="title-text-aboutUs">Empleo</p>
-                <p className="content-text-aboutUs">
-                  Capacitar en el área gastronómica a las comunidades, generando
-                  oportunidades a través del emprendimiento.
-                </p>
-              </ul>
+        </div>
+        <div className="containerBoxAboutUs">
+          <div className="boxContainerAboutUs">
+            <div className="containerIcon">
+              {/* <Icon className="iconAboutUs" icon={employeeLine} /> */}
             </div>
+
+            <ul>
+              <p className="title-text-aboutUs">Empleo</p>
+              <p className="content-text-aboutUs">
+                Capacitar en el área gastronómica a las comunidades, generando
+                oportunidades a través del emprendimiento.
+              </p>
+            </ul>
           </div>
+        </div>
 
-          <div className="containerBoxAboutUs">
-            <div className="boxContainerAboutUs">
-              <div className="containerIcon">
-                <Icon className="iconAboutUs" icon={pencilIcon} />
-              </div>
-
-              <ul>
-                <p className="title-text-aboutUs">Educación</p>
-                <p className="content-text-aboutUs">
-                  Generar conocimientos sobre la allimentación saludable, que
-                  logre contribuir al bienestar social de las personas.
-                </p>
-              </ul>
+        <div className="containerBoxAboutUs">
+          <div className="boxContainerAboutUs">
+            <div className="containerIcon">
+              <Icon className="iconAboutUs" icon={pencilIcon} />
             </div>
+
+            <ul>
+              <p className="title-text-aboutUs">Educación</p>
+              <p className="content-text-aboutUs">
+                Generar conocimientos sobre la allimentación saludable, que
+                logre contribuir al bienestar social de las personas.
+              </p>
+            </ul>
           </div>
-          <div className="containerBoxAboutUs">
-            <div className="boxContainerAboutUs">
-              <div className="containerIcon">
-                <Icon className="iconAboutUs" icon={userGroup} />
-              </div>
-              <ul>
-                <p className="title-text-aboutUs">Comunidad</p>
-                <p className="content-text-aboutUs">
-                  Crear una red entre todos los actores involucrados que forman
-                  parte de Comida para todos, donde se priorice y fomente la
-                  colaboración.
-                </p>
-              </ul>
+        </div>
+        <div className="containerBoxAboutUs">
+          <div className="boxContainerAboutUs">
+            <div className="containerIcon">
+              <Icon className="iconAboutUs" icon={userGroup} />
             </div>
+            <ul>
+              <p className="title-text-aboutUs">Comunidad</p>
+              <p className="content-text-aboutUs">
+                Crear una red entre todos los actores involucrados que forman
+                parte de Comida para todos, donde se priorice y fomente la
+                colaboración.
+              </p>
+            </ul>
           </div>
         </div>
       </div>

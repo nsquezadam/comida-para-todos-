@@ -1,5 +1,13 @@
 @import "../Variables.scss";
 
+.principal-container-ourGoal {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //margin-top: 6%;
+}
 .containerOurGoalInf {
   width: 100vw;
   height: 60vh;
@@ -8,6 +16,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 16%;
 }
 
 .containerBoxOurGoalInf {
@@ -52,7 +61,7 @@
 
 .title-text-OurGoalInf {
   font-size: 1.5rem;
-  color: $textColor3;
+  color: $textColor;
 }
 
 .content-text-ourGoalInf {
@@ -65,4 +74,51 @@
   margin-top: 66%;
   font-size: x-large;
   color: $textColor3;
+}
+.text-img-ourGoal {
+  position: absolute;
+  z-index: 3;
+  width: 46vw;
+  padding-top: 10%;
+  color: $textColor3;
+}
+
+.title-img-ourGoal {
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 3%;
+  color: $textColor3;
+}
+
+.text-container1 {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 94vh;
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+}
+.container-img-ourGoal1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 117vh;
+}
+
+.text-help {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 100vw;
+  color: $textColor3;
+  padding: 4%;
+}
+.principal-img-ourGoal {
+  width: 100%;
+  max-height: 117vh;
 }

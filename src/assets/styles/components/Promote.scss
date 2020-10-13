@@ -7,14 +7,14 @@
   //position: absolute;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .containerBoxAboutUs {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 5vw;
+  // margin-left: 5vw;
 }
 
 .boxContainerAboutUs {
