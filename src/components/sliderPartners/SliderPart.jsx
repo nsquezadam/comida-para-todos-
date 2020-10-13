@@ -28,41 +28,7 @@ const  SliderPart = (props, items = []) => {
         <ImgPartComp src={Im7} />,
         <ImgPartComp src={Im8} />]
   
-      // const[Current, setCurrent] =useState(
-      //   items && arrayPartners.length > 0? 0:undefined);
-      //const next = () => setCurrent((Current + 1) % arrayPartners.length);
-      //const prev = () => setCurrent(Current ? Current - 1 : arrayPartners.length - 1);
-     // const [auto, setAuto] = useState(false);
- 
-      // useEffect(() => {
-      //   const interval = setInterval(_ => {
-      //     if (auto) {
-      //       next();
-      //     } else {
-      //       prev();
-      //     }
-      //   }, 6000);
-      //   return _ => clearInterval(interval);
-      // });
 
-
-      /*const goLeft = () => {
-          X === 0 ? SetX(-100* (arrayPartners.length -1)) : SetX(X + 150);
-        };
-        const autoPlayRef = useRef()
-        useEffect(() => {
-        autoPlayRef.current = goLeft;
-      })
-    
-      useEffect(() => {
-        const play = () => {
-          autoPlayRef.current()
-        }
-    
-        const interval = setInterval(play, props.autoPlay * 1000)
-        return () => clearInterval(interval)
-      }
-      , [props.autoPlay])*/
   return(
       <div className="containerSlideP" >
         <div className="sliderPartners">
