@@ -1,0 +1,26 @@
+[
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgUrbanGardens/IconUrbanGardens/Huerto.png",
+        "description": "Decide con cuantos m2 de tierra destinada a huerto urbano vas a colaborar."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgUrbanGardens/IconUrbanGardens/formulariocontacto.png",
+        "description": "Rellena con tus datos el formulario a continuación y envíalo a través del botón “Aporta m2”."    
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgUrbanGardens/IconUrbanGardens/tiempoentrega.png",
+        "description": "Nos comunicaremos contigo, por medio de correo electrónico o llamada telefónica, para coordinar la visita al terreno."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgUrbanGardens/IconUrbanGardens/donarmetros.png",
+        "description": "Demarca los m2 de la tierra destianada a huerto urbano que desea aportar, para visualizarlo fácilmente."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgUrbanGardens/IconUrbanGardens/contrato.png",
+        "description": "Firma con nosotros el acuerdo que te hace parte de CPT y nos permite cultivar alimentos para comunidades en el m2 que aportaste."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgUrbanGardens/IconUrbanGardens/familia.png",
+        "description": "Finalmente, cultivaremos los alimentos que serán parte de las preparaciones de los ricos almuerzos para comunidades vulnerables."
+    }
+]
