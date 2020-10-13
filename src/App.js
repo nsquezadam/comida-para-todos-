@@ -24,6 +24,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 //import AboutUs from "./components/AboutUs/AboutUs";
 import OurGoal from "./components/OurGoal/OurGoal";
+import Account from "./components/Account/Account";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
           <Route path="/conocenos">
             {/* <OurTeam /> */}
             {/* <AboutUs /> */}
-            <OurGoal />
+            {/* <OurGoal /> */}
+            <Account />
           </Route>
         </Switch>
       </Router>
