@@ -1,10 +1,10 @@
 @import './Variables.scss';
 //box de  textos  
 .containerGoals{
-    margin-top: 550px;
+    margin-top: 38.177vw;
     position: absolute;
     width: 100vw;
-    height: 663px;
+    height: 50.843vw;
     display: inline-flex;
     flex-direction: row;
     background: url(../static/Pics/goals.jpg);
@@ -14,33 +14,26 @@
 // textos
 .containerBoxGoals{
     width: 580px;
-    
     display: flex;
     flex-direction: column;
-    margin-left:130%;
     margin-top: 15vh;
     margin-left: 140%;
 }
 .containerBoxGoals h5{
-
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 2.6vw;
+    line-height: 50px;   
     color: $textColor3;
-
- 
 }
 .containerBoxGoals p{
-
     font-style: normal;
-    font-weight: 700;
+    //font-weight: 700;
+    //line-height: 50px;   
     font-size: 3.5vw;
     color:$textColor3;
 
- 
 }
-
-
 // .Goals{   
 //     font-size: 36px;
 //     line-height: 50px;    

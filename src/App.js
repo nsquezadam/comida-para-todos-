@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
-import '../src/assets/styles/App.scss';
-//import LinksRRSS from './components/Menu/LinksRRSS';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import React, { Fragment } from "react";
+import "../src/assets/styles/App.scss";
+import LinksRRSS from "./components/Menu/LinksRRSS";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-// import NavBarR from './components/Menu/toolbar/NavbarR'; 
-//import Home from './components/Home'; 
+// import NavBarR from './components/Menu/toolbar/NavbarR';
+//import Home from './components/Home';
 //import Navbar from './components/Menu/Navbar'
 // import Slider from './components/Slider/Slider';
 // import Message from './components/Message/Message';
@@ -17,32 +17,22 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 // import Testimonials from './components/testimonials/Testimonials';
 // import SliderPart from './components/sliderPartners/SliderPart';
 // import Footer from './components/footer/Footer';
-import OurTeam from './components/OurTeam/OurTeam'; 
-import Home from './components/Home'; 
-
-
-
-
-
-
+import OurTeam from "./components/OurTeam/OurTeam";
+import Home from "./components/Home";
 
 function App() {
-  
-
   return (
     <Fragment>
-     
-          <Router>
-            <Switch>
-              <Route path="/" exact>
-                <Home />
-              </Route>
-              <Route path="/conocenos">
-                <OurTeam />
-                </Route>
-            </Switch>
-          </Router>
-      
+      <Router>
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/conocenos">
+            <OurTeam />
+          </Route>
+        </Switch>
+      </Router>
     </Fragment>
   );
 }

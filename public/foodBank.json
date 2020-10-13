@@ -1,0 +1,25 @@
+[
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgFoodBank/IconFoodBank/listaverificacion.png",
+        "description": "Haz una lista de los alimentos con los que deseas colaborar, que sean no perecederos o congelados."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgFoodBank/IconFoodBank/formulariocontacto.png",
+        "description": "Rellena con tus datos el formulario a continuación y envíalo a través del botón “colabora”."    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgFoodBank/IconFoodBank/tiempoentrega.png",
+        "description": "Nos comunicaremos contigo, por medio de correo electrónico o llamada telefónica, para coordinar la entrega de alimentos."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgFoodBank/IconFoodBank/cajas.png",
+        "description": "En cajas guarda los alimentos con los que vas a colaborar, para facilitar su traslado."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgFoodBank/IconFoodBank/transportando.png",
+        "description": "Trasládalos  hasta nuestras áreas de distribución, si no nosotros haremos el traslado de los alimentos."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/imgFoodBank/IconFoodBank/familia.png",
+        "description": "Finalmente, haremos llegar los alimentos a los restaurantes, quienes cocinarán ricos almuerzos a las comunidades vulnerables."
+    }
+]
