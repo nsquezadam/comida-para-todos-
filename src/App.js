@@ -36,6 +36,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/conocenos" exact component={AboutUs}></Route>
+          <Route path="/nosotros" exact component={AboutUs}></Route>
           <Route path="/equipo" exact component={OurTeam}></Route>
           <Route path="/rendicion" exact component={Account}></Route>
           <Route path="/meta" exact component={OurGoal}></Route>
