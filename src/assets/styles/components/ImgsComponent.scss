@@ -1,0 +1,45 @@
+@import "../Variables.scss";
+
+.principal-container-imgs {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+  margin-top: 18%;
+}
+
+.container-imgs {
+  width: 267px;
+  height: 342px;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.imgsComponents {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.info-imgs {
+  position: absolute;
+  padding-top: 79%;
+  margin-left: 9%;
+  color: $textColor3;
+  line-height: 2;
+}
+
+.name-imgs {
+  font-weight: 600;
+  line-height: 13pt;
+  font-size: 1.1rem;
+  margin: 0;
+  line-height: 2;
+}
+
+.office1 {
+  font-size: 1.2rem;
+  color: $textColor5;
+  font-weight: bolder;
+}

@@ -1,0 +1,46 @@
+@import "../Variables.scss";
+
+.container-imgInfo {
+  height: 1093;
+  width: 100vw;
+  position: relative;
+}
+
+.principal-imgInfo {
+  width: 100%;
+}
+
+.p-ourGoal {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  color: $textColor1;
+  padding-bottom: 2%;
+}
+
+.p-ourGoal-2 {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: $textColor6;
+  width: 84vh;
+  padding-bottom: 2%;
+}
+.p-ourGoal-3 {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: $textColor3;
+  width: 84vh;
+}
+
+.text-ourGoal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  padding-top: 6%;
+  width: 100vw;
+  align-items: center;
+}

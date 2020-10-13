@@ -1,0 +1,11 @@
+@import "../Variables.scss";
+
+.linksToHome-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 39%;
+  position: absolute;
+  padding: 6%;
+  z-index: 1;
+  color: #ffffff;
+}

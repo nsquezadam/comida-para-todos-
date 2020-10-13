@@ -1,0 +1,25 @@
+[
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/ImgLessons/IconLessons/idea.png",
+        "description": "Decidir que quieres ser parte de nuestro equipo impartiendo clases y talleres a las comunidades."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/ImgLessons/IconLessons/formulariocontacto.png",
+        "description": "Rellena con tus datos el formulario a continuación y envíalo a través del botón “Forma parte”."    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/ImgLessons/IconLessons/tiempoentrega.png",
+        "description": "Nos comunicaremos contigo, por medio de correo electrónico o llamada telefónica, para conocerte."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/ImgLessons/IconLessons/quierodonar.png",
+        "description": "Elige el tiempo, días  y comunidades con las cuales deseas desempeñarte como capacitador."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/ImgLessons/IconLessons/selecionodonde.png",
+        "description": "Trasládalos  hasta nuestras áreas de distribución, si no nosotros haremos el traslado de los alimentos."
+    },
+    {
+        "img": "https://github.com/AlgrisMarquez/comida-para-todos-/blob/develop2/src/assets/static/images/ImgLessons/IconLessons/familia.png",
+        "description": "Finalmente, ejerce tus labores como capacitador con las comunidades vulnerables y vive una experiencia enriquecedora."
+    }
+]

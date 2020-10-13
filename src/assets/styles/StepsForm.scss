@@ -1,0 +1,152 @@
+@import '../styles/Variables.scss'; 
+
+// principal 
+.container-Foodbank{  
+    width: 100vw;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+// estilos imagen principal 
+.img-foodbank{
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100vw;
+    height: auto;
+    position: absolute;
+}
+
+.containerText {
+    //margin: 50% 23% 5% 23%;
+    width: 48vw;
+    height: 94px;
+    //left: 40.41vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 80px;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);      
+}
+
+.containerText2 {
+    //margin: 50% 23% 5% 23%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #333333;
+    margin-bottom: 10vh;
+    margin-top: 40%; 
+
+}
+// para las pasos se toma los mismos estilos de detail y se llama desde alli
+
+.containerFoodDetails{
+    width: 100vw;
+    height: 430px;
+    margin-top: 130vh;
+    position: absolute;
+}
+.Textsteps{
+    width: 100vw;
+    margin-bottom: 7vh;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6vw;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FF8150;    
+}
+.containerfood1 {
+    margin-left: 2vw;
+    width: 7.36vw;
+    height: 7.36vw;
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 2.76vw;
+    letter-spacing: -0.015em;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FCC3AD 17.76%, rgba(239, 203, 190, 0) 93.8%);
+}
+
+.imgfoodDetail {
+    width: 40%;
+    height: 40%;
+    margin-top: 3.35rem;
+    margin-bottom: 2vw;
+}
+
+.formulario{
+    color:$textColor5;
+}
+ 
+//imagenes y texto y boton
+.section-img-text {
+    display: inline-block;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-left: 2vw;
+    width: 7.36vw;
+    height: 7.36vw;
+    text-align: center;
+    letter-spacing: -0.015em;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FCC3AD 17.76%, rgba(239, 203, 190, 0) 93.8%);
+}
+
+.container-section-ima-text{
+    text-align: center;
+    width: auto;
+}
+
+.title-section-img-text {
+    padding-top: 10%;
+    padding-bottom: 20%;
+    font-size: 1rem;
+}
+
+.img-section {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+
+@media screen and (max-width: 768px) {
+    .section-img-text {
+      display: flex;
+      flex-direction: column;
+      width: 57vw;
+      padding-bottom: 8%;
+      margin-left: 17.8vh;
+      color: #333333;
+      float: left;
+}
+  
+.content-section-img-text {
+      width: 146%;
+      margin-left: -62px;
+      width: 68vw;
+      margin-left: -9%;
+      padding-bottom: 19%;
+      margin-top: -13%;
+      padding-right: 33%;
+}
+}
