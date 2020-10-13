@@ -1,0 +1,13 @@
+@import '../../../assets/styles/Variables.scss';
+
+.backSearchDrop{
+    width: 100vw;
+    height: 100vh;
+    background-color: $textColor5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 199;
+
+}

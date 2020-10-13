@@ -1,0 +1,91 @@
+@import '../Variables.scss'; 
+
+// box imput formulario 
+.inputBoxFood {
+    width: 615px;
+    font-size: 0.80rem;
+    padding: 20px;
+    color: #FFFFFF;
+    margin-top: 10%;
+    border: 1px solid #BDBDBD;
+}
+.container-Food{
+    flex-direction: column;
+    //margin-left: 20vw;
+    //margin-top: 20vh;
+    position: absolute;
+    width: 672px;
+    //height: 664px;
+    left: 212px;
+    top: 1946px;
+
+}
+// textos  seccion  formulario de contacto 
+.text1Food{
+    color: $textColor5 ;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    letter-spacing: -0.015em;
+}
+
+.text2Food{
+    color: $textColor3;
+    font-size:1.5rem;
+    font-weight: 400;
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+}
+.container-foodtexts{
+    margin-top: 10vh;
+    margin-left: 5vw;
+    position: relative;
+    width: 417px;
+    height: 312px;
+    //top: 2114px;
+}
+// container  seccion 
+.container-seccionFood{
+    margin-bottom: 10%;
+    position: absolute;
+    //width: 417px;
+    //height: 312px;
+    width: 1520px;
+    height: 812px;
+    left: 80px;
+    margin-top: 10%;
+    background: grey;
+    //box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25)
+}
+// estilos  boton 
+
+.btnSend{
+    width: 185px;
+    height:50px ;
+    left: 672px;
+    color:$textColor5;
+    background-color: $textColor3;
+    font-size: 1.125rem;
+    text-align: center;
+    align-self: center;
+    //overflow: hidden;
+    position: absolute;
+    //top: 2538px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+}
+
+.container-btnSend{
+    margin-top: 5vh;
+    align-self: center;
+    //overflow: hidden;
+    position: absolute;
+}

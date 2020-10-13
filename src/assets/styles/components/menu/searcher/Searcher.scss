@@ -1,0 +1,52 @@
+@import '../../../Variables.scss'; 
+
+
+.btnSearch{
+    border-style: none;
+}
+.container-inputsearch{
+    width: 80vw;
+    height: 7vh;
+    transform: translateY(-100%);
+    transition:transform 0.3s ease-out ;
+    position: fixed;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+.container-inputsearch.open{
+    transform:translateY(600%);
+
+}
+
+.inputSearch{
+    font-family: FontAwesome;
+    font-size: 2.25vw;
+    width: 60vw;
+    height: 100%;
+    background-color: $textColor3;
+    border:1px solid #BDBDBD;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    color: $textColor4;
+    padding-left: 3vw;
+
+}
+
+
+.btnSearch2 {
+ 
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: transparent;
+    position: absolute;
+    height: 7vh;
+    width: 3vw;
+    border-style: none;
+    margin-right:30vw ;
+
+}

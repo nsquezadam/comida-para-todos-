@@ -1,0 +1,380 @@
+@import '../../../Variables.scss';
+
+
+.sideFormPay{
+    padding: 0;
+    transform: translateX(100%);
+    transition:transform 0.5s ease-out ;
+    position: fixed;
+   
+    width:51vw;
+    right:0;
+    height: 99vh;
+  
+   
+    z-index: 200;
+    box-sizing: border-box;
+    overflow:scroll;
+    scroll-behavior:smooth;  
+   
+   
+   
+}
+.sideFormPay.open{
+    transform:translateX(0);
+
+}
+.container_formpay{
+    
+    display: flex;
+    
+    height: 1000px;
+    background-color:$textColor3;
+    padding-top: 2vw;
+    flex-direction: column;
+    margin-top: 9.8125vh;
+  
+   
+}
+
+// textos  principales
+.container-textForm{
+    margin-top: 2vh;
+    font-family:'Montserrat', sans-serif; 
+    width: 90%;
+    text-align: left;
+    margin-left: 2.5vw;
+    margin-bottom: 2vh;
+}
+.container-textForm h2{
+    font-family:'Montserrat', sans-serif; 
+    font-size:2.22vw;
+    color: $textColor9;
+    font-weight: 700;
+
+   
+}
+.container-textForm p{
+    font-family:'Montserrat', sans-serif; 
+    font-size: 1.25vw;
+    color: $textColor9;
+    font-weight: 400;
+    
+   
+}
+//secion 2
+.container-section-moneyType{
+   
+    display: flex;
+    flex-direction: row;
+  
+    margin-bottom: 3vh;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 2.5vw;
+  
+ 
+  
+}
+.container-select_typeMoney{
+    border:1px solid #BDBDBD;
+    box-sizing: border-box;
+    height:4.8vh;
+    overflow: hidden;
+    width: 45%;
+    position:relative;
+    color: $textColor4;
+}
+.moneyType{
+    width: 100%;
+    height:4.8vh;
+    font-size: 0.9vw;
+    color: $textColor9;
+    border: none;
+    padding-left: 1vw;
+  
+}
+.moneyType:focus{ outline: none;}
+
+
+.container-select_typeMoney::after{
+    content:"\025be";
+	display:table-cell;
+	padding-top:5px;
+	text-align:center;
+	width:2vw;
+	height:4.8vh;
+	background-color:$textColor7;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+.container-boxmoney{
+    width: 45%;
+}
+.boxmoney{
+    font-size: 0.9vw;
+    width: 100%;
+     height:4.8vh;
+     padding-left: 1vw;
+    color: $textColor4;  
+    border:1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+
+//seccion 3  cantidades 
+.container-select-money{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.5vw;
+    font-size: 0.9vw;
+}
+.checkStyle{
+  
+    margin-left: 0.7vw;
+  
+}
+//seccion 3 frecuencia de donaciones
+.seccion-frecuency{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 2.5vw;
+   
+}
+.container-frequency_pay{
+    display: flex;
+    align-items: center;;
+    font-size: 0.9vw;
+   
+
+
+}
+.boxCheck-Frequency{
+    margin-right: 0.5vw;
+    
+}
+.container-select_frequency{
+    border:1px solid #d9d9d9;
+    height:4.8vh;
+    overflow: hidden;
+    position:relative;
+    color: $textColor4;
+    width: 45.3%;
+  
+   
+
+}
+.frequencyType{
+    width: 100%;
+    height: 100%;
+    font-size: 0.9vw;
+    color: $textColor4;
+    border: none;
+    padding: 5px;
+
+}
+.frequencyType:focus{ outline: none;}
+
+.container-select_frequency::after{
+    content:"\025be";
+	display:table-cell;
+	padding-top:5px;
+	text-align:center;
+	width:2vw;
+	height:4.8vh;
+	background-color:$textColor7;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+// seccion nombre y apellido  
+.seccion_personalInformation{
+    width: 90%;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    margin-left:2.5vw;
+}
+.box_title h3 {
+    font-size: 1.25vw;
+    color: $textColor4;
+    font-weight: 700;
+}
+.box_name-lastname{
+    
+    margin-bottom: 0.9vh;
+}
+.box_name-lastname p{
+    font-size: 1.1vw;
+    color: $textColor4;
+    font-weight: 400;
+}
+.boxname{
+    width: 100%;
+    border:1px solid #d9d9d9;
+    box-sizing: border-box;
+    height:4.8vh;
+    font-size: 0.9vw;
+    padding-left: 1vw;
+}
+
+.mail-text{
+    margin-top: 1vh;
+   
+
+}
+.mail-text p{
+    font-size: 1.1vw;
+    color: $textColor4;
+    font-weight: 400;
+}
+
+.boxMail{
+    width: 100%;
+    border:1px solid #d9d9d9;
+    box-sizing: border-box;
+   height:4.8vh;
+   font-size: 0.9vw;
+   padding-left: 1vw;
+
+}
+// seccion de pago  
+.seccionPayInfomation{
+    width: 90%;
+    margin-left: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+
+}
+.titleSeccion h3{
+    font-size: 1.25vw;
+    color: $textColor4;
+    font-weight: 700;
+}
+.title-card p{
+    font-size: 1.1vw;
+    color: $textColor4;
+    font-weight: 400;
+  
+}
+.boxCard{
+    font-family: FontAwesome;
+    width:100%;
+    border:1px solid #d9d9d9;
+    box-sizing: border-box;
+    height:4.8vh;
+    font-size: 1.1vw;
+    color: $textColor4;
+    padding-left: 1vw;
+
+}
+// contenedor de  fecha y cod 
+.detailDate-cod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 100%;
+    
+
+}
+
+.title-date p{
+    font-size: 1.1vw;
+    color: $textColor4;
+    margin-bottom: 2vh;
+    font-weight: 500;
+}
+.boxDate {
+    width: 95%;
+    border:1px solid #d9d9d9;
+    box-sizing: border-box;
+    height:4.8vh;
+    font-size: 1.1vw;
+    color: $textColor4;
+    padding-left: 1vw;
+}
+
+ .boxCod{
+    width: 95%;
+    border:1px solid #d9d9d9;
+    box-sizing: border-box;
+    height:4.8vh;
+    font-size: 1.1vw;
+    color: $textColor4;
+    padding-left: 1vw;
+ 
+
+}
+.title-cod p{
+    font-size: 1.1vw;
+    color: $textColor4;
+    margin-bottom: 2vh;
+    font-weight: 500;
+
+}
+//seccion de  aviso 
+.noticeSecurity{
+    width: 90%;
+    margin-left: 2.5vw;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+
+}
+.noticeSecurity p{
+    font-size: 1.25vw;
+    font-weight: 500;
+    text-align: left;
+}
+//seccion de resumen de  pago  
+.section_paymentTotal{
+    width: 90%;
+    margin-left: 2.5vw;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+.section_paymentTotal h6{
+    font-size: 1.1vw;
+    font-weight: 700;
+
+}
+.section_paymentTotal p{
+    font-size: 1.1vw;
+    font-weight: 500;
+
+}
+// secion boton dpago 
+.container_btnpay{
+    width:90%;
+    margin-left: 2.5vw;
+    display: flex;
+    margin-top: 1vh;
+    justify-content: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+
+
+   
+}
+.btnPay{
+    text-decoration: none;
+    color: $textColor3;
+    font-size: 1.25vw;
+    text-align: center;
+    width: 10.070vw;
+    height: 6.3vh; 
+    background-color: $textColor5; 
+    font-weight: 500;
+    border-radius: 5pt;
+    overflow: hidden;
+    border-style: none;
+}
