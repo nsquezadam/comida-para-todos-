@@ -1,0 +1,40 @@
+@import "../Variables.scss";
+
+.principal-container-teamMembers {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.container-img-teamMembers {
+  width: 267px;
+  height: 342px;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.imgTeamMembers {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.info-members {
+  position: absolute;
+  padding-top: 99%;
+  margin-left: 9%;
+  color: $textColor3;
+}
+
+.name-member {
+  font-weight: 600;
+  line-height: 13pt;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.office {
+  font-size: 0.8rem;
+}
