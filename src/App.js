@@ -42,47 +42,7 @@ function App() {
                 </Route>
             </Switch>
           </Router>
-<<<<<<< HEAD
-        </div>
-       
-        <div>
-            <Slider autoPlay={5} />
-  
-        </div>
-        <div>
-           <Message /> 
-        </div>
-        <div>
-           <Detail /> 
-        </div>
-        <div>
-           <Goals/> 
-        </div>
-      <div>
-          <BecomePart /> 
-      </div>
-      <div>
-       <ActionLines/>
-      </div>
-      <div style={ {height:'1074px',background: '#F2F2F2'}}>
-           <News />  
-      </div>
-      <div>
-          <Testimonials />
-      </div>
-      <div>
-        <SliderPart />
-      </div>
-      <div>
-           <ContacForm/>
-      </div>
-      <div>
-        <Footer style= {{height: '492px', background: '#333333'}}/> 
-      </div> */}
-      </div>
-=======
       
->>>>>>> 3eef54146273091a83d5aa45a93c75073b2194e6
     </Fragment>
   );
 }

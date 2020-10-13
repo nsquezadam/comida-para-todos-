@@ -1,38 +1,54 @@
 @import '../../../Variables.scss';
 
 
-
-.container_formpay{
-    display: flex;
-    width:48vw;
-    background-color:$textColor2;
-    padding-top: 2vw;
-    flex-direction: column;
-    height: 958px;
-    margin-top: 9.8125vh;
-    right:0;
-    position: fixed;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    z-index: 200;
+.sideFormPay{
+    padding: 0;
     transform: translateX(100%);
     transition:transform 0.5s ease-out ;
+    position: fixed;
+   
+    width:51vw;
+    right:0;
+    height: 99vh;
+  
+   
+    z-index: 200;
+    box-sizing: border-box;
+    overflow:scroll;
+    scroll-behavior:smooth;  
+   
+   
+   
 }
-.container_formpay .open {
-    transform: translateX(0%);
+.sideFormPay.open{
+    transform:translateX(0);
 
 }
+.container_formpay{
+    
+    display: flex;
+    
+    height: 1000px;
+    background-color:$textColor3;
+    padding-top: 2vw;
+    flex-direction: column;
+    margin-top: 9.8125vh;
+  
+   
+}
+
 // textos  principales
 .container-textForm{
-    margin-top: 1vh;
+    margin-top: 2vh;
     font-family:'Montserrat', sans-serif; 
     width: 90%;
     text-align: left;
     margin-left: 2.5vw;
+    margin-bottom: 2vh;
 }
 .container-textForm h2{
     font-family:'Montserrat', sans-serif; 
-    font-size:1.5vw;
+    font-size:2.22vw;
     color: $textColor9;
     font-weight: 700;
 
@@ -40,7 +56,7 @@
 }
 .container-textForm p{
     font-family:'Montserrat', sans-serif; 
-    font-size: 1.1vw;
+    font-size: 1.25vw;
     color: $textColor9;
     font-weight: 400;
     
@@ -52,7 +68,7 @@
     display: flex;
     flex-direction: row;
   
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
     width: 90%;
     justify-content: space-between;
     margin-left: 2.5vw;
@@ -63,7 +79,7 @@
 .container-select_typeMoney{
     border:1px solid #BDBDBD;
     box-sizing: border-box;
-    height:4vh;
+    height:4.8vh;
     overflow: hidden;
     width: 45%;
     position:relative;
@@ -71,7 +87,7 @@
 }
 .moneyType{
     width: 100%;
-    height:4vh;
+    height:4.8vh;
     font-size: 0.9vw;
     color: $textColor9;
     border: none;
@@ -100,7 +116,7 @@
 .boxmoney{
     font-size: 0.9vw;
     width: 100%;
-     height:4vh;
+     height:4.8vh;
      padding-left: 1vw;
     color: $textColor4;  
     border:1px solid #BDBDBD;
@@ -122,7 +138,7 @@
 }
 //seccion 3 frecuencia de donaciones
 .seccion-frecuency{
-    margin-top: 1vh;
+    margin-top: 2vh;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -144,7 +160,7 @@
 }
 .container-select_frequency{
     border:1px solid #d9d9d9;
-    height:4vh;
+    height:4.8vh;
     overflow: hidden;
     position:relative;
     color: $textColor4;
@@ -170,7 +186,7 @@
 	padding-top:5px;
 	text-align:center;
 	width:2vw;
-	height:4vh;
+	height:4.8vh;
 	background-color:$textColor7;
 	position:absolute;
 	top:0;
@@ -180,13 +196,13 @@
 // seccion nombre y apellido  
 .seccion_personalInformation{
     width: 90%;
-    margin-top: 2vh;
+    margin-top: 4vh;
     display: flex;
     flex-direction: column;
     margin-left:2.5vw;
 }
 .box_title h3 {
-    font-size: 1.1vw;
+    font-size: 1.25vw;
     color: $textColor4;
     font-weight: 700;
 }
@@ -195,7 +211,7 @@
     margin-bottom: 0.9vh;
 }
 .box_name-lastname p{
-    font-size: 1vw;
+    font-size: 1.1vw;
     color: $textColor4;
     font-weight: 400;
 }
@@ -203,7 +219,7 @@
     width: 100%;
     border:1px solid #d9d9d9;
     box-sizing: border-box;
-    height:4vh;
+    height:4.8vh;
     font-size: 0.9vw;
     padding-left: 1vw;
 }
@@ -214,7 +230,7 @@
 
 }
 .mail-text p{
-    font-size: 1vw;
+    font-size: 1.1vw;
     color: $textColor4;
     font-weight: 400;
 }
@@ -223,7 +239,7 @@
     width: 100%;
     border:1px solid #d9d9d9;
     box-sizing: border-box;
-   height:4vh;
+   height:4.8vh;
    font-size: 0.9vw;
    padding-left: 1vw;
 
@@ -238,12 +254,12 @@
 
 }
 .titleSeccion h3{
-    font-size: 1.1vw;
+    font-size: 1.25vw;
     color: $textColor4;
     font-weight: 700;
 }
 .title-card p{
-    font-size: 1vw;
+    font-size: 1.1vw;
     color: $textColor4;
     font-weight: 400;
   
@@ -253,7 +269,7 @@
     width:100%;
     border:1px solid #d9d9d9;
     box-sizing: border-box;
-    height:4vh;
+    height:4.8vh;
     font-size: 1.1vw;
     color: $textColor4;
     padding-left: 1vw;
@@ -264,17 +280,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     width: 100%;
     
 
 }
 
 .title-date p{
-    font-size: 1vw;
+    font-size: 1.1vw;
     color: $textColor4;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
     font-weight: 500;
 }
 .boxDate {
@@ -282,7 +298,7 @@
     border:1px solid #d9d9d9;
     box-sizing: border-box;
     height:4.8vh;
-    font-size: 1vw;
+    font-size: 1.1vw;
     color: $textColor4;
     padding-left: 1vw;
 }
@@ -292,16 +308,16 @@
     border:1px solid #d9d9d9;
     box-sizing: border-box;
     height:4.8vh;
-    font-size: 1vw;
+    font-size: 1.1vw;
     color: $textColor4;
     padding-left: 1vw;
  
 
 }
 .title-cod p{
-    font-size: 1vw;
+    font-size: 1.1vw;
     color: $textColor4;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
     font-weight: 500;
 
 }
@@ -309,10 +325,12 @@
 .noticeSecurity{
     width: 90%;
     margin-left: 2.5vw;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
 
 }
 .noticeSecurity p{
-    font-size: 1vw;
+    font-size: 1.25vw;
     font-weight: 500;
     text-align: left;
 }
@@ -321,8 +339,8 @@
     width: 90%;
     margin-left: 2.5vw;
     text-align: center;
-    margin-top: 2vh;
-    margin-bottom: 2    vh;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
 }
 .section_paymentTotal h6{
     font-size: 1.1vw;
@@ -339,15 +357,18 @@
     width:90%;
     margin-left: 2.5vw;
     display: flex;
-    margin-top: 2vh;
+    margin-top: 1vh;
     justify-content: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+
 
    
 }
 .btnPay{
     text-decoration: none;
     color: $textColor3;
-    font-size: 1vw;
+    font-size: 1.25vw;
     text-align: center;
     width: 10.070vw;
     height: 6.3vh; 

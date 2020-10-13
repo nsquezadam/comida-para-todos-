@@ -6,7 +6,7 @@ import DrowerToggleButton from'../sideDrawer/DrowerToggleButton'
 import LinkRRSS from '../LinksRRSS';
 import BtnDonate from '../BotonDonar'
 import Countries from '../Countries'
-import Searcher from '../Searcher'
+import Searcher from '../searcher/Searcher'
 
 
 
@@ -18,7 +18,7 @@ const Toolbar = (props) => (
       <div className="spacer"/>
       <div className="toolbar_navigation-items controlItems"><LinksNavbar /></div>
       <div className="spacer"/>
-      <div className="searcher-control"><Searcher /></div>
+      <div className="searcher-control"><Searcher  click={props.searchClickHandler}/></div>
       <div className="controlItems"><LinkRRSS/></div>
       <div className="controlItems"><BtnDonate click={props.donateClickHandle}/></div>
       <div className="controlItems"><Countries /></div>

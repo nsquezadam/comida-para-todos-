@@ -1,4 +1,4 @@
-import React, {useState, useEffect}from 'react';
+import React from 'react';
 import ImgPartComp from './ImgPartComp'
 
 import '../../assets/styles/components/SliderPart.scss'
@@ -14,7 +14,7 @@ import Im8 from '../../assets/static/images/imgPartners/PEBRE.png'
 
 
 
-
+//style={ {transform:`translateX(${}%)`} }
 
 const  SliderPart = (props, items = []) => {
 
@@ -28,22 +28,22 @@ const  SliderPart = (props, items = []) => {
         <ImgPartComp src={Im7} />,
         <ImgPartComp src={Im8} />]
   
-      const[Current, setCurrent] =useState(
-        items && arrayPartners.length > 0? 0:undefined);
-      const next = () => setCurrent((Current + 1) % arrayPartners.length);
-      const prev = () => setCurrent(Current ? Current - 1 : arrayPartners.length - 1);
-      const [auto, setAuto] = useState(false);
+      // const[Current, setCurrent] =useState(
+      //   items && arrayPartners.length > 0? 0:undefined);
+      //const next = () => setCurrent((Current + 1) % arrayPartners.length);
+      //const prev = () => setCurrent(Current ? Current - 1 : arrayPartners.length - 1);
+     // const [auto, setAuto] = useState(false);
  
-      useEffect(() => {
-        const interval = setInterval(_ => {
-          if (auto) {
-            next();
-          } else {
-            prev();
-          }
-        }, 6000);
-        return _ => clearInterval(interval);
-      });
+      // useEffect(() => {
+      //   const interval = setInterval(_ => {
+      //     if (auto) {
+      //       next();
+      //     } else {
+      //       prev();
+      //     }
+      //   }, 6000);
+      //   return _ => clearInterval(interval);
+      // });
 
 
       /*const goLeft = () => {
@@ -68,7 +68,7 @@ const  SliderPart = (props, items = []) => {
         <div className="sliderPartners">
             {arrayPartners.map((item, index) => {
                 return (
-                    <div key={index} className="slidePartner" style={ {transform:`translateX(${Current}%)`} }>
+                    <div key={index} className="slidePartner" >
                         {item}
                     </div>
                 )

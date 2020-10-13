@@ -9,17 +9,17 @@ import { Icon} from '@iconify/react';
 import padlockIcon from '@iconify/icons-uil/padlock';
 import  '../../../assets/styles/components/menu/formPay/FormPay.scss'
 
-const FormPay = (props) => {
+const FormPay = props => {
   // const handleSubmit =(e)=>{
   // } = props
-  let drawerFormClasses = 'container_formpay';
+  let drawerFormClasses = 'sideFormPay';
     if(props.show){
-      drawerFormClasses='container_formpay open';
+      drawerFormClasses='sideFormPay open';
     }
   return (
     <Fragment>  
-     
       <div className={drawerFormClasses}>
+      <div className="container_formpay">
       <div className="container-textForm ">
         <h2>Aporta un almuerzo solidario</h2>
         <p>Contribuye con nosotros en la entrega de alimentos nutritivos y llenos de amor a las comunidades que más lo necesitan.</p>
@@ -42,6 +42,7 @@ const FormPay = (props) => {
         <label>
         $3000
         <input 
+        name="3000"
         type="radio"
         checked
         className="checkStyle"
@@ -133,7 +134,7 @@ const FormPay = (props) => {
           </div>
         </div>
         <div className="noticeSecurity">
-          <p><Icon icon={padlockIcon} color="#333333" width="1.6vw" height="2.5vh" />Este es un pago seguro. Quiere decir que la información suministrada viaja de forma encriptada a través de la red. </p>
+          <p><Icon icon={padlockIcon} color="#333333" width="1.6vw" height="2.5vh" />    Este es un pago seguro. Quiere decir que la información suministrada viaja de forma encriptada a través de la red. </p>
         </div>
         <div className="section_paymentTotal">
           <h6>Aporte total</h6>
@@ -143,6 +144,7 @@ const FormPay = (props) => {
           <button className="btnPay" type="submit">Hacer Aporte</button>
         </div>
         </form>
+        </div>
         </div>
         </div>
         </Fragment>    

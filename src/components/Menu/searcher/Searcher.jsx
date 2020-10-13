@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchIcon from '@material-ui/icons/Search';
-import  '../../assets/styles/components/menu/Searcher.scss'
+import  '../../../assets/styles/components/menu/searcher/Searcher.scss'
 //import SearchDrop from './SearchDrop'
 
 const Searcher = (props) => {
