@@ -47,6 +47,11 @@
     margin: 0;
     padding: 0;
 }
+.searcher-control{
+    margin: 0;
+    padding: 0;
+
+}
 .toggle-navbar{
     display: none;
 }
@@ -56,6 +61,11 @@
     }
     .toggle-navbar{
         display: block;
+    }
+    .searcher-control{
+        display: block;
+      
+    
     }
 
 

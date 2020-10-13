@@ -4,11 +4,11 @@ import '../../assets/styles/components/BotonDonar.scss';
 //href ="https://yodono.cl/proyecto/207/CultivaComidaparaTods" 
 
 
-function BtnDonate () {
+const BtnDonate = props => {
     return (
         <Fragment>
             <div className = 'containerBtnDonate'>
-                <button className= 'btnDonate'>Haz Tu aporte</button>
+                <button className= 'btnDonate' onClick={props.click}>Haz Tu aporte</button>
                
             </div>
         </Fragment>

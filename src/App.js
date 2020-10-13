@@ -4,12 +4,8 @@ import '../src/assets/styles/App.scss';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 // import NavBarR from './components/Menu/toolbar/NavbarR'; 
-
-
 //import Home from './components/Home'; 
-
 //import Navbar from './components/Menu/Navbar'
-
 // import Slider from './components/Slider/Slider';
 // import Message from './components/Message/Message';
 //  import Detail from '../src/components/Detail/Detail';

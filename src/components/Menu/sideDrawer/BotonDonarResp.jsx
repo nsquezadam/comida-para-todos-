@@ -8,7 +8,7 @@ function BtnDonate () {
     return (
         <Fragment>
             <div className = 'containerBtnDonateResp'>
-                <button className= 'btnDonate1'>Haz Tu aporte</button>
+                <button className= 'btnDonate1' >Haz Tu aporte</button>
                
             </div>
         </Fragment>
