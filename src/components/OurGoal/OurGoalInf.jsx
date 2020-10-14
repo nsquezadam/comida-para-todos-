@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import imgourgoal3 from "../../assets/static/Pics/imgourgoal3.jpg";
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import "../../assets/styles/components/OurGoalInf.scss";
 import heartIcon from "@iconify/icons-bytesize/heart";
 // npm install --save-dev @iconify/react @iconify/icons-clarity

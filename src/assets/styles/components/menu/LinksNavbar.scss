@@ -18,3 +18,21 @@
     margin-top: 20px;
     margin-left: 5vw;
 }
+
+@media (max-width:769px){
+    .navBar{
+    
+        margin:0;
+    
+    }
+    
+
+.linkMenu {
+    text-decoration: none;
+    color: $textColor3;
+    margin-left: 0;
+  
+}
+
+   
+}

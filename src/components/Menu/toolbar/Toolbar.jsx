@@ -10,23 +10,32 @@ import Searcher from '../searcher/Searcher'
 
 
 
-const Toolbar = (props) => (
+const Toolbar = (props) => {
+ 
+      
+  return (
+    
 <header className="toolbar">
-  <nav className="toolbar_navigation">
       <div className = "toggle-navbar"> <DrowerToggleButton click={props.drawerClickHandle}/> </div>
       <div className="toolbar_logo">< LogoHome /></div>
+      <div className="searcher-control2"><Searcher  click={props.searchClickHandler}/></div>
+  
+  <nav className="toolbar_navigation1">
+  <div className="spacer"/>
+      <div className="toolbar_navigation-items"><LinksNavbar /></div>
       <div className="spacer"/>
-      <div className="toolbar_navigation-items controlItems"><LinksNavbar /></div>
-      <div className="spacer"/>
-      <div className="searcher-control"><Searcher  click={props.searchClickHandler}/></div>
+      <div className="controlItems"><Searcher  click={props.searchClickHandler}/></div>
       <div className="controlItems"><LinkRRSS/></div>
-      <div className="controlItems"><BtnDonate click={props.donateClickHandle}/></div>
+      <div className="controlItems" ><BtnDonate click={props.donateClickHandle}/></div>
       <div className="controlItems"><Countries /></div>
-      
- 
-  </nav>
-</header>
-    )
 
+
+      
+  </nav>
+
+    <div className="btn1" ><BtnDonate  click={props.donateClickHandle}/></div>
+</header> 
+    )
+  }
 
 export default Toolbar

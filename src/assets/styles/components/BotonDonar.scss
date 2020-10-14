@@ -4,7 +4,7 @@
 .btnDonate{
    text-decoration: none;
    color: $textColor3;
-   font-size: 1.125rem;
+   font-size: 18px;
    text-align: center;
    width: 145px;
   height:5.9vh; 
@@ -20,3 +20,21 @@
 
 // .containerBtnDonate{
 // }
+@media (max-width:769px){
+.btnDonate{
+   text-decoration: none;
+   color: $textColor3;
+   background:$textColor5;
+   font-size: 16px;
+   font-weight: 700;
+   text-align: center;
+   width: 125px;
+   height: 40px; 
+   
+   font-weight: 700;
+   border-radius: 5px;
+   overflow: hidden;
+   border-style: none;
+
+}
+}

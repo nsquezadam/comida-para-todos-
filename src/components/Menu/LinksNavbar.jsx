@@ -6,9 +6,9 @@ import Dropdown from './Dropdown/Dropdown';
 
 
 function LinksNavbar () {
-   const [click, setClick] = useState(false)
+   //const [click, setClick] = useState(false)
   const [dropdown, setDropdown] = useState (false)
-  const handleClick = () => setClick(!click)
+  //const handleClick = () => setClick(!click)
 
   const onMouseEnter = () => {
     if(window.innerWidth < 960) {

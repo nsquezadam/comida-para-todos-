@@ -2,7 +2,7 @@ import React from 'react'
 import '../../../assets/styles/components/menu/navbarResponsive/SideDrawer.scss'
 import LinksNavbar from '../LinksNavbar';
 import LinkRRSSresp from '../LinksRRSSresp';
-import BtnDonate from './BotonDonarResp';
+import BtnDonate from '../BotonDonar';
 
 
 
@@ -17,8 +17,12 @@ const SideDrawer = (props) => {
       {/* <div className="spacer"/> */}
       <div className="side-drawerLinks"><LinksNavbar /></div>
       {/* <div className="spacer"/> */}
+      <div className="btnPAy" ><BtnDonate click={props.donateClickHandle}/></div>
+      <div className="textFollow">
+            <p>Siguenos</p>
+      </div>
       <div><LinkRRSSresp/></div> 
-      <div><BtnDonate/></div>
+      
       
       </nav>
 

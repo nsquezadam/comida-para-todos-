@@ -1,5 +1,5 @@
 import React from "react";
-import '../../assets/styles/components/TeamMembers.scss'; 
+import '../../assets/styles/components/teamMembers.scss'; 
 import rafarincon from "../../assets/static/Pics/rafarincon.jpg";
 import enriquegellona from "../../assets/static/Pics/enriquegellona.JPG";
 import sebastiangatica from "../../assets/static/Pics/sebastiangatica.png";
