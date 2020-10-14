@@ -3,7 +3,7 @@ import "../../assets/styles/components/Promote.scss";
 import "../../assets/styles/components/TextAboutUs.scss";
 import "../../assets/styles/components/ImgCompAboutUs.scss";
 // npm install --save-dev @iconify/react @iconify/icons-bytesize
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon,} from "@iconify/react";
 import heartIcon from "@iconify/icons-bytesize/heart";
 // npm install --save-dev @iconify/react @iconify/icons-clarity
 import employeeLine from "@iconify/icons-clarity/employee-line";

@@ -14,7 +14,6 @@ const FoodBank = () => {
             <NavbarR />
             <ImgFoodBank/>
             <TextFB />
-            
             <Steps/>
             <InputFoodBank/>
             <Footer />

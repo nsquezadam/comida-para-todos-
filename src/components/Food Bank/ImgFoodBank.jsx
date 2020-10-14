@@ -18,7 +18,7 @@ const ImgFoodBank = () => {
           ></img>
           <div className="principal-text-FB">Banco de Alimentos</div>
           <span class="scroll-btn">
-            <a href="/">
+            <a href="#food">
               <span class="mouse">
                 <span></span>
               </span>

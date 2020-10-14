@@ -2,7 +2,7 @@
 
 // box imput formulario 
 .inputBoxFood {
-    width: 615px;
+    width: 47.16vw;
     font-size: 0.80rem;
     padding: 20px;
     color: #FFFFFF;
@@ -11,13 +11,12 @@
 }
 .container-Food{
     flex-direction: column;
-    //margin-left: 20vw;
-    //margin-top: 20vh;
-    position: absolute;
-    width: 672px;
-    //height: 664px;
-    left: 212px;
-    top: 1946px;
+    margin-left: 15vw;
+    margin-top: 15vh;
+    width: 51.53vw;
+    height: 664px;
+    left: 16.25vw;
+    //top: 1946px;
 
 }
 // textos  seccion  formulario de contacto 
@@ -33,7 +32,11 @@
 }
 
 .text2Food{
-    color: $textColor3;
+    width: 31.97vw;
+    height: 312px;
+    top: 2114px;
+    left: 78.067vw;
+    color: $textColor4;
     font-size:1.5rem;
     font-weight: 400;
     position: absolute;
@@ -48,7 +51,7 @@
     margin-top: 10vh;
     margin-left: 5vw;
     position: relative;
-    width: 417px;
+    width: 31.97vw;
     height: 312px;
     //top: 2114px;
 }
@@ -56,19 +59,17 @@
 .container-seccionFood{
     margin-bottom: 10%;
     position: absolute;
-    //width: 417px;
-    //height: 312px;
-    width: 1520px;
+    width: 116.56vw;
     height: 812px;
     left: 80px;
     margin-top: 10%;
     background: grey;
-    //box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25)
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25)
 }
 // estilos  boton 
 
 .btnSend{
-    width: 185px;
+    width: 14.18vw;
     height:50px ;
     left: 672px;
     color:$textColor5;

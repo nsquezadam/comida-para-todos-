@@ -10,13 +10,8 @@ import alevidales from "../../assets/static/Pics/alevidales.JPG";
 import eleonora from "../../assets/static/Pics/eleonora.jpg";
 import carlosroman from "../../assets/static/Pics/carlosroman.png";
 import mariajosecolab from "../../assets/static/Pics/mariajosecolab.png";
-<<<<<<< HEAD
-import enzo from "../../assets/static/Pics/ENZO.JPG";
-import hans from "../../assets/static/Pics/hans.JPG";
-=======
 import ENZO from "../../assets/static/Pics/ENZO.JPG";
-import hans from "../../assets/static/Pics/hans.jpg";
->>>>>>> 2da0dbf48d398407edd3c1b3db970aa4368cdc75
+import hans from "../../assets/static/Pics/hans.JPG";
 import BackgroundOurTeam from "./BackgroundOurTeam";
 
 const TeamMembers = () => {
