@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ImgPartComp from "./ImgPartComp";
 import "../../assets/styles/components/SliderPart.scss";
 import Im1 from "../../assets/static/images/imgPartners/BOA.png";
@@ -9,6 +9,7 @@ import Im5 from "../../assets/static/images/imgPartners/ECOPA.png";
 import Im6 from "../../assets/static/images/imgPartners/MUNANTOF.png";
 import Im7 from "../../assets/static/images/imgPartners/NAM.jpg";
 import Im8 from "../../assets/static/images/imgPartners/PEBRE.png";
+import TextSliderPartnes from "./TextSliderPartnes";
 //style={ {transform:`translateX(${}%)`} }
 
 const SliderPart = (props, items = []) => {
@@ -24,17 +25,20 @@ const SliderPart = (props, items = []) => {
   ];
 
   return (
-    <div className="containerSlideP">
-      <div className="sliderPartners">
-        {arrayPartners.map((item, index) => {
-          return (
-            <div key={index} className="slidePartner">
-              {item}
-            </div>
-          );
-        })}
+    <Fragment>
+      <div className="containerSlideP">
+        <TextSliderPartnes />
+        <div className="sliderPartners">
+          {arrayPartners.map((item, index) => {
+            return (
+              <div key={index} className="slidePartner">
+                {item}
+              </div>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </Fragment>
   );
 };
 

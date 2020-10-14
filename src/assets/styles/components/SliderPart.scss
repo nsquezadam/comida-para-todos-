@@ -1,29 +1,25 @@
-@import '../Variables.scss'; 
+@import "../Variables.scss";
 
-
-.containerSlideP{
-    width: 100vw;
-    height: 200px;
-    margin-top: 900px;
-
-  
- 
+.containerSlideP {
+  width: 100vw;
+  height: 163px;
+  margin-top: 568px;
+  display: flex;
+  flex-direction: column;
 }
-.sliderPartners{
+
+.sliderPartners {
   display: inline-flex;
   flex-direction: row;
   max-width: 100vw;
-
-
+  height: 30vh;
+  background-color: $textColor7;
+  padding-bottom: 8vh;
 }
-.slidePartner{
-  height:auto ;
+.slidePartner {
+  height: auto;
   width: 20.83vw;
   margin-left: 5vw;
   align-self: center;
-  transition:transform 0.9s ease-out;
-
-    
-
+  transition: transform 0.9s ease-out;
 }
-

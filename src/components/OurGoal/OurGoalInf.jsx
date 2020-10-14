@@ -1,6 +1,9 @@
 import React, { Fragment } from "react";
 import imgourgoal3 from "../../assets/static/Pics/imgourgoal3.jpg";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3d79cbc7ff8323a8f951b7345206eb40256090a1
 import "../../assets/styles/components/OurGoalInf.scss";
 import BtnDonate from "../Menu/BotonDonar";
 import almuerzos from "../../assets/static/images/almuerzos.png";
