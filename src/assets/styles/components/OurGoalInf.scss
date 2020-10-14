@@ -25,7 +25,7 @@
   justify-content: space-between;
   justify-content: center;
   //margin-left: 5vw;
-  width: 10vw;
+  width: 13vw;
 }
 
 .boxContainerOurGoalInf {
@@ -43,15 +43,11 @@
   margin-top: 3vw;
 }
 .containerIcon-ourGoalInf {
-  //padding-bottom: 51%;
   margin-bottom: 16%;
-  //margin-left: 4vw;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   text-align: center;
   border-radius: 50%;
-  //margin-top: 60%;
-  //font-size: xx-large;
   background: linear-gradient(
     180deg,
     #fcc3ad 17.76%,
@@ -60,27 +56,28 @@
 }
 
 .title-text-OurGoalInf {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: $textColor;
 }
 
 .content-text-ourGoalInf {
-  font-size: 0.8rem;
   line-height: 2;
   color: $textColor3;
+  font-size: 0.9rem;
+  width: 10vw;
 }
 
 .iconOurGoal {
-  margin-top: 66%;
-  font-size: x-large;
+  margin-top: 43%;
   color: $textColor3;
 }
 .text-img-ourGoal {
   position: absolute;
   z-index: 3;
-  width: 46vw;
+  width: 60vw;
   padding-top: 10%;
   color: $textColor3;
+  font-size: 1.3rem;
 }
 
 .title-img-ourGoal {
@@ -117,6 +114,7 @@
   width: 100vw;
   color: $textColor3;
   padding: 4%;
+  font-weight: 600;
 }
 .principal-img-ourGoal {
   width: 100%;

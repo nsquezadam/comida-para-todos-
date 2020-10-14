@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import "../../assets/styles/components/OurModel.scss";
 import alimentos3 from "../../assets/static/Pics/alimentos3.jpg";
 import multiplicaciondeaportes from "../../assets/static/Pics/multiplicaciondeaportes.jpg";
+import transporte from "../../assets/static/images/transporte.png";
 import entregaAlimentos from "../../assets/static/Pics/entregaAlimentos.jpg";
 import sostenibilidad from "../../assets/static/Pics/sostenibilidad.jpg";
 import comidaparatodos7 from "../../assets/static/Pics/comidaparatodos7.jpg";
@@ -84,8 +85,8 @@ const OurModel = () => {
             <div className="containerImgOurModel">
               <img
                 className="img-OurGoal"
-                src={entregaAlimentos}
-                alt={"entregaAlimentos"}
+                src={transporte}
+                alt={"transporte"}
               />
             </div>
             <ul>
