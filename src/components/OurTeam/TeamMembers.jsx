@@ -1,5 +1,5 @@
 import React from "react";
-import '../../assets/styles/components/TeamMembers.scss'; 
+import "../../assets/styles/components/TeamMembers.scss";
 import rafarincon from "../../assets/static/Pics/rafarincon.jpg";
 import enriquegellona from "../../assets/static/Pics/enriquegellona.JPG";
 import sebastiangatica from "../../assets/static/Pics/sebastiangatica.png";
@@ -10,7 +10,7 @@ import alevidales from "../../assets/static/Pics/alevidales.JPG";
 import eleonora from "../../assets/static/Pics/eleonora.jpg";
 import carlosroman from "../../assets/static/Pics/carlosroman.png";
 import mariajosecolab from "../../assets/static/Pics/mariajosecolab.png";
-import enzo from "../../assets/static/Pics/enzo.jpg";
+import ENZO from "../../assets/static/Pics/ENZO.jpg";
 import hans from "../../assets/static/Pics/hans.jpg";
 import BackgroundOurTeam from "./BackgroundOurTeam";
 
@@ -121,7 +121,7 @@ const TeamMembers = () => {
           <p className="name-member">Enzo Lambertini </p>
           <p className="office">Coordinador de administración</p>
         </div>
-        <img className="imgTeamMembers" src={enzo} alt={"enzo"}></img>
+        <img className="imgTeamMembers" src={ENZO} alt={"enzo"}></img>
       </div>
       <div className="container-img-teamMembers">
         <div className="info-members">
