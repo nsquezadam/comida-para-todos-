@@ -10,7 +10,7 @@ import comidaparatodos7 from "../../assets/static/Pics/comidaparatodos7.jpg";
 const OurModel = () => {
   return (
     <Fragment>
-      <div className="container-textOurModel">
+      <div id="nuestrameta" className="container-textOurModel">
         <p className="TextOurModel">
           Cada día trabajamos en busca de poder lograr llevar alimentación de
           calidad, saludable y llena de amor a las
