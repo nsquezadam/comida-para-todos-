@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "../../assets/styles/components/LinksFoodBank.scss";
+import "../../assets/styles/components/LinksFoodBank.scss"
 
 const LinksFoodBank = () => {
   return (
