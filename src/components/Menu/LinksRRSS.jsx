@@ -12,18 +12,18 @@ function LinksRRSS() {
     <Fragment>
       <div className="boxContainerRRSS">
         <div className="containerRRSS">
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/Comida-para-Todos-100133851719302/">
             <Icon icon={facebookIcon} color="#333333" />
           </a>
         </div>
         <div className="containerRRSS">
-          <a href="https://www.instagram.com/">
+          <a href="hhttps://www.instagram.com/comida_para_todos_cl/">
             <Icon icon={instagramWithCircle} color="#333333" />
           </a>
         </div>
 
         <div className="containerRRSS">
-          <a href="https://www.twitter.com/">
+          <a href="https://twitter.com/ChileComida?s=08">
             <Icon icon={twitterWithCircle} color="#333333" />
           </a>
         </div>

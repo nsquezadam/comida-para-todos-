@@ -6,24 +6,27 @@ import Dropdown from './Dropdown/Dropdown';
 
 
 function LinksNavbar () {
-   const [click, setClick] = useState(false)
+   //const [click, setClick] = useState(false)
   const [dropdown, setDropdown] = useState (false)
-  const handleClick = () => setClick(!click)
+  //const handleClick = () => setClick(!click)
 
   const onMouseEnter = () => {
-    if(window.innerWidth < 960) {
-      setDropdown(false); 
-    } else {
-        setDropdown(true); 
-      }
+    setDropdown(!dropdown)
+    // if(window.innerWidth < 960) {
+    //   setDropdown(false); 
+    // } else {
+    //     setDropdown(true); 
+    //   }
     }; 
-
+    const mouseLeave=()=>{
+      setDropdown(dropdown)
+    }
 
     return (
       <Fragment>
         <ul>
           {/* <Link to='/conocenos'> */}
-          <li onMouseEnter={onMouseEnter}>
+          <li onMouseEnter={onMouseEnter} onMouseLeave={mouseLeave}>
             <a href="/conocenos">Conócenos</a>
             {dropdown && <Dropdown />}
           </li>

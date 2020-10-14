@@ -26,11 +26,11 @@ const FormPay = props => {
       </div>
       
       <div className="">
-        <form  onSubmit="">
+        <form >
           <div className="container-section-moneyType">
           <div className=" container-select_typeMoney">
-            <select className="moneyType" onChange="">
-            <option  selected value="clp">CLP $</option>
+            <select className="moneyType">
+            <option  defaultValue value="clp">CLP $</option>
             <option value="usd">USD $</option>
             </select>
       </div>
@@ -44,7 +44,7 @@ const FormPay = props => {
         <input 
         name="3000"
         type="radio"
-        checked
+        defaultChecked
         className="checkStyle"
         />
         </label>
@@ -81,7 +81,7 @@ const FormPay = props => {
             <option value="1">Solo esta vez</option>
             <option value="diario">Diario</option>
             <option value="semanal">Semanal</option>
-            <option selected value="mensual">Mensual</option>
+            <option defaultValue value="mensual">Mensual</option>
             <option value="anual">Anual</option>
           </select>
           </div>
