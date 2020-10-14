@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import imgourgoal3 from "../../assets/static/Pics/imgourgoal3.jpg";
-import { Icon, InlineIcon } from "@iconify/react";
 import "../../assets/styles/components/OurGoalInf.scss";
 import BtnDonate from "../Menu/BotonDonar";
 import almuerzos from "../../assets/static/images/almuerzos.png";

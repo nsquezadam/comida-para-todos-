@@ -16,18 +16,18 @@ import "../assets/styles/components/Home.scss";
 // import Testimonials from './components/testimonials/Testimonials';
 // import SliderPart from './components/sliderPartners/SliderPart';
 // import Footer from './components/footer/Footer';
-import NavbarR from './Menu/toolbar/NavbarR'; 
+import NavbarR from "./Menu/toolbar/NavbarR";
 import Slider from "./Slider/Slider";
 import Message from "./Message/Message";
 import Detail from "./Detail/Detail";
-import Goals from "./Goals/Goals";
-import BecomePart from './Community/BecomePart';
-import ActionLines from './Community/ActionLines';
-import News from './Community/News';
-import Testimonials from './testimonials/Testimonials';
-import SliderPart from './sliderPartners/SliderPart';
-import ContacForm from './contacForm/ContacForm';
-import Footer from './footer/Footer';
+//import Goals from "./Goals/Goals";
+import BecomePart from "./Community/BecomePart";
+import ActionLines from "./Community/ActionLines";
+import News from "./Community/News";
+import Testimonials from "./testimonials/Testimonials";
+import SliderPart from "./sliderPartners/SliderPart";
+import ContacForm from "./contacForm/ContacForm";
+import Footer from "./footer/Footer";
 
 const Home = () => {
   return (
@@ -47,22 +47,22 @@ const Home = () => {
             <Detail />
           </div>
           <div>
-            <Goals />
-          </div>
-          <div>
             <BecomePart />
           </div>
+          {/* <div>
+            <Goals />
+          </div> */}
           <div>
             <ActionLines />
           </div>
-          <div style={{ height: "1074px", background: "#F2F2F2" }}>
+          <div style={{ height: "1000px", background: "#F2F2F2" }}>
             <News />
           </div>
           <div>
             <Testimonials />
           </div>
           <div>
-            <SliderPart />
+            <SliderPart style={{ background: "#F2F2F2" }} />
           </div>
           <div>
             <ContacForm />
