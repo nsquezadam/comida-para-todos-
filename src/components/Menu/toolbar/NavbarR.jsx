@@ -35,10 +35,6 @@ class NavbarR extends Component {
         this.setState({sideFormPayOpen:false})
         
     };
-
-    
-    
-   
     drawerToggleClickHandler = () =>{
     
         this.setState((prevState)=>{
@@ -71,11 +67,14 @@ class NavbarR extends Component {
                 donateClickHandle={this.drawerToggleDonateClickHandle}
                 drawerClickHandle = {this.drawerToggleClickHandler} 
                 searchClickHandler={this.drawerToggleSearchClickHandle}
+                
                 />
-                <FormPay show={this.state.sideFormPayOpen}/>
-                {backDropPayF}
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backDrop}
+                <FormPay show={this.state.sideFormPayOpen}/>
+                {backDropPayF}
+                {/* <SideDrawer show={this.state.sideDrawerOpen} /> */}
+                
                 < SearchDrop show={this.state.dropSearchOpen}/>
                 {backDropSearch}
             

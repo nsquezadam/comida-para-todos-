@@ -3,15 +3,16 @@
 // boton donar
 .btnDonate1{
    text-decoration: none;
-   color: $textColor5;
-   background: $textColor3;
-   font-size: 1.125rem;
+   color: $textColor3;
+   background:$textColor5;
+   font-size: 14px;
+   font-weight: 700;
    text-align: center;
-   width: 100%;
+   width: 145px;
    height: 50px; 
    
    font-weight: 700;
-border-radius: 0px;
+border-radius: 5px;
    overflow: hidden;
    border-style: none;
 

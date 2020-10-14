@@ -7,7 +7,6 @@ const SearchDrop = (props) => {
     const handleSubmit =(e) =>{
         e.preventDefault()
         console.log(e);
-
     }
     let drawerSearcherClass ='container-inputsearch';
     if(props.show){
