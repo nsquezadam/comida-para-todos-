@@ -1,22 +1,22 @@
 import React, { Fragment } from "react";
-import "../../assets/styles/components/ImgCompOurGoal.scss";
+import "../../assets/styles/components/ImgCompFB.scss";
 import Foodbank from '../../assets/static/images/imgFoodBank/Foodbank.jpg'
 import LinksFoodBank from "./LinksFoodBank";
 
-const ImgAccount = () => {
+const ImgFoodBank = () => {
   return (
     <Fragment>
-      <div className="principal-container-aboutUs">
+      <div className="principal-container-FB">
         <div className="linksToHome-2">
           <LinksFoodBank />
         </div>
-        <div className="container-img-aboutUs">
+        <div className="container-img-FB">
           <img
-            className="principal-img-aboutUs"
+            className="principal-img-FB"
             src={Foodbank}
             alt={"Banco de alimentos"}
           ></img>
-          <div className="principal-text-aboutUs">Banco de Alimentos</div>
+          <div className="principal-text-FB">Banco de Alimentos</div>
           <span class="scroll-btn">
             <a href="/">
               <span class="mouse">
@@ -30,4 +30,4 @@ const ImgAccount = () => {
   );
 };
 
-export default ImgAccount;
+export default ImgFoodBank;

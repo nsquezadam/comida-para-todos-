@@ -1,11 +1,11 @@
 //import React from 'react'
 import React, { Fragment } from 'react'
-import NavbarR from "../Menu/toolbar/NavbarR";
+import NavbarR from "../Menu/toolbar/NavbarR"
 import ImgFoodBank from "../Food Bank/ImgFoodBank"
 import Steps from "../Food Bank/ StepsFBank"
 import InputFoodBank from "../Food Bank/FoodBankForm/InputFoodBanck"
-
-import Footer from "../footer/Footer";
+import Footer from "../footer/Footer"
+import TextFB from "../Food Bank/TextFB"
 import '../../assets/styles/StepsForm.scss'
 
 const FoodBank = () => {
@@ -13,6 +13,8 @@ const FoodBank = () => {
         <Fragment>
             <NavbarR />
             <ImgFoodBank/>
+            <TextFB />
+            
             <Steps/>
             <InputFoodBank/>
             <Footer />
