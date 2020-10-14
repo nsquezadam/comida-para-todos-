@@ -10,7 +10,7 @@ import alevidales from "../../assets/static/Pics/alevidales.JPG";
 import eleonora from "../../assets/static/Pics/eleonora.jpg";
 import carlosroman from "../../assets/static/Pics/carlosroman.png";
 import mariajosecolab from "../../assets/static/Pics/mariajosecolab.png";
-import ENZO from "../../assets/static/Pics/ENZO.jpg";
+import ENZO from "../../assets/static/Pics/ENZO.JPG";
 import hans from "../../assets/static/Pics/hans.jpg";
 import BackgroundOurTeam from "./BackgroundOurTeam";
 
