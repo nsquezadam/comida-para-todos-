@@ -2,14 +2,13 @@ import React, { Fragment } from "react";
 import imgourgoal3 from "../../assets/static/Pics/imgourgoal3.jpg";
 import { Icon, InlineIcon } from "@iconify/react";
 import "../../assets/styles/components/OurGoalInf.scss";
-import heartIcon from "@iconify/icons-bytesize/heart";
-// npm install --save-dev @iconify/react @iconify/icons-clarity
-//import employeeLine from '@iconify/icons-clarity/employee-line';
-// npm install --save-dev @iconify/react @iconify/icons-simple-line-icons
-import pencilIcon from "@iconify/icons-simple-line-icons/pencil";
-// npm install --save-dev @iconify/react @iconify/icons-heroicons-outline
-import userGroup from "@iconify/icons-heroicons-outline/user-group";
 import BtnDonate from "../Menu/BotonDonar";
+import almuerzos from "../../assets/static/images/almuerzos.png";
+import personasalimentadas from "../../assets/static/images/personasalimentadas.png";
+import puestosempleo from "../../assets/static/images/puestosempleo.png";
+import pequeñosp from "../../assets/static/images/pequeñosp.png";
+import restaurantesa from "../../assets/static/images/restaurantesa.png";
+import comunasb from "../../assets/static/images/comunasb.png";
 
 const OurGoalInf = () => {
   return (
@@ -27,7 +26,7 @@ const OurGoalInf = () => {
           <div className="containerBoxOurGoalInf">
             <div className="boxContainerOurGoalInf">
               <div className="containerIcon-ourGoalInf">
-                <Icon className="iconOurGoal" icon={heartIcon} />
+                <img src={almuerzos} className="iconOurGoal" alt={"Imagen1"} />
               </div>
               <ul>
                 <p className="title-text-OurGoalInf">500.000</p>
@@ -38,7 +37,11 @@ const OurGoalInf = () => {
           <div className="containerBoxOurGoalInf">
             <div className="boxContainerOurGoalInf">
               <div className="containerIcon-ourGoalInf">
-                <Icon className="iconOurGoal" icon={heartIcon} />
+                <img
+                  src={personasalimentadas}
+                  className="iconOurGoal"
+                  alt={"Imagen2"}
+                />
               </div>
 
               <ul>
@@ -50,7 +53,11 @@ const OurGoalInf = () => {
           <div className="containerBoxOurGoalInf">
             <div className="boxContainerOurGoalInf">
               <div className="containerIcon-ourGoalInf">
-                <Icon className="iconOurGoal" icon={pencilIcon} />
+                <img
+                  src={restaurantesa}
+                  className="iconOurGoal"
+                  alt={"Imagen3"}
+                />
               </div>
 
               <ul>
@@ -65,7 +72,7 @@ const OurGoalInf = () => {
           <div className="containerBoxOurGoalInf">
             <div className="boxContainerOurGoalInf">
               <div className="containerIcon-ourGoalInf">
-                <Icon className="iconOurGoal" icon={userGroup} />
+                <img src={pequeñosp} className="iconOurGoal" alt={"Imagen4"} />
               </div>
               <ul>
                 <p className="title-text-OurGoalInf">60</p>
@@ -76,7 +83,11 @@ const OurGoalInf = () => {
           <div className="containerBoxOurGoalInf">
             <div className="boxContainerOurGoalInf">
               <div className="containerIcon-ourGoalInf">
-                <Icon className="iconOurGoal" icon={userGroup} />
+                <img
+                  src={puestosempleo}
+                  className="iconOurGoal"
+                  alt={"Imagen5"}
+                />
               </div>
               <ul>
                 <p className="title-text-OurGoalInf">96</p>
@@ -87,7 +98,7 @@ const OurGoalInf = () => {
           <div className="containerBoxOurGoalInf">
             <div className="boxContainerOurGoalInf">
               <div className="containerIcon-ourGoalInf">
-                <Icon className="iconOurGoal" icon={userGroup} />
+                <img src={comunasb} className="iconOurGoal" alt={"Imagen6"} />
               </div>
               <ul>
                 <p className="title-text-OurGoalInf">346</p>
