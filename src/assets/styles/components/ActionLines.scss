@@ -1,14 +1,14 @@
 @import "../Variables.scss";
 
-.background {
-  background-color: $textColor4;
-}
+// .background {
+//   background-color: $textColor3;
+// }
 .container-img-actionLines {
   flex-wrap: nowrap;
   height: auto;
   margin-right: 71px;
   margin-left: 71px;
-  color: $textColor1;
+  color: $textColor3;
   display: flex;
   justify-content: space-between;
   margin-top: -100px;

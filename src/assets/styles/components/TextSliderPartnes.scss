@@ -1,6 +1,6 @@
 @import "../Variables.scss";
 
-.title-description-news {
+.title-description-news3 {
   width: 100%;
   background-color: $textColor7;
   padding-top: 2vh;
@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.title-news {
+.title-news3 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
@@ -22,7 +22,7 @@
   padding-top: 8vh;
 }
 
-.content-text-news {
+.content-text-news3 {
   width: 57%;
   height: 12vh;
   text-align: center;
@@ -31,9 +31,13 @@
   margin-right: 19%;
   font-size: 1.5rem;
   line-height: 32pt;
-
-  color: $textColor6;
+  color: $textColor1;
   font-family: "Montserrat", sans-serif;
+}
+
+.link-3 {
+  color: $textColor5;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -49,14 +53,14 @@
     font-size: 1rem;
     line-height: 20pt;
   }
-  .title-text-news {
+  .title-text-news3 {
     font-size: 0.8rem;
     margin-left: 2%;
     font-weight: 700;
     width: 67vw;
     padding: 4%;
   }
-  .content-text-news1 {
+  .content-text-news3 {
     width: 57vw;
     font-weight: 100;
     margin-left: -14%;
@@ -66,7 +70,7 @@
     margin-top: -7%;
     margin-left: 4%;
   }
-  .content-text-news2 {
+  .content-text-news3 {
     width: 58vw;
     font-weight: 100;
     margin-left: -14%;
@@ -76,12 +80,12 @@
     margin-top: -7%;
     margin-left: 4%;
   }
-  .title-description-news {
+  .title-description-news3 {
     justify-content: center;
     box-sizing: border-box;
     width: 100%;
     height: 82vh;
-    background-color: #f2f2f2;
+    background-color: $textColor1;
     padding-top: 13%;
     height: 327vh;
     height: 370vh;
