@@ -1,8 +1,6 @@
 @import "../Variables.scss";
-.fatherFooter{
+.fatherFooter {
   width: 100vw;
-  height: 66vh;
-
 }
 
 .main-footer {
@@ -15,15 +13,15 @@
   display: flex;
   height: 280px;
   margin-bottom: 5vh;
- 
+
   flex-direction: row;
 }
 .container-footer {
   display: flex;
   flex-direction: row;
-   width: 80%;
-   margin-left: 7vw;
-   height: 200px;
+  width: 80%;
+  margin-left: 7vw;
+  height: 200px;
 }
 .title-footer {
   font-weight: 600;
@@ -40,26 +38,23 @@
   font-size: 13px;
   line-height: 2;
 }
-.develop{
+.develop {
   width: 100vw;
-  text-align: center ;
+  text-align: center;
   position: absolute;
-  background-color: $textColor1;   
+  background-color: $textColor1;
   height: 70px;
   padding-top: 3vh;
 }
 .develop p {
-
   font-size: 0.8rem;
   color: $textColor3;
-
-
 }
 .col-info-questions {
   width: 21vw;
 }
 .RRSS-footer {
- width: 100vw;
+  width: 100vw;
 }
 
 .links {
@@ -100,7 +95,7 @@
     width: 100%;
   }
   .col-info {
-    width:100vw;
+    width: 100vw;
     font-size: 0.6rem;
     text-align: center;
     margin-left: 30%;
