@@ -22,8 +22,7 @@ function Steps() {
         <div className="containerBoxDetails">
 
           <div className="boxContainerDetail">
-            <div className="containerfood1">
-              <img src={listaverificacion} className="imgfoodDetail" alt={"Imagen"} />
+            <div className="containerfood1"><img src={listaverificacion} className="imgfoodDetail" alt={"Imagen"} />
             </div>
             <ul>
               <p>Haz una lista de los alimentos con los que deseas colaborar, que sean no perecederos o congelados.</p>
