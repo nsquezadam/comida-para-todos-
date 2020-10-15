@@ -1,0 +1,33 @@
+@import "../Variables.scss";
+
+.linksToHome-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 39%;
+  position: absolute;
+  padding: 6%;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.link-span {
+    text-decoration: none;
+    color: $textColor3;
+    list-style: none;
+    cursor: pointer;
+}
+  
+.link-span:hover {
+    text-decoration-line: none;
+    color: $textColor5;
+}
+
+.linksFoodBank {
+    display: flex;
+    flex-direction: row;
+}
+
+.links-FoodB {
+    display: flex;
+    flex-direction: row;
+}

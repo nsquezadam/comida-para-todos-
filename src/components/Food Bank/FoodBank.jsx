@@ -1,18 +1,22 @@
 //import React from 'react'
 import React, { Fragment } from 'react'
-import Foodbank from '../../assets/static/images/imgFoodBank/Foodbank.jpg'
+import NavbarR from "../Menu/toolbar/NavbarR"
+import ImgFoodBank from "../Food Bank/ImgFoodBank"
+import Steps from "../Food Bank/ StepsFBank"
+import InputFoodBank from "../Food Bank/FoodBankForm/InputFoodBanck"
+import Footer from "../footer/Footer"
+import TextFB from "../Food Bank/TextFB"
 import '../../assets/styles/StepsForm.scss'
 
 const FoodBank = () => {
     return (
         <Fragment>
-            <div className="container-Foodbank">
-                <img className="img-foodbank" src={Foodbank} alt="BancodeAlimentos" />
-            </div>
-            <div className="containerText">
-                <p><strong>Banco de alimentos</strong></p>
-            </div>
-            
+            <NavbarR />
+            <ImgFoodBank/>
+            <TextFB />
+            <Steps/>
+            <InputFoodBank/>
+            <Footer />
         </Fragment>
     )
 }

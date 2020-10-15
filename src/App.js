@@ -30,6 +30,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import OurGoal from "./components/OurGoal/OurGoal";
 import Account from "./components/Account/Account";
 import OurTeam from "./components/OurTeam/OurTeam";
+import FoodBank from "./components/Food Bank/FoodBank"
 
 
 function App() {
@@ -46,6 +47,8 @@ function App() {
           <Route path="/equipo" exact component={OurTeam}></Route>
           <Route path="/rendicion" exact component={Account}></Route>
           <Route path="/meta" exact component={OurGoal}></Route>
+          <Route path="/hazteparte" exact component={FoodBank}></Route>
+          <Route path="/bancoalimentos" exact component={FoodBank}></Route>
 
         </Switch>
       </Router>

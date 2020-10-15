@@ -1,0 +1,26 @@
+@import "../Variables.scss";
+
+.container-textFB {
+  width: 100vw;
+}
+.TextFB {
+  color: $textColor1;
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 37.5pt;
+  font-weight: 400;
+  padding: 5%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.container-subTitle {
+  padding-left: 6%;
+}
+
+.subTitle-FB {
+  font-size: 1.5rem;
+  color: $textColor5;
+  font-weight: 600;
+  text-align: center;
+}
