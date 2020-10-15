@@ -23,7 +23,7 @@ const ImgAccount = () => {
           ></img>
           <div className="principal-text-aboutUs">Rendición de cuenta</div>
           <span class="scroll-btn">
-            <a href="/">
+            <a href="#rendicion">
               <span class="mouse">
                 <span></span>
               </span>
@@ -31,7 +31,7 @@ const ImgAccount = () => {
           </span>
         </div>
       </div>
-      <div className="container-textOurModel">
+      <div id="rendicion" className="container-textOurModel">
         <p className="TextOurModel">
           Los diferentes aportes que recibimos, dan cuenta de la
           <strong> gran comunidad colaborativa </strong> que es

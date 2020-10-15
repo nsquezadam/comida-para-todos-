@@ -29,7 +29,7 @@ const ImgAboutUs = () => {
           ></img>
           <div className="principal-text-aboutUs">Sobre nosotros</div>
           <span class="scroll-btn">
-            <a href="/">
+            <a href="#sobrenosotros">
               <span class="mouse">
                 <span></span>
               </span>
@@ -37,7 +37,7 @@ const ImgAboutUs = () => {
           </span>
         </div>
       </div>
-      <div className="-container-textAboutUs">
+      <div id="sobrenosotros" className="-container-textAboutUs">
         <p className="TextAboutUs">
           Comida para todos es una plataforma, que tiene por objetivo
           <strong> incluir a la ciudadanía de forma colaborativa, </strong> en
