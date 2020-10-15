@@ -38,40 +38,15 @@
     transform: translate(-50%, -50%);      
 }
 
-.containerText2 {
-    //margin: 50% 23% 5% 23%;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 50px;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #333333;
-    margin-bottom: 10vh;
-    margin-top: 40%; 
-
-}
 // para las pasos se toma los mismos estilos de detail y se llama desde alli
 
 .containerFoodDetails{
     width: 100vw;
     height: 430px;
-    margin-top: 130vh;
-    position: absolute;
+    margin-top: 13vh;
+    //position: absolute;
 }
-.Textsteps{
-    width: 100vw;
-    margin-bottom: 7vh;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.6vw;
-    line-height: 36px;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FF8150;    
-}
+
 .containerfood1 {
     margin-left: 2vw;
     width: 7.36vw;

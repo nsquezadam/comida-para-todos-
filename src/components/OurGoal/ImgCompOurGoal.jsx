@@ -18,7 +18,7 @@ const ImgOurGoal = () => {
           ></img>
           <div className="principal-text-aboutUs">Nuestra meta</div>
           <span class="scroll-btn">
-            <a href="/">
+            <a href="#nuestrameta">
               <span class="mouse">
                 <span></span>
               </span>

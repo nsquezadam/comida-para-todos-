@@ -11,19 +11,12 @@ import '../../assets/styles/StepsForm.scss'
 function Steps() {
   return (
     <Fragment>
-      <div className="containerFoodDetails">
-        <div className="containerText2">
-          <p>"Creemos que <strong>los alimentos no deben ser desperdicios,</strong> por ello los que te sobre en casa o no ocupes, <strong>aquí son bienvenidos."</strong></p>
-        </div>
-        <div className="Textsteps">
-          <p>Sigue estos 6 pasos, para poder colaborar.</p>
-        </div>
-        
-        <div className="containerBoxDetails">
 
+      <div className="containerFoodDetails">
+        <div className="containerBoxDetails">
+          
           <div className="boxContainerDetail">
-            <div className="containerfood1">
-              <img src={listaverificacion} className="imgfoodDetail" alt={"Imagen"} />
+            <div className="containerfood1"><img src={listaverificacion} className="imgfoodDetail" alt={"Imagen"} />
             </div>
             <ul>
               <p>Haz una lista de los alimentos con los que deseas colaborar, que sean no perecederos o congelados.</p>
@@ -74,8 +67,8 @@ function Steps() {
               <p>Finalmente, haremos llegar los alimentos a los restaurantes, quienes cocinarán ricos almuerzos a las comunidades vulnerables.</p>
             </ul>
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
     </Fragment>
   );
 }
