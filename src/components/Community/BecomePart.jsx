@@ -11,7 +11,11 @@ const BecomePart = (props) => {
   return (
     <Fragment>
       <div className="containerBecome">
+       
         <div className="container-titleSection">
+          <div className="backTitle">
+            
+         
           <div className="title-becamePart">
             <p>Hazte parte</p>
           </div>
@@ -20,6 +24,7 @@ const BecomePart = (props) => {
               Fomentamos la participación colectiva para generar alimento bueno,
               empleo, educación y comunidad.
             </p>
+            </div>
           </div>
           <div className="container-section-imgText">
             {donate.map((item, index) => {

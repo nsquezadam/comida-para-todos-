@@ -73,7 +73,7 @@ const FormPay = props => {
         <div className="container-frequency_pay">
           <label>
             <input className="boxCheck-Frequency" type="checkBox"/>
-            Quiero Hacer esta donación *
+            Quiero Hacer este aporte *
           </label>
           </div>
           <div className="container-select_frequency">

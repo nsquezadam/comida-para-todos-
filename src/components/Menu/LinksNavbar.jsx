@@ -11,22 +11,23 @@ function LinksNavbar () {
   //const handleClick = () => setClick(!click)
 
   const onMouseEnter = () => {
-    setDropdown(!dropdown)
-    // if(window.innerWidth < 960) {
-    //   setDropdown(false); 
-    // } else {
-    //     setDropdown(true); 
-    //   }
+    // setDropdown(!dropdown)
+     if(window.innerWidth < 960) {
+       setDropdown(false); 
+     } else {
+         setDropdown(true); 
+       }
     }; 
-    const mouseLeave=()=>{
-      setDropdown(dropdown)
-    }
+    // const mouseLeave=()=>{
+    
+    //   setDropdown(dropdown)
+    // }
 
     return (
       <Fragment>
         <ul>
           {/* <Link to='/conocenos'> */}
-          <li onMouseEnter={onMouseEnter} onMouseLeave={mouseLeave}>
+          <li onMouseEnter={onMouseEnter} >
             <a href="/conocenos">Conócenos</a>
             {dropdown && <Dropdown />}
           </li>

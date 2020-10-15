@@ -6,14 +6,19 @@ import Imagen4 from "../Detail/IconDetail/Imagen4.png";
 import Imagen5 from "../Detail/IconDetail/Imagen5.png";
 import Imagen6 from "../Detail/IconDetail/Imagen6.png";
 import '../../assets/styles/Detail.scss'
-import TextTitle from '../Transparency/Transparency';
+
 
 function Detail() {
   return (
     <Fragment>
 
       <div className="containerDetails">
-        <TextTitle />
+      <div className="containerText">
+          <p>"Queremos entregar <strong>alimentación de calidad y nutritiva</strong>; conectando, colaborando y generando asociatividad entre los actores involucrados."</p>
+        </div>
+        <div className="ContainerText">
+          <p>"Desde el 22 de mayo de 2020"</p>
+        </div>
         <div className="containerBoxDetails">
 
           <div className="boxContainerDetail">
@@ -21,7 +26,7 @@ function Detail() {
               <img src={Imagen1} className="imgDetail" alt={"Imagen"} />
             </div>
             <ul>
-              <h4>97.644</h4>
+              <h4>100.000</h4>
               <p>Almuerzos entregados</p>
             </ul>
           </div>

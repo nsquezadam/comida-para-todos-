@@ -64,6 +64,7 @@ class NavbarR extends Component {
         return (
             <div  style={{height:'100%'}}>
                 <Toolbar 
+               
                 donateClickHandle={this.drawerToggleDonateClickHandle}
                 drawerClickHandle = {this.drawerToggleClickHandler} 
                 searchClickHandler={this.drawerToggleSearchClickHandle}

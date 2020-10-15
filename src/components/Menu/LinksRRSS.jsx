@@ -17,7 +17,7 @@ function LinksRRSS() {
           </a>
         </div>
         <div className="containerRRSS">
-          <a href="hhttps://www.instagram.com/comida_para_todos_cl/">
+          <a href="https://www.instagram.com/comida_para_todos_cl/">
             <Icon icon={instagramWithCircle} color="#333333" />
           </a>
         </div>

@@ -15,7 +15,7 @@ const ContacForm = () => {
             text2Form= "Suscríbete a nuestro newsletter para recibir todas las novedades que trae Comida para todos."
             />
             </div>
-            <div>
+            <div className="sideRigthContact">
              <InputForm />
              <ButtonSubscribe/>
             </div>

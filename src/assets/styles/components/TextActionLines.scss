@@ -4,10 +4,8 @@
   justify-content: center;
   box-sizing: border-box;
   width: 100%;
-  height: 481px;
+  height: 280px;
   background-color: $textColor3;
-  padding-top: 8%;
-  margin-top: 50px;
 }
 .title-actionLines {
   text-align: center;
@@ -20,15 +18,15 @@
 }
 
 .content-text-actionLines {
-  width: 57%;
-  height: 12vh;
+  width: 80%;
+
   text-align: center;
   font-weight: 100;
-  margin-left: 23%;
-  margin-right: 19%;
+  margin-left: 10vw;
+
   font-size: 1.5rem;
   line-height: 32pt;
-  padding-bottom: 6%;
+
   color: $textColor1;
   font-family: "Montserrat", sans-serif;
 }
